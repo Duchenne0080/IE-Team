@@ -1,0 +1,28 @@
+import json
+import boto3
+from functools import reduce
+from botocore.exceptions import ClientError
+from boto3.dynamodb.conditions import And, Key, Attr
+from boto3 import Session
+from datetime import datetime
+
+dynamodb = boto3.resource('dynamodb')
+table = dynamodb.Table('HospitalList')
+
+def lambda_handler(event, context):
+    
+    record = event["postcode"]
+    #response = table.scan(FilterExpression=Attr('PostCode').eq(record))
+    #response = table.query(KeyConditionExpression=Key('PostCode').eq(record))
+    response = table.scan(Select='ALL_ATTRIBUTES',FilterExpression=Attr('PostCode').eq(record))
+    list = []
+    for item in response['Items']:
+        name = item['Name']
+        open = item['Opening hours']
+        pd = item['PostCode']
+        list.append(name)
+        list.append(open)
+        list.append(pd)
+    
+    received = {"HospitalList":list}
+    return json.dumps(received)
