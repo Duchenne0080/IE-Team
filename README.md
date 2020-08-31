@@ -7,3 +7,7 @@
 
 ## Topic
 - Chronic heart disease
+
+## Iteration 1(8.31)
+- Add diet check quiz function, using "Quiz and Survey Master" plugin
+- Homepage and information page added
