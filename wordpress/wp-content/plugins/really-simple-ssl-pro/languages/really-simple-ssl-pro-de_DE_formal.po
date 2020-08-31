@@ -1,0 +1,1788 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Really Simple SSL pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-12 14:30+0200\n"
+"PO-Revision-Date: 2020-05-12 14:36+0200\n"
+"Last-Translator: Thorsten Wollenhöfer <thorsten.wollenhoefer@gmail.com>\n"
+"Language-Team: Thorsten Wollenhöfer <thorsten.wollenhoefer@gmail.com>\n"
+"Language: de_DE@formal\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: really-simple-ssl-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: EDD_SL_Plugin_Updater.php:266
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. %2$sVersion ansehen %3$s Details"
+"%4$s."
+
+#: EDD_SL_Plugin_Updater.php:274
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. %2$sVersion ansehen %3$s Details"
+"%4$s oder %5$sjetzt aktualisieren%6$s."
+
+#: EDD_SL_Plugin_Updater.php:517
+msgid "You do not have permission to install plugin updates"
+msgstr "Sie haben keine Berechtigung, Plugin-Updates zu installieren"
+
+#: EDD_SL_Plugin_Updater.php:517
+msgid "Error"
+msgstr "Fehler"
+
+#: class-cert-expiration.php:9
+msgid "Not detected"
+msgstr "Nicht erkannt"
+
+#: class-cert-expiration.php:114
+msgid "Once Daily"
+msgstr "Täglich einmal"
+
+#: class-cert-expiration.php:119
+msgid "Once 10 minutes"
+msgstr "Alle 10 Minuten"
+
+#: class-cert-expiration.php:124
+msgid "Once 1 minutes"
+msgstr "Jede Minute"
+
+#: class-cert-expiration.php:192
+msgid "SSL certificate expiration warning"
+msgstr "Warnung vor Ablauf des SSL-Zertifikats"
+
+#: class-cert-expiration.php:193
+msgid "According to the check that was performed just now on "
+msgstr "Die Prüfung, die gerade durchgeführt wurde, ergab, "
+
+#: class-cert-expiration.php:194
+msgid " the SSL certificate is expiring soon. The ValidTo date is:"
+msgstr " dass das SSL-Zertifikat bald abläuft. Das Gültig-bis-Datum lautet:"
+
+#: class-cert-expiration.php:198
+msgid "Please renew your certificate before the expiry date."
+msgstr "Bitte verlängern Sie Ihr Zertifikat vor dem Ablaufdatum."
+
+#: class-importer.php:14 class-licensing.php:21 class-multisite.php:15
+#: class-premium-options.php:17 class-scan.php:47 class-support.php:22
+#: csp-violation-endpoint.php:216
+#, php-format
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr ""
+"%s ist eine Singleton-Klasse und Sie können keine zweite Instanz erstellen."
+
+#: class-importer.php:39
+msgid "Roll back file changes"
+msgstr "Rollback-Dateiänderungen"
+
+#: class-importer.php:75
+msgid ""
+"Someting went wrong. If this doesn't work, you can put the original files "
+"back by changing files named 'rsssl-bkp-filename' to filename."
+msgstr ""
+"Etwas ist schief gelaufen. Wenn dies nicht funktioniert, können Sie die "
+"ursprünglichen Dateien wiederherstellen, indem Sie die Datei „rsssl-bkp-"
+"filename“ in „filename“ ändern."
+
+#: class-importer.php:88
+msgid "Your files were restored."
+msgstr "Ihre Dateien wurden wiederhergestellt."
+
+#: class-importer.php:90
+msgid "Your files already were restored."
+msgstr "Ihre Dateien wurden bereits wiederhergestellt."
+
+#: class-importer.php:109 class-importer.php:202 class-importer.php:262
+#: class-importer.php:324 class-importer.php:378
+msgid ""
+"Something went wrong. Please refresh the page and try again, or fix manually."
+msgstr ""
+"Etwas ist schief gelaufen. Bitte aktualisieren Sie die Seite und versuchen "
+"Sie es erneut oder korrigieren Sie sie manuell."
+
+#: class-importer.php:137
+msgid "There was a problem editing the file. Please try manually."
+msgstr ""
+"Beim Bearbeiten der Datei ist ein Problem aufgetreten. Bitte versuchen Sie "
+"es manuell."
+
+#: class-importer.php:236
+msgid ""
+"The file could not be downloaded. It might not exist, or downloading is "
+"blocked. Fix manually."
+msgstr ""
+"Die Datei konnte nicht heruntergeladen werden. Möglicherweise ist sie nicht "
+"vorhanden oder der Download ist blockiert. Bitte manuell reparieren."
+
+#: class-importer.php:298 class-importer.php:353 class-importer.php:404
+msgid ""
+"The file could not be downloaded. The file might not exist, or downloading "
+"is be blocked by the server. Fix manually."
+msgstr ""
+"Die Datei konnte nicht heruntergeladen werden. Die Datei ist möglicherweise "
+"nicht vorhanden oder der Download wird vom Server blockiert. Manuell "
+"reparieren."
+
+#: class-importer.php:647
+msgid "Something went wrong."
+msgstr "Etwas hat nicht funktioniert."
+
+#: class-licensing.php:62
+msgid ""
+"You haven't activated your Really Simple SSL pro license yet. To get all "
+"future updates, enter your license on the settings page. "
+msgstr ""
+"Sie haben Ihre Really Simple SSL pro-Lizenz noch nicht aktiviert. Um alle "
+"zukünftigen Updates zu erhalten, geben Sie Ihre Lizenz auf der "
+"Einstellungsseite ein. "
+
+#: class-licensing.php:65
+#, php-format
+msgid "Go to the %ssettings page%s or %spurchase a license%s."
+msgstr ""
+"Wechseln Sie zur Seite „%sEinstellungen%s“ oder %skaufen Sie ein Lizenz%s."
+
+#: class-licensing.php:133
+msgid "License"
+msgstr "Lizenz"
+
+#: class-licensing.php:154
+msgid "a 5 sites or unlimited sites license"
+msgstr "eine Lizenz für 5 oder unbegrenzte Websites"
+
+#: class-licensing.php:154
+msgid "an unlimited sites license"
+msgstr "eine unbegrenzte Lizenz für alle Websites"
+
+#: class-licensing.php:157
+#, php-format
+msgid ""
+"You have %d activations left on your license. If you need more activations "
+"you can upgrade your current license to %s on your %saccount%s page."
+msgstr ""
+"Sie haben noch %d Aktivierungen zu Ihrer Lizenz verfügbar. Wenn Sie weitere "
+"Aktivierungen benötigen, können Sie Ihre aktuelle Lizenz auf %s Ihrer %sKonto"
+"%s-Seite aktualisieren."
+
+#: class-licensing.php:165
+msgid "Your license is valid, but not activated on this site"
+msgstr "Ihre Lizenz ist gültig, aber auf dieser Site nicht aktiviert"
+
+#: class-licensing.php:167
+msgid "Your license does not seem to be valid. Please check your license key"
+msgstr ""
+"Ihre Lizenz scheint nicht gültig zu sein. Bitte überprüfen Sie Ihren "
+"Lizenzschlüssel"
+
+#: class-licensing.php:173
+#, php-format
+msgid "Your license is valid, and expires on: %s"
+msgstr "Ihre Lizenz ist gültig und läuft am %s ab"
+
+#: class-licensing.php:176
+#, php-format
+msgid ""
+"Your license key has expired. Please renew your license key on %syour "
+"account page%s"
+msgstr ""
+"Ihr Lizenzschlüssel ist abgelaufen. Bitte erneuern Sie Ihren Lizenzschlüssel "
+"auf %sIhrer Kontoseite%s"
+
+#: class-licensing.php:178
+#, php-format
+msgid ""
+"Your license key cannot be activated because you have no activations left. "
+"Check on which site your license is currently activated or upgrade to a 5 "
+"site or unlimited license on your %saccount%s page."
+msgstr ""
+"Ihr Lizenzschlüssel kann nicht aktiviert werden, da keine freien "
+"Aktivierungen mehr verfügbar sind. Überprüfen Sie bitte auf Ihrer %sKonto%s-"
+"Seite, auf welcher Website Ihre Lizenz zurzeit aktiviert ist oder führen ein "
+"Upgrade für eine Website-Erweiterung von 5 oder für unbegrenzte Lizenzen "
+"durch."
+
+#: class-licensing.php:181
+msgid "Enter your license here so you keep receiving updates and support."
+msgstr ""
+"Geben Sie hier Ihre Lizenz ein, damit Sie weiterhin Updates und Support "
+"erhalten."
+
+#: class-licensing.php:190
+msgid "Really Simple SSL pro license Key"
+msgstr "Really Simple SSL Pro-Lizenzschlüssel"
+
+#: class-licensing.php:197
+msgid "active"
+msgstr "Aktiv"
+
+#: class-licensing.php:199
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+#: class-licensing.php:202
+msgid "Activate License"
+msgstr "Lizenz aktivieren"
+
+#: class-licensing.php:209
+msgid "Enter your license key"
+msgstr "Geben Sie Ihren Lizenzschlüssel ein"
+
+#: class-licensing.php:215
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: class-licensing.php:282
+msgid "An error occurred, please try again."
+msgstr "Ein Fehler ist aufgetreten, bitte versuchen Sie es erneut."
+
+#: class-licensing.php:498
+msgid "An error occurred while updating the license data, please try again."
+msgstr ""
+"Beim Aktualisieren der Lizenzdaten ist ein Fehler aufgetreten, bitte "
+"versuchen Sie es erneut."
+
+#: class-licensing.php:550
+#, php-format
+msgid ""
+"This is not a valid license key. You can find your license key in your "
+"%saccount page%s or the purchase confirmation e-mail."
+msgstr ""
+"Dies ist kein gültiger Lizenzschlüssel. Sie finden Ihren Lizenzschlüssel auf "
+"Ihrer %sKonto-Seite%s oder in der Kaufbestätigungs-E-Mail."
+
+#: class-licensing.php:554
+#, php-format
+msgid "Your license has been revoked. Please contact %ssupport%s"
+msgstr "Ihre Lizenz wurde widerrufen. Bitte wenden Sie sich an den %sSupport%s"
+
+#: class-licensing.php:557
+#, php-format
+msgid ""
+"Your license could not be found in the database. Please contact %ssupport%s"
+msgstr ""
+"Ihre Lizenz wurde in der Datenbank nicht gefunden. Bitte wenden Sie sich an "
+"den %sSupport%s"
+
+#: class-licensing.php:561
+msgid "Your license has not yet been activated for this domain."
+msgstr "Ihre Lizenz wurde für diese Domain noch nicht aktiviert."
+
+#: class-licensing.php:564
+msgid "Your license key appears to be invalid."
+msgstr "Ihr Lizenzschlüssel scheint ungültig zu sein."
+
+#: class-licensing.php:567
+msgid ""
+"You have no activations left on your license. Please upgrade your license at "
+"%really-simple-ssl.com%s"
+msgstr ""
+"Sie haben keine Aktivierungen mehr für Ihre Lizenz verfügbar. Bitte "
+"aktualisieren Sie Ihre Lizenz unter %really-simple-ssl.com%"
+
+#: class-licensing.php:574
+msgid "Your license is valid, but has not yet been activated for this domain."
+msgstr ""
+"Ihre Lizenz ist gültig, wurde aber für diese Domain noch nicht aktiviert."
+
+#: class-licensing.php:580
+msgid "license data error"
+msgstr "Lizenzdatenfehler"
+
+#: class-multisite.php:57
+msgid "Sites overview"
+msgstr "Übersicht der Websites"
+
+#: class-multisite.php:69
+msgid "Here you can see the current status of the sites in your network."
+msgstr "Hier sehen Sie den aktuellen Status der Websites in Ihrem Netzwerk."
+
+#: class-multisite.php:113
+msgid "deactivate"
+msgstr "deaktivieren"
+
+#: class-multisite.php:113
+msgid "activate"
+msgstr "aktivieren"
+
+#: class-multisite.php:124
+msgid "Active"
+msgstr "Aktiv"
+
+#: class-multisite.php:125
+msgid "Site"
+msgstr "Website"
+
+#: class-multisite.php:149
+msgid "previous"
+msgstr "zurück"
+
+#: class-multisite.php:149
+msgid "next"
+msgstr "weiter"
+
+#: class-multisite.php:164
+msgid "Auto replace mixed content"
+msgstr "Gemischten Inhalt automatisch korrigieren"
+
+#: class-multisite.php:165
+msgid "Hide menu for subsites"
+msgstr "Menü für Unterwebsites ausblenden"
+
+#: class-multisite.php:170 class-premium-options.php:511
+msgid "Enable the mixed content fixer on the WordPress back-end"
+msgstr ""
+"Aktivieren Sie den Reparierer (Fixer) für gemischte Inhalte im WordPress-"
+"Backend"
+
+#: class-multisite.php:173
+msgid "Enable htacces redirection to SSL on the network"
+msgstr "Aktivieren Sie die htaccess-Weiterleitung zu SSL im Netzwerk"
+
+#: class-multisite.php:174
+msgid "Stop editing the .htaccess file"
+msgstr "Nicht in .htaccess-Datei eingreifen"
+
+#: class-multisite.php:178 class-premium-options.php:502
+msgid "Turn HTTP Strict Transport Security on"
+msgstr "Aktivieren Sie „HTTP Strict Transport Security“"
+
+#: class-multisite.php:189
+msgid "Enable this if you want to redirect ALL websites to SSL using .htaccess"
+msgstr ""
+"Aktivieren Sie diese Option, wenn Sie ALLE Websites mithilfe von .htaccess "
+"zu SSL umleiten möchten"
+
+#: class-multisite.php:191
+msgid "Enable this if you want to redirect SSL websites using .htaccess. "
+msgstr ""
+"Aktivieren Sie diese Option, wenn Sie SSL-Websites mithilfe von .htaccess "
+"umleiten möchten. "
+
+#: class-multisite.php:198
+msgid ""
+"Enable this if you want to use the internal WordPress 301 redirect for all "
+"SSL websites. Needed on NGINX servers, or if the .htaccess redirect cannot "
+"be used."
+msgstr ""
+"Aktivieren Sie diese Option, wenn Sie die interne WordPress 301-"
+"Weiterleitung für alle SSL-Websites verwenden möchten. Wird auf NGINX-"
+"Servern benötigt oder wenn die .htaccess-Weiterleitung nicht verwendet "
+"werden kann."
+
+#: class-multisite.php:204
+msgid "Enable this if you want to automatically replace mixed content."
+msgstr ""
+"Aktivieren Sie diese Option, wenn Sie gemischte Inhalte automatisch ersetzen "
+"möchten."
+
+#: class-multisite.php:209
+msgid "Enable this if you want to enable javascript redirection."
+msgstr ""
+"Aktivieren Sie diese Option, wenn Sie die JavaScript-Weiterleitung "
+"aktivieren möchten."
+
+#: class-multisite.php:214
+msgid "Enable this if you want to enable HSTS."
+msgstr "Aktivieren Sie dies, wenn Sie HSTS aktivieren möchten."
+
+#: class-multisite.php:219
+msgid "Enable this if you want the mixed content fixer for admin."
+msgstr ""
+"Aktivieren Sie dies, wenn Sie den Mixed-Content-Fixer für den Administrator "
+"wünschen."
+
+#: class-multisite.php:224
+msgid "Enable this if you want to enable certificate expiration notices."
+msgstr ""
+"Aktivieren Sie diese Option, wenn Sie Benachrichtigungen zum Ablauf von "
+"Zertifikaten aktivieren möchten."
+
+#: class-multisite.php:230
+msgid "Enable this if you want to hide menus on subsites."
+msgstr ""
+"Aktivieren Sie diese Option, wenn Sie Menüs auf den Unterwebsites ausblenden "
+"möchten."
+
+#: class-multisite.php:236
+msgid "Enable this if you want to block the htaccess file from being edited."
+msgstr ""
+"Aktivieren Sie diese Option, wenn Sie die Bearbeitung der .htaccess-Datei "
+"blockieren möchten."
+
+#: class-premium-options.php:141
+msgid "Security Headers"
+msgstr "Sicherheits-Header"
+
+#: class-premium-options.php:367
+#, php-format
+msgid ""
+"Really Simple SSL has detected a redirect to HTTP. This can result in a "
+"redirect loop when activating SSL. See %sour article on redirect loops%s for "
+"the most common causes of a redirect back to http://. We strongly recommend "
+"to locate and disable this redirect before activating SSL."
+msgstr ""
+"Really Simple SSL hat eine Weiterleitung zu HTTP festgestellt. Dies kann zu "
+"einer Weiterleitungsschleife führen, wenn SSL aktiviert wird. In %sunserem "
+"Artikel zu Umleitungsschleifen%s finden Sie die häufigsten Ursachen für eine "
+"Umleitung zurück zu http://. Wir empfehlen dringend, diese Umleitung zu "
+"lokalisieren und zu deaktivieren, bevor Sie SSL aktivieren."
+
+#: class-premium-options.php:371
+msgid "Re-check the redirect"
+msgstr "Überprüfen Sie die Weiterleitung erneut"
+
+#: class-premium-options.php:506
+msgid "Configure your site for the HSTS preload list"
+msgstr "Konfigurieren Sie Ihre Website für die HSTS-Vorladeliste"
+
+#: class-premium-options.php:510
+msgid "Receive an email when your certificate is about to expire"
+msgstr "Erhalten Sie eine E-Mail, wenn Ihr Zertifikat abläuft"
+
+#: class-premium-options.php:525 class-premium-options.php:1164
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: class-premium-options.php:528
+msgid "Set Content-Security-Policy upgrade-insecure-request header"
+msgstr ""
+"Legen Sie den Header für das Upgrade der Inhaltssicherheitsrichtlinie für "
+"unsichere Anforderungen fest"
+
+#: class-premium-options.php:530
+msgid "Set Cross-site scripting (X-XSS) protection header"
+msgstr "Legen Sie den X-XSS-Schutzheader (Cross-Site Scripting) fest"
+
+#: class-premium-options.php:532
+msgid "Set X-Content-Type-Options nosniff header"
+msgstr "Setzen des Nosniff-Header für X-Content-Type-Optionen"
+
+#: class-premium-options.php:534
+msgid "Set No Referrer When Downgrade header"
+msgstr "Setzen des No Referrer When Downgrade Header"
+
+#: class-premium-options.php:536
+msgid "Set Expect-CT enforce header"
+msgstr "Setzen des Expect-CT-Header"
+
+#: class-premium-options.php:538
+msgid "Set X-Frame-Options sameorigin header"
+msgstr "Setzen der X-Frame-Optionen auf den sameorigin header"
+
+#: class-premium-options.php:541
+msgid "Turn Feature Policy header on"
+msgstr "Aktivieren Sie die Kopfzeile der Feature-Richtlinie"
+
+#: class-premium-options.php:544
+msgid "Configure Feature Policy header"
+msgstr "Konfigurieren Sie die Kopfzeile der Feature-Richtlinie"
+
+#: class-premium-options.php:548
+msgid "Enable Content Security Policy reporting"
+msgstr "Aktivieren Sie die Berichterstellung für Inhaltssicherheitsrichtlinien"
+
+#: class-premium-options.php:552
+msgid "Enforce Content Security Policy"
+msgstr "Inhaltssicherheitsrichtlinie erzwingen"
+
+#: class-premium-options.php:576
+msgid "Save"
+msgstr "Speichern"
+
+#: class-premium-options.php:585
+msgid ""
+"Security headers provide additional security for your website. Hover over "
+"the tooltip behind each option to see an explanation."
+msgstr ""
+"Sicherheitskopfzeilen bieten zusätzliche Sicherheit für Ihre Website. "
+"Bewegen Sie den Mauszeiger über die QuickInfos hinter den einzelnen "
+"Optionen, um eine Erklärung anzuzeigen."
+
+#: class-premium-options.php:594
+msgid "dismiss"
+msgstr "ausblenden"
+
+#: class-premium-options.php:601
+msgid "Your certificate needs to be renewed soon, it is valid to: "
+msgstr "Ihr Zertifikat muss in Kürze erneuert werden. Es ist gültig bis: "
+
+#: class-premium-options.php:605
+msgid "Your certificate is valid to: "
+msgstr "Ihr Zertifikat ist gültig bis: "
+
+#: class-premium-options.php:616
+msgid "HTTP Strict Transport Security was set."
+msgstr "HTTP Strikte Transportsicherheit wurde eingestellt."
+
+#: class-premium-options.php:620
+#, php-format
+msgid ""
+"HTTP Strict Transport Security was set, but with PHP headers, %swhich might "
+"cause issues in combination in combination with caching.%s "
+msgstr ""
+"HTTP Strict Transport Security wurde festgelegt, aber bei PHP-Headern kann "
+"%sdas in Kombination mit Caching zu Problemen führen.%s "
+
+#: class-premium-options.php:625
+#, php-format
+msgid "%sHTTP Strict Transport Security%s is not enabled. "
+msgstr "%sHTTP Strenge Transportsicherheit%s ist nicht aktiviert. "
+
+#: class-premium-options.php:627 class-premium-options.php:673
+#: class-premium-options.php:687
+msgid "or"
+msgstr "oder"
+
+#: class-premium-options.php:639
+#, php-format
+msgid ""
+"Your site has been configured for the HSTS preload list. If you have "
+"submitted your site, it will be preloaded. Click %shere%s to submit."
+msgstr ""
+"Ihre Website wurde für die HSTS-Vorladeliste konfiguriert. Wenn Sie Ihre "
+"Website eingereicht haben, wird diese vorab geladen. Klicken Sie zum Senden "
+"%shier%s."
+
+#: class-premium-options.php:643
+#, php-format
+msgid ""
+"Your site is not yet configured for the %sHSTS preload list.%s Read the "
+"documentation carefully before you do! "
+msgstr ""
+"Ihre Website ist noch nicht für die %sHSTS-Vorladeliste%s konfiguriert. "
+"Lesen Sie die Dokumentation sorgfältig durch, bevor Sie dies tun! "
+
+#: class-premium-options.php:654
+msgid "Secure cookies set"
+msgstr "Sichere Cookies gesetzt"
+
+#: class-premium-options.php:658
+msgid "Secure cookie settings not enabled."
+msgstr "Einstellungen für sichere Cookies nicht aktiviert."
+
+#: class-premium-options.php:668
+msgid "TLS version is up-to-date"
+msgstr "TLS-Version ist auf dem neuesten Stand"
+
+#: class-premium-options.php:672
+#, php-format
+msgid ""
+"Your site uses an outdated version of TLS. Upgrade to TLS 1.2 or TLS 1.3 to "
+"keep your site secure. %sMore information%s"
+msgstr ""
+"Ihre Website verwendet eine veraltete Version von TLS. Aktualisieren Sie auf "
+"TLS 1.2 oder TLS 1.3, um die Sicherheit Ihrer Website zu gewährleisten. "
+"%sMehr Informationen%s"
+
+#: class-premium-options.php:686
+#, php-format
+msgid ""
+"Your site redirects 404 pages to the http:// version of your homepage. This "
+"can cause mixed content issues with images. %sMore information%s"
+msgstr ""
+"Ihre Website leitet 404 Seiten auf die Version http:// Ihrer Homepage um. "
+"Dies kann zu Problemen mit gemischten Inhalten und Bildern führen. %sMehr "
+"Informationen%s"
+
+#: class-premium-options.php:713
+msgid "You have new rules that can be added to your Content Security Policy"
+msgstr ""
+"Sie haben neue Regeln, die zu Ihrer Inhaltssicherheitsrichtlinie hinzugefügt "
+"werden können"
+
+#: class-premium-options.php:720
+msgid "No Content Security Policy violations found"
+msgstr ""
+"Es wurden keine Verstöße gegen die Inhaltssicherheitsrichtlinie gefunden"
+
+#: class-premium-options.php:731 class-premium-options.php:744
+msgid "Great! Your scan last completed without errors."
+msgstr "Großartig! Ihr Scan wurde zuletzt fehlerfrei abgeschlossen."
+
+#: class-premium-options.php:735
+msgid ""
+"The last scan was completed with errors. Only migrate if you are sure the "
+"found errors are not a problem for your site."
+msgstr ""
+"Der letzte Scan wurde mit Fehlern abgeschlossen. Migrieren Sie nur, wenn Sie "
+"sicher sind, dass die gefundenen Fehler für Ihre Website kein Problem "
+"darstellen."
+
+#: class-premium-options.php:740
+msgid ""
+"You haven't scanned the site yet, you should scan your site to check for "
+"possible issues before migrating to ssl."
+msgstr ""
+"Sie haben die Website noch nicht gescannt. Sie sollten Ihre Website vor der "
+"Migration auf SSL auf mögliche Probleme überprüfen."
+
+#: class-premium-options.php:748
+msgid ""
+"The last scan was completed with errors. Are you sure these issues don't "
+"impact your site?."
+msgstr ""
+"Der letzte Scan wurde mit Fehlern abgeschlossen. Sind Sie sicher, dass diese "
+"Probleme keine Auswirkungen auf Ihre Website haben?."
+
+#: class-premium-options.php:753
+msgid ""
+"You haven't scanned the site yet, you should scan your site to check for "
+"possible issues."
+msgstr ""
+"Sie haben die Website noch nicht gescannt. Sie sollten Ihre Website auf "
+"mögliche Probleme überprüfen."
+
+#: class-premium-options.php:767
+msgid ""
+"Your license key has expired. Please renew your license to continue "
+"receiving updates and premium support."
+msgstr ""
+"Ihr Lizenzschlüssel ist abgelaufen. Bitte erneuern Sie Ihre Lizenz, um "
+"weiterhin Updates und Premium-Support zu erhalten."
+
+#: class-premium-options.php:773
+msgid ""
+"Your license key hasn't been activated yet. Activate your license key in the "
+"license tab"
+msgstr ""
+"Ihr Lizenzschlüssel wurde noch nicht aktiviert. Aktivieren Sie Ihren "
+"Lizenzschlüssel auf der Registerkarte Lizenz"
+
+#: class-premium-options.php:801
+msgid ""
+"HSTS, HTTP Strict Transport Security improves your security by forcing all "
+"your visitors to go to the SSL version of your website for at least a year."
+msgstr ""
+"HSTS, HTTP Strict Transport Security verbessert Ihre Sicherheit, indem alle "
+"Ihre Besucher für mindestens ein Jahr gezwungen werden, auf die SSL-Version "
+"Ihrer Website zuzugreifen."
+
+#: class-premium-options.php:801 class-premium-options.php:1014
+msgid ""
+"It is recommended to enable this feature as soon as your site is running "
+"smoothly on SSL, as it improves your security."
+msgstr ""
+"Es wird empfohlen, diese Funktion zu aktivieren, sobald Ihre Website "
+"reibungslos mit SSL ausgeführt wird, da dies Ihre Sicherheit verbessert."
+
+#: class-premium-options.php:815
+msgid ""
+"Set the Content-Security-Policy upgrade insecure requests, which is an "
+"additional feature to force all incoming http:// requests to https://."
+msgstr ""
+"Legen Sie die Option für unsichere Aktualisierungsanforderungen für "
+"Inhaltssicherheitsrichtlinien fest. Diese zusätzliche Funktion erzwingt, "
+"dass alle eingehenden http://-Anforderungen an https:// gesendet werden."
+
+#: class-premium-options.php:829
+msgid ""
+"X-XSS-Protection protects your site from cross-site scripting attacks. If a "
+"cross-site scripting attack is detected, the browser will automatically "
+"sanitize (remove) unsafe parts (scripts) when this header is enabled."
+msgstr ""
+"X-XSS-Protection schützt Ihre Website vor Cross-Site-Scripting-Angriffen. "
+"Wenn ein Cross-Site-Scripting-Angriff erkannt wird, bereinigt (entfernt) der "
+"Browser automatisch unsichere Teile (Skripte), wenn dieser Header aktiviert "
+"ist."
+
+#: class-premium-options.php:843
+msgid ""
+"X-Content-Type-Options prevents browsers from doing MIME-type sniffing. MIME-"
+"type sniffing is the practice of inspecting content to deduce the file "
+"format of the data within. For example, a PDF file with .jpg extension."
+msgstr ""
+"X-Content-Type-Options verhindert, dass Browser MIME-Sniffing durchführen. "
+"Beim MIME-Sniffing wird der Inhalt untersucht, um das Dateiformat der darin "
+"enthaltenen Daten abzuleiten. Zum Beispiel eine PDF-Datei mit der jpg-"
+"Erweiterung."
+
+#: class-premium-options.php:857
+msgid ""
+"No referrer when downgrade only sets a referrer when going from the same "
+"protocol (HTTPS->HTTPS) and not when downgrading (HTTPS->HTTP)."
+msgstr ""
+"Kein Referrer beim Downgrade legt einen Referrer nur fest, wenn vom selben "
+"Protokoll (HTTPS->HTTPS) und nicht beim Downgrade (HTTPS->HTTP) ausgegangen "
+"wird."
+
+#: class-premium-options.php:871
+msgid ""
+"The Expect-CT header enforces certificate transparency. This is done by "
+"expecting valid Signed Certificate Timestamps (SCTs)."
+msgstr ""
+"Der Expect-CT-Header erzwingt die Zertifikatstransparenz. Hierzu werden "
+"gültige Zeitstempel für signierte Zertifikate (Signed Certificate "
+"Timestamps, SCTs) erwartet."
+
+#: class-premium-options.php:885
+msgid ""
+"The X-Frame-Options header prevents your site from being loaded in an iFrame "
+"on other domains. This is used to prevent clickjacking attacks."
+msgstr ""
+"Der X-Frame-Options-Header verhindert, dass Ihre Website in einem iFrame auf "
+"andere Domains geladen wird. Dies wird verwendet, um Clickjacking-Angriffe "
+"zu verhindern."
+
+#: class-premium-options.php:907
+msgid ""
+"A Content Security Policy is an added layer of security that can mitigate "
+"and detect various security threats. This will add an additional tab to the "
+"settings where you can select which rules should be added to your Content "
+"Security Policy"
+msgstr ""
+"Eine Inhaltssicherheitsrichtlinie ist eine zusätzliche Sicherheitsebene, die "
+"verschiedene Sicherheitsbedrohungen abschwächen und erkennen kann. Dadurch "
+"wird den Einstellungen eine zusätzliche Registerkarte hinzugefügt, auf der "
+"Sie auswählen können, welche Regeln zu Ihrer Inhaltssicherheitsrichtlinie "
+"hinzugefügt werden sollen"
+
+#: class-premium-options.php:910
+#, php-format
+msgid ""
+"This is an advanced feature, only enable this when you know what you are "
+"doing. %sMore information%s"
+msgstr ""
+"Dies ist eine erweiterte Funktion. Aktivieren Sie diese Funktion nur, wenn "
+"Sie wissen, was Sie tun. %sWeitere Informationen%s"
+
+#: class-premium-options.php:912
+msgid ""
+"You have checked the option 'Stop editing the .htaccess file'. This option "
+"requires access to your .htaccess file. Disabling the 'Stop editing the ."
+"htaccess file' option allows you to activate Content Security Policy "
+"reporting."
+msgstr ""
+"Sie haben die Option „Bearbeitung der .htaccess-Datei beenden“ aktiviert. "
+"Diese Option erfordert Zugriff auf Ihre .htaccess-Datei. Wenn Sie die Option "
+"„Bearbeitung der .htaccess-Datei beenden“ deaktivieren, können Sie die "
+"Berichterstellung für Inhaltssicherheitsrichtlinien aktivieren."
+
+#: class-premium-options.php:914
+msgid ""
+"This feature requires an .htaccess file. Your site doesn't seem to be using "
+"one, therefore this option cannot be enabled."
+msgstr ""
+"Diese Funktion erfordert eine .htaccess-Datei. Ihre Website scheint keine zu "
+"verwenden, daher kann diese Option nicht aktiviert werden."
+
+#: class-premium-options.php:930
+msgid "Add Content Security Policy rules to htaccess"
+msgstr ""
+"Fügen Sie Regeln für Inhaltssicherheitsrichtlinien hinzu, um auf .htaccess "
+"zuzugreifen"
+
+#: class-premium-options.php:941 class-premium-options.php:968
+msgid "This option is enabled on the network menu."
+msgstr "Diese Option ist im Netzwerkmenü aktiviert."
+
+#: class-premium-options.php:953
+msgid ""
+"If your hosting company renews the certificate for you, you probably don't "
+"need to enable this setting."
+msgstr ""
+"Wenn Ihr Hosting-Unternehmen das Zertifikat für Sie erneuert, müssen Sie "
+"diese Einstellung möglicherweise nicht aktivieren."
+
+#: class-premium-options.php:954
+msgid ""
+"If your certificate expires, your site goes offline. Uptime robots don't "
+"alert you when this happens."
+msgstr ""
+"Wenn Ihr Zertifikat abläuft, wird Ihre Website offline geschaltet. Uptime-"
+"Roboter benachrichtigen Sie nicht, wenn dies passiert."
+
+#: class-premium-options.php:955
+msgid ""
+"If you enable this option you will receive an email when your certificate is "
+"about to expire within 2 weeks."
+msgstr ""
+"Wenn Sie diese Option aktivieren, erhalten Sie eine E-Mail, wenn Ihr "
+"Zertifikat innerhalb von 2 Wochen abläuft."
+
+#: class-premium-options.php:978
+msgid ""
+"Use this option if you do not have the green lock in the WordPress admin."
+msgstr ""
+"Verwenden Sie diese Option, wenn Sie nicht über die grüne Sperre im "
+"WordPress-Administrator verfügen."
+
+#: class-premium-options.php:994
+msgid ""
+"The preload list offers even more security, as browsers already will know to "
+"load your site over SSL before a user ever visits it. This is very hard to "
+"undo!"
+msgstr ""
+"Die Preload-Liste bietet noch mehr Sicherheit, da Browser Ihre Website "
+"bereits über SSL laden können, bevor ein Benutzer sie besucht. Das ist sehr "
+"schwer rückgängig zu machen!"
+
+#: class-premium-options.php:995
+msgid ""
+"Please note that all subdomains, and both www and non-www domain need to be "
+"https!"
+msgstr ""
+"Bitte beachten Sie, dass alle Subdomains, sowohl die WWW- als auch die Nicht-"
+"WWW-Domain auf „https“ eingestellt sein müssen!"
+
+#: class-premium-options.php:996
+msgid ""
+"Before submitting, please read the information on hstspreload.appspot.com"
+msgstr ""
+"Lesen Sie vor dem Absenden die Informationen auf hstspreload.appspot.com"
+
+#: class-premium-options.php:1000
+#, php-format
+msgid "After enabling this option, you have to %ssubmit%s your site"
+msgstr ""
+"Nachdem Sie diese Option aktiviert haben, müssen Sie Ihre Website für die "
+"HSTS-Vorladeliste %shinzufügen%s"
+
+#: class-premium-options.php:1014
+msgid ""
+"The Feature Policy header allows you to restrict browser features on your "
+"own pages and those you embed, making it a powerful tool to secure your site."
+msgstr ""
+"Die Kopfzeile der Feature-Richtlinie ermöglicht es Ihnen, Browser-Features "
+"auf Ihren eigenen Seiten und den von Ihnen eingebetteten Seiten "
+"einzuschränken, was ihn zu einem leistungsstarken Werkzeug zur Sicherung "
+"Ihrer Website macht."
+
+#: class-premium-options.php:1015
+#, php-format
+msgid ""
+"For an overview of the Feature Policy header and its values see the %susage "
+"guide%s"
+msgstr ""
+"Eine Übersicht über die Kopfzeile der Feature-Richtlinie und ihre Werte "
+"finden Sie in der %sNutzungsrichtlinie%s"
+
+#: class-premium-options.php:1312
+msgid "You finished a scan without errors."
+msgstr "Sie haben einen Scan ohne Fehler beendet."
+
+#: class-premium-options.php:1319
+#, php-format
+msgid ""
+"No scan completed yet. Before migrating to SSL, you should do a %sscan%s"
+msgstr ""
+"Noch kein Scan abgeschlossen. Vor der Migration zu SSL sollten Sie einen "
+"%sScan%s ausführen"
+
+#: class-premium-options.php:1325
+msgid "Previous scan completed with issues"
+msgstr "Vorheriger Scan mit Problemen abgeschlossen"
+
+#: class-premium-options.php:1336
+#, php-format
+msgid "%sScan again%s"
+msgstr "%sErneut scannen%s"
+
+#: class-premium-options.php:1341
+#, php-format
+msgid "%sScan for issues%s"
+msgstr "%sNach Problemen suchen%s"
+
+#: class-premium-options.php:1443
+msgid "Could not insert httponly secure cookie settings."
+msgstr ""
+"Es konnten keine httponly sicheren Cookie-Einstellungen eingefügt werden."
+
+#: class-premium-options.php:1445
+msgid ""
+"To set the httponly secure cookie settings, your wp-config.php has to be "
+"edited, but the file is not writable."
+msgstr ""
+"Um die httponly Secure Cookie-Einstellungen festzulegen, muss Ihre wp-config."
+"php bearbeitet werden, aber die Datei ist nicht beschreibbar."
+
+#: class-premium-options.php:1446
+msgid "Add the following lines of code to your wp-config.php."
+msgstr "Fügen Sie Ihrer wp-config.php die folgenden Codezeilen hinzu."
+
+#: class-premium-options.php:1456
+msgid "Or set your wp-config.php to writable and reload this page."
+msgstr ""
+"Oder setzen Sie Ihre wp-config.php auf beschreibbar und laden Sie diese "
+"Seite neu."
+
+#: class-premium-options.php:1487
+msgid "Multisite detected"
+msgstr "Multisite erkannt"
+
+#: class-premium-options.php:1488
+msgid ""
+"You seem to be using a WordPress multisite installation. Did you know Really "
+"Simple SSL has a dedicated multisite plugin?"
+msgstr ""
+"Sie verwenden anscheinend eine WordPress-Multisite-Installation. Wussten "
+"Sie, dass Really Simple SSL ein dediziertes Multisite-Plugin hat?"
+
+#: class-premium-options.php:1489
+#, php-format
+msgid ""
+"You can upgrade to the pro multisite plugin with a discount code equal to "
+"your Really Simple SSL pro purchase by visiting this %slink%s. The discount "
+"will be applied automatically on checkout."
+msgstr ""
+"Sie können ein Upgrade auf das Multisite-Pro-Plugin mit einem Rabattcode "
+"durchführen, der Ihrem Kauf von Really Simple SSL Pro entspricht, indem Sie "
+"diesen %sLink%s besuchen. Der Rabatt wird automatisch an der Kasse "
+"angewendet."
+
+#: class-premium-options.php:1508
+msgid "Content Security Policy reporting enabled"
+msgstr "Berichterstellung für Inhaltssicherheitsrichtlinien aktiviert"
+
+#: class-premium-options.php:1509
+msgid "Follow these steps to complete the setup:"
+msgstr "Befolgen Sie diese Schritte, um die Einrichtung abzuschließen:"
+
+#: class-premium-options.php:1510
+msgid "- Let it gather data from the website for a couple of days"
+msgstr "- Lassen Sie es Daten von der Website einige Tage lang sammeln"
+
+#: class-premium-options.php:1511
+msgid "- Newly found rules can be found in the Content Security Policy tab."
+msgstr ""
+"- Neu gefundene Regeln finden Sie auf der Registerkarte "
+"Inhaltssicherheitsrichtlinie."
+
+#: class-premium-options.php:1512
+msgid ""
+"- When no new exceptions have been found, you can enfore the Content "
+"Security Policy rules by enabling the 'Enfore' option."
+msgstr ""
+"- Wenn keine neuen Ausnahmen gefunden wurden, können Sie die Regeln der "
+"Inhaltssicherheitsrichtlinie durchsetzen, indem Sie die Option "
+"„Durchgesetzt“ aktivieren."
+
+#: class-premium-options.php:1513
+#, php-format
+msgid ""
+"- For a detailed explanation of the Content Security Policy, see this %slink"
+"%s."
+msgstr ""
+"- Eine ausführliche Erläuterung der Inhaltssicherheitsrichtlinie finden Sie "
+"unter diesem %sLink%s."
+
+#: class-premium-options.php:1614
+msgid ""
+"Really Simple SSL has detected NGINX as webserver. The security headers can "
+"be set in two ways: via an nginx.conf file in the websites root directory, "
+"or via PHP."
+msgstr ""
+"Really Simple SSL hat NGINX als Webserver erkannt. Die Sicherheitskopfzeilen "
+"können auf zwei Arten gesetzt werden: über eine nginx.conf-Datei im "
+"Stammverzeichnis der Website oder über PHP."
+
+#: class-premium-options.php:1615
+msgid ""
+"If you use caching, it is recommended that you use the nginx.conf. You can "
+"ask your hosting company to add the following lines to your ngix.conf:"
+msgstr ""
+"Wenn Sie das Caching verwenden, empfiehlt es sich, die nginx.conf zu "
+"verwenden. Sie können Ihr Hosting-Unternehmen bitten, die folgenden Zeilen "
+"zu Ihrer ngix.conf hinzuzufügen:"
+
+#: class-premium-options.php:1650
+#, php-format
+msgid ""
+"For more information about NGINX and HSTS see %sHTTP Strict Transport "
+"Security and NGINX%s"
+msgstr ""
+"Weitere Informationen zu NGINX und HSTS finden Sie unter %sHTTP Strict "
+"Transport Security und NGINX%s"
+
+#: class-scan.php:129 class-scan.php:213 class-scan.php:2155
+msgid "Never"
+msgstr "Niemals"
+
+#: class-scan.php:136
+msgid ""
+"You have scanned your site before, but the scan results are cleared from the "
+"cache. Run a new scan to see the results."
+msgstr ""
+"Sie haben Ihre Website bereits gescannt, aber die Scanergebnisse werden aus "
+"dem Cache gelöscht. Führen Sie einen neuen Scan durch, um die Ergebnisse "
+"anzuzeigen."
+
+#: class-scan.php:219
+msgid "at"
+msgstr "bei"
+
+#: class-scan.php:232
+msgid "Mixed content scan"
+msgstr "Scan nach gemischten Inhalten"
+
+#: class-scan.php:234
+msgid "For best results, deactivate caching and/or security plugins."
+msgstr ""
+"Deaktivieren Sie die Caching- und / oder Sicherheits-Plugins, um optimale "
+"Ergebnisse zu erzielen."
+
+#: class-scan.php:235
+msgid ""
+"You can close the window during the scan. The scan will proceed, as long as "
+"there are hits on your webpages. Otherwise, just come back and open this "
+"page."
+msgstr ""
+"Sie können das Fenster während des Scanvorgangs schließen. Der Scan wird "
+"fortgesetzt, solange Ihre Webseiten Zugriffe enthalten. Ansonsten kommen Sie "
+"einfach zurück und öffnen diese Seite."
+
+#: class-scan.php:236
+msgid ""
+"If your scan freezes, try disabling curl or brute force database search."
+msgstr ""
+"Wenn Ihr Scan einfriert, deaktivieren Sie die Suche in der Curl- oder Brute-"
+"Force-Datenbank."
+
+#: class-scan.php:239
+msgid "Disable brute force database search."
+msgstr "Deaktivieren Sie die Brute-Force-Datenbanksuche."
+
+#: class-scan.php:241
+msgid "Disable curl."
+msgstr "Deaktivieren Sie Curl."
+
+#: class-scan.php:251
+msgid "SCAN"
+msgstr "SCANLAUF"
+
+#: class-scan.php:253
+msgid "QUICK SCAN"
+msgstr "SCHNELLER SCANLAUF"
+
+#: class-scan.php:254
+msgid "FULL SCAN"
+msgstr "KOMPLETTER SCANLAUF"
+
+#: class-scan.php:257
+msgid "STOP SCAN"
+msgstr "SCANLAUF ANHALTEN"
+
+#: class-scan.php:259
+msgid "RESUME SCAN"
+msgstr "SCAN FORTSETZEN"
+
+#: class-scan.php:266
+msgid "Advanced Settings"
+msgstr "Erweiterte Einstellungen"
+
+#: class-scan.php:270
+msgid "Disable brute force database search"
+msgstr "Deaktivieren Sie die Brute-Force-Datenbanksuche"
+
+#: class-scan.php:272
+msgid ""
+"If your scan freezes, you can disable this option to exclude datables tables "
+"from scans."
+msgstr ""
+"Wenn Ihr Scan einfriert, können Sie diese Option deaktivieren, um datierbare "
+"Tabellen von Scans auszuschließen."
+
+#: class-scan.php:278
+msgid "Show ignored URL's"
+msgstr "Ignorierte URLs anzeigen"
+
+#: class-scan.php:280
+msgid ""
+"When you enable this option, the URL's that were previously ignored are "
+"shown again."
+msgstr ""
+"Wenn Sie diese Option aktivieren, werden die zuvor ignorierten URLs erneut "
+"angezeigt."
+
+#: class-scan.php:346
+msgid "Generating web page list"
+msgstr "Webseitenliste erstellen"
+
+#: class-scan.php:362
+#, php-format
+msgid ""
+"Searching for js and css files and links to external resources in website, "
+"%s of %s"
+msgstr ""
+"Suche gerade nach js- und css-Dateien und Links zu externen Ressourcen auf "
+"der Website, %s von %s"
+
+#: class-scan.php:376
+#, php-format
+msgid "Searching for mixed content in css and js files, %s of %s"
+msgstr "Suche gerade nach gemischtem Inhalt in CSS- und JS-Dateien, %s von %s"
+
+#: class-scan.php:389
+msgid "Generating file list"
+msgstr "Dateiliste erstellen"
+
+#: class-scan.php:404
+#, php-format
+msgid "Checking posts for external URL's, %s of %s"
+msgstr "Prüfe gerade Beiträge auf externe URLs, %s von %s"
+
+#: class-scan.php:416
+msgid "Checking widgets for external URL's"
+msgstr "Überprüfen von Widgets auf externe URLs"
+
+#: class-scan.php:427
+msgid "Checking which postmeta contain external resources"
+msgstr "Überprüfen, welche Postmeta externe Ressourcen enthalten"
+
+#: class-scan.php:440
+#, php-format
+msgid "Checking which resources can't load over ssl, %s of %s"
+msgstr ""
+"Überprüfe gerade, welche Ressourcen nicht über SSL geladen werden können, %s "
+"von %s"
+
+#: class-scan.php:455
+#, php-format
+msgid "Checking if external js or css files contain http links, %s of %s"
+msgstr ""
+"Überprüfe gerade, ob externe Js- oder CSS-Dateien http-Links enthalten, %s "
+"von %s"
+
+#: class-scan.php:468
+#, php-format
+msgid "Looking up blocked resources in files, %s of %s"
+msgstr "Schlage gerade blockierte Ressourcen in Dateien nach, %s von %s"
+
+#: class-scan.php:480
+msgid "Looking up blocked resources in posts"
+msgstr "Blockierte Ressourcen in Beiträgen nachschlagen"
+
+#: class-scan.php:492
+msgid "Looking up blocked resources in postmeta"
+msgstr "Blockierte Ressourcen in Postmeta nachschlagen"
+
+#: class-scan.php:504
+msgid "Looking up blocked resources in widgets"
+msgstr "Blockierte Ressourcen in Widgets nachschlagen"
+
+#: class-scan.php:524
+msgid "Finished scan"
+msgstr "Abgeschlossener Scan"
+
+#: class-scan.php:1676
+msgid "Blocked url's "
+msgstr "Blockierte URLs "
+
+#: class-scan.php:1684
+msgid "In Theme file"
+msgstr "In der Theme-Datei"
+
+#: class-scan.php:1687
+msgid "In Plugin file"
+msgstr "In Plugin-Datei"
+
+#: class-scan.php:1690
+msgid "File in uploads directory, possibly generated by plugin or theme"
+msgstr ""
+"Datei im Upload-Verzeichnis, möglicherweise vom Plugin oder Thema generiert"
+
+#: class-scan.php:1693 class-scan.php:1769
+msgid "File"
+msgstr "Datei"
+
+#: class-scan.php:1699 class-scan.php:1775 class-scan.php:1839
+msgid "Found in file:"
+msgstr "In der Datei gefunden:"
+
+#: class-scan.php:1700 class-scan.php:1896 class-scan.php:1943
+msgid "Url cannot load over https"
+msgstr "URL kann nicht über https geladen werden"
+
+#: class-scan.php:1739 class-scan.php:1825
+msgid "No references to domains without ssl certificate found."
+msgstr "Keine Verweise auf Domains ohne SSL-Zertifikat gefunden."
+
+#: class-scan.php:1749
+msgid "CSS and JS files with mixed content"
+msgstr "CSS- und JS-Dateien mit gemischtem Inhalt"
+
+#: class-scan.php:1757
+msgid "Theme file"
+msgstr "Theme-Datei"
+
+#: class-scan.php:1760
+msgid "Plugin file"
+msgstr "Plugin-Datei"
+
+#: class-scan.php:1763
+msgid "Uploads file, possibly generated by plugin or theme"
+msgstr ""
+"Lädt eine Datei hoch, die möglicherweise vom Plugin oder Thema erstellt wurde"
+
+#: class-scan.php:1766
+msgid "Cached file, deactivate cache to see the actual source"
+msgstr ""
+"Zwischengespeicherte Datei, deaktivieren Sie den Cache, um die tatsächliche "
+"Quelle anzuzeigen"
+
+#: class-scan.php:1776
+msgid "Reference to file with http://"
+msgstr "Verweis auf Datei mit http://"
+
+#: class-scan.php:1838
+msgid "CSS and JS files from other domains with mixed content"
+msgstr "CSS- und JS-Dateien aus anderen Domains mit gemischtem Inhalt"
+
+#: class-scan.php:1847
+msgid "http link"
+msgstr "http-Link"
+
+#: class-scan.php:1851
+msgid "File containing this url: "
+msgstr "Datei mit dieser URL: "
+
+#: class-scan.php:1870
+msgid "Remote file: "
+msgstr "Remote-Datei: "
+
+#: class-scan.php:1885
+msgid "No CSS and JS files on other domains with mixed content."
+msgstr "Keine CSS- und JS-Dateien in anderen Domänen mit gemischtem Inhalt."
+
+#: class-scan.php:1898
+msgid "Posts with blocked resources"
+msgstr "Beiträge mit blockierten Ressourcen"
+
+#: class-scan.php:1934
+msgid "In post: "
+msgstr "Im Beitrag: "
+
+#: class-scan.php:1956
+msgid "This is an iFrame in the wp_postmeta database table"
+msgstr "Dies ist ein iFrame in der Datenbanktabelle wp_postmeta"
+
+#: class-scan.php:1983
+msgid "In wp_postmeta table: "
+msgstr "In der wp_postmeta Tabelle: "
+
+#: class-scan.php:1983
+msgid "In post ID: "
+msgstr "In der Beitrags-ID: "
+
+#: class-scan.php:1998
+msgid ""
+"No posts found that contain references to domains without an SSL certificate."
+msgstr ""
+"Es wurden keine Beiträge gefunden, die Verweise auf Domains ohne SSL-"
+"Zertifikat enthalten."
+
+#: class-scan.php:2010
+msgid "File cannot load over https"
+msgstr "Die Datei kann nicht über https geladen werden"
+
+#: class-scan.php:2012
+msgid "Widgets with blocked resources"
+msgstr "Widgets mit blockierten Ressourcen"
+
+#: class-scan.php:2066
+msgid ""
+"No widgets found that contain references to domains without an SSL "
+"certificate."
+msgstr ""
+"Es wurden keine Widgets gefunden, die Verweise auf Domains ohne SSL-"
+"Zertifikat enthalten."
+
+#: class-scan.php:2078
+msgid "Found in:"
+msgstr "Gefunden in:"
+
+#: class-scan.php:2079
+msgid "File:"
+msgstr "Datei:"
+
+#: class-scan.php:2081
+msgid "Database tables with blocked resources"
+msgstr "Datenbanktabellen mit blockierten Ressourcen"
+
+#: class-scan.php:2116
+msgid "In table:"
+msgstr "In der Tabelle:"
+
+#: class-scan.php:2129
+msgid "No references to blocked resources found within the database."
+msgstr "Keine Verweise auf blockierte Ressourcen in der Datenbank gefunden."
+
+#: class-scan.php:2364
+msgid "no matching plugin found."
+msgstr "kein passendes Plugin gefunden."
+
+#: class-scan.php:2412
+msgid "Scan for issues"
+msgstr "Nach Problemen suchen"
+
+#: class-scan.php:2511 class-scan.php:2537 class-scan.php:2587
+#: class-scan.php:2641
+msgid "Import and insert file"
+msgstr "Datei importieren und einfügen"
+
+#: class-scan.php:2514 class-scan.php:2540 class-scan.php:2590
+#: class-scan.php:2644
+msgid "Copyright warning!"
+msgstr "Copyright-Warnung!"
+
+#: class-scan.php:2516 class-scan.php:2542 class-scan.php:2591
+#: class-scan.php:2645
+msgid ""
+"Downloading files from other websites can cause serious copyright issues! It "
+"is always illegal to use images, files, or any copyright protected material "
+"on your own site without the consent of the copyrightholder. Please ask the "
+"copyrightholder for permission. Use this function at your own risk."
+msgstr ""
+"Das Herunterladen von Dateien von anderen Websites kann schwerwiegende "
+"Urheberrechtsprobleme verursachen! Es ist immer illegal, Bilder, Dateien "
+"oder urheberrechtlich geschütztes Material ohne Zustimmung des Urhebers auf "
+"Ihrer eigenen Website zu verwenden. Bitte fragen Sie den Copyright-Inhaber "
+"um Erlaubnis. Verwenden Sie diese Funktion auf eigenes Risiko."
+
+#: class-scan.php:2518 class-scan.php:2544
+msgid ""
+"This downloads the file from the domain without SSL, inserts it into WP "
+"media, and changes the URL to the new URL."
+msgstr ""
+"Dadurch wird die Datei ohne SSL von der Domain heruntergeladen, in WP-Medien "
+"eingefügt und die URL in die neue URL geändert."
+
+#: class-scan.php:2522 class-scan.php:2548
+msgid "I have read the warning, continue"
+msgstr "Ich habe die Warnung gelesen, weiter"
+
+#: class-scan.php:2563
+msgid "Add to ignore list"
+msgstr "Zur Ignorierliste hinzufügen"
+
+#: class-scan.php:2566
+msgid ""
+"By adding this file to the ignore list it will not show up in future scan "
+"results."
+msgstr ""
+"Wenn Sie diese Datei zur Ignorieren-Liste hinzufügen, wird sie in "
+"zukünftigen Scanergebnissen nicht weiter angezeigt."
+
+#: class-scan.php:2567
+msgid ""
+"If you want to view ignored urls, you can do so in the advanced settings of "
+"the scan. "
+msgstr ""
+"Wenn Sie ignorierte URLs anzeigen möchten, können Sie dies in den "
+"erweiterten Einstellungen des Scans tun. "
+
+#: class-scan.php:2572
+msgid "Ignore"
+msgstr "Ignorieren"
+
+#: class-scan.php:2593 class-scan.php:2647
+msgid ""
+"This function downloads the file from the domain without SSL, inserts it "
+"into WP media, and changes the URL to the new URL."
+msgstr ""
+"Diese Funktion lädt die Datei ohne SSL von der Domain herunter, fügt sie in "
+"WP-Medien ein und ändert die URL in die neue URL."
+
+#: class-scan.php:2594 class-scan.php:2618 class-scan.php:2648
+#: class-scan.php:2698
+msgid "Always backup first!"
+msgstr "Immer zuerst sichern!"
+
+#: class-scan.php:2595
+msgid ""
+"Be very carefull with this function! Please backup your site before "
+"proceeding. This function will also create a backup of each changed file, "
+"name rsssl-bkp-filename. You can use the 'roll back files' function to "
+"restore the original files."
+msgstr ""
+"Seien Sie sehr vorsichtig mit dieser Funktion! Bitte sichern Sie Ihre "
+"Website, bevor Sie fortfahren. Diese Funktion erstellt auch eine "
+"Sicherungskopie jeder geänderten Datei mit dem Namen rsssl-bkp-filename. Sie "
+"können die Funktion „Dateien zurücksetzen“ verwenden, um die ursprünglichen "
+"Dateien wiederherzustellen."
+
+#: class-scan.php:2600 class-scan.php:2654
+msgid "I have read the warnings, continue"
+msgstr "Ich habe die Warnungen gelesen, weiter"
+
+#: class-scan.php:2615
+msgid "Fix http in CSS and JS files"
+msgstr "Repariert „http“ in CSS- und JS-Dateien"
+
+#: class-scan.php:2619
+msgid ""
+"This function will change the urls to the protocol independent // instead of "
+"http://"
+msgstr ""
+"Diese Funktion ändert die URLs zum protokollunabhängigen // anstelle von "
+"http://"
+
+#: class-scan.php:2621
+msgid ""
+"If these files are generated by a theme or plugin, it is best to change the "
+"settings in that plugin instead. Otherwise your changes maybe overwritten by "
+"the plugin."
+msgstr ""
+"Wenn diese Dateien von einem Theme oder Plugin generiert werden, ist es am "
+"besten, die Einstellungen in diesem Plugin zu ändern. Andernfalls werden "
+"Ihre Änderungen möglicherweise vom Plugin überschrieben."
+
+#: class-scan.php:2626
+msgid "Fix urls"
+msgstr "Fix-URLs"
+
+#: class-scan.php:2649
+msgid ""
+"Be very carefull with this function! Please backup your site before "
+"proceeding."
+msgstr ""
+"Gehen Sie mit dieser Funktion sehr vorsichtig um! Bitte sichern Sie Ihre "
+"Website, bevor Sie fortfahren."
+
+#: class-scan.php:2669
+msgid "Roll back changes made to your files"
+msgstr "Machen Sie vorgenommene Änderungen an Ihren Dateien rückgängig"
+
+#: class-scan.php:2672
+msgid ""
+"This will put the files back that were changed by the fix option in Really "
+"Simple SSL pro."
+msgstr ""
+"Dadurch werden die Dateien zurückgesetzt, die durch die Korrekturoption in "
+"Really Simple SSL Pro geändert wurden."
+
+#: class-scan.php:2674
+msgid ""
+"Please note that any changes you have made since to your current files, will "
+"be lost. "
+msgstr ""
+"Bitte beachten Sie, dass alle Änderungen, die Sie seither an Ihren aktuellen "
+"Dateien vorgenommen haben, verloren gehen. "
+
+#: class-scan.php:2679
+msgid "Restore files"
+msgstr "Dateien wiederherstellen"
+
+#: class-scan.php:2694
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: class-scan.php:2699
+msgid "Editing files can break your site if you do not do it right!"
+msgstr ""
+"Das Bearbeiten von Dateien kann Ihre Website beschädigen, wenn Sie es nicht "
+"richtig machen!"
+
+#: class-scan.php:2702
+msgid "File editing blocked in WordPress!"
+msgstr "Dateibearbeitung in WordPress gesperrt!"
+
+#: class-scan.php:2703
+msgid ""
+"File editing is blocked in WordPress. To edit these files, please use your "
+"FTP client."
+msgstr ""
+"Die Dateibearbeitung ist in WordPress gesperrt. Verwenden Sie zum Bearbeiten "
+"dieser Dateien Ihren FTP-Client."
+
+#: class-scan.php:2709
+msgid "Go to editor"
+msgstr "Zum Editor"
+
+#: class-support.php:35
+msgid "Support"
+msgstr "Support"
+
+#: class-support.php:46
+msgid "Enter your support request"
+msgstr "Geben Sie Ihre Support-Anfrage ein"
+
+#: class-support.php:51
+#, php-format
+msgid ""
+"A lot of issues are already described in the %sdocumentation.%s Please check "
+"if your issue is already in the knowledge base before submitting a ticket."
+msgstr ""
+"Viele Probleme sind bereits in der %sDokumentation%s beschrieben. Bitte "
+"überprüfen Sie, ob sich Ihr Problem bereits in der Wissensdatenbank "
+"befindet, bevor Sie ein Ticket einstellen."
+
+#: class-support.php:54
+msgid ""
+"Please provide a short description, your e-mail address and a summary of the "
+"issue(s) you are experiencing."
+msgstr ""
+"Bitte geben Sie eine kurze Beschreibung, Ihre E-Mail-Adresse und eine "
+"Zusammenfassung der aufgetretenen Probleme an."
+
+#: class-support.php:55
+msgid ""
+"The following information is automatically added to your ticket to provide "
+"better service:"
+msgstr ""
+"Die folgenden Informationen werden Ihrem Ticket automatisch hinzugefügt, um "
+"Ihnen eine besseren Unterstützung zu ermöglichen:"
+
+#: class-support.php:57
+msgid "license key"
+msgstr "Lizenzschlüssel"
+
+#: class-support.php:58
+msgid "scan results"
+msgstr "Scan-Ergebnisse"
+
+#: class-support.php:59
+msgid "your domain"
+msgstr "Ihre Domain"
+
+#: class-support.php:60
+msgid ".htaccess file"
+msgstr ".htaccess Datei"
+
+#: class-support.php:61
+msgid "debug log contents"
+msgstr "Inhalt des Debug-Protokolls"
+
+#: class-support.php:62
+msgid "list of active plugins"
+msgstr "Liste der aktiven Plugins"
+
+#: class-support.php:81
+msgid "Your name"
+msgstr "Ihr Name"
+
+#: class-support.php:84
+msgid "Summarize your issue in a few words"
+msgstr "Fassen Sie Ihr Problem in wenigen Worten zusammen"
+
+#: class-support.php:86
+msgid "Your email address"
+msgstr "Ihre E-Mail Adresse"
+
+#: class-support.php:88
+msgid "Describe your issue"
+msgstr "Beschreiben Sie Ihr Problem"
+
+#: class-support.php:90
+msgid "Pre-fill support request on our site"
+msgstr "Füllen Sie Ihre Support-Anfrage auf unserer Website vorab aus"
+
+#: class-support.php:102
+msgid "Email address not valid"
+msgstr "E-Mail-Adresse ungültig"
+
+#: csp-violation-endpoint.php:268
+msgid "Content Security Policy"
+msgstr "Inhaltssicherheitsrichtlinie"
+
+#: csp-violation-endpoint.php:292
+msgid "Content Security Policy configuration"
+msgstr "Konfiguration der Inhaltssicherheitsrichtlinie"
+
+#: csp-violation-endpoint.php:296
+msgid "Found"
+msgstr "Gefunden"
+
+#: csp-violation-endpoint.php:298
+msgid "On page"
+msgstr "Auf Seite"
+
+#: csp-violation-endpoint.php:300
+msgid "Directive"
+msgstr "Richtlinie"
+
+#: csp-violation-endpoint.php:302
+msgid "Domain/protocol"
+msgstr "Domain / Protokoll"
+
+#: csp-violation-endpoint.php:303 csp-violation-endpoint.php:321
+msgid "Add to policy"
+msgstr "Zur Richtlinie hinzufügen"
+
+#: csp-violation-endpoint.php:317
+msgid "ago"
+msgstr "vor"
+
+#: csp-violation-endpoint.php:636
+msgid "Search"
+msgstr "Suchen"
+
+#: csp-violation-endpoint.php:637
+#, php-format
+msgid "Show %s results"
+msgstr "%s-Ergebnisse anzeigen"
+
+#: csp-violation-endpoint.php:638
+msgid "You have no suggestions for Content Security Policy rules"
+msgstr "Sie haben keine Vorschläge für Regeln der Inhaltssicherheitsrichtlinie"
+
+#: csp-violation-endpoint.php:639
+#, php-format
+msgid "%s to %s of %s results"
+msgstr "%s bis %s der %s-Ergebnisse"
+
+#: csp-violation-endpoint.php:640
+msgid "No results to show"
+msgstr "Keine Ergebnisse vorhanden"
+
+#: csp-violation-endpoint.php:641
+#, php-format
+msgid "(filtered from %s results)"
+msgstr "(gefiltert aus %s-Ergebnissen)"
+
+#: csp-violation-endpoint.php:643
+msgid "No results found in the table"
+msgstr "Keine Ergebnisse in der Tabelle gefunden"
+
+#: csp-violation-endpoint.php:646
+msgid "First"
+msgstr "Erste"
+
+#: csp-violation-endpoint.php:647
+msgid "Previous"
+msgstr "Zurück"
+
+#: csp-violation-endpoint.php:648
+msgid "Next"
+msgstr "Weiter"
+
+#: csp-violation-endpoint.php:649
+msgid "Last"
+msgstr "Letzte"
+
+#: really-simple-ssl-pro.php:170 really-simple-ssl-pro.php:185
+msgid "Plugin dependency error"
+msgstr "Plugin-Abhängigkeitsfehler"
+
+#: really-simple-ssl-pro.php:173
+msgid ""
+"Really Simple SSL pro is an add-on for Really Simple SSL, and cannot do it "
+"on its own :("
+msgstr ""
+"Really Simple SSL Pro ist ein Add-On für das Plugin Really Simple SSL; "
+"alleine funktioniert es nicht :("
+
+#: really-simple-ssl-pro.php:174
+msgid ""
+"Please install and activate Really Simple SSL before activating this add-on."
+msgstr ""
+"Bitte installieren und aktivieren Sie Really Simple SSL, bevor Sie dieses "
+"Add-On aktivieren."
+
+#: really-simple-ssl-pro.php:177
+#, php-format
+msgid ""
+"The Really Simple SSL plugin folder in the /wp-content/plugins/ directory "
+"has been renamed to %s. Therefore Really Simple SSL pro cannot work "
+"properly. To fix this you can rename the Really Simple SSL folder back to "
+"the default %s"
+msgstr ""
+"Der Really Simple SSL-Plugin-Ordner im Verzeichnis /wp-content/plugins/ "
+"wurde in %s umbenannt. Daher kann Really Simple SSL Pro nicht richtig "
+"funktionieren. Um dies zu beheben, können Sie den Really Simple SSL-Ordner "
+"wieder in den Standardordner %s umbenennen"
+
+#: really-simple-ssl-pro.php:186
+msgid ""
+"Really Simple SSL or Really Simple SSL per page needs to be updated to the "
+"latest version to be compatible."
+msgstr ""
+"Die Really Simple SSL- oder Really Simple SSL Pro-Seite muss auf die neueste "
+"Version aktualisiert werden, um kompatibel zu sein."
+
+#: really-simple-ssl-pro.php:187
+msgid ""
+"Please upgrade to the latest version to be able use the full functionality "
+"of the plugin."
+msgstr ""
+"Bitte aktualisieren Sie auf die neueste Version, um den vollen "
+"Funktionsumfang des Plugins nutzen zu können."
+
+#. Plugin Name of the plugin/theme
+msgid "Really Simple SSL pro"
+msgstr "Really Simple SSL Pro"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.really-simple-ssl.com/pro"
+msgstr "https://www.really-simple-ssl.com/pro"
+
+#. Description of the plugin/theme
+msgid "Add on for Really Simple SSL"
+msgstr "Add on für Really Simple SSL"
+
+#. Author of the plugin/theme
+msgid "Rogier Lankhorst"
+msgstr "Rogier Lankhorst"
+
+#. Author URI of the plugin/theme
+msgid "https://www.rogierlankhorst.com"
+msgstr "https://www.rogierlankhorst.com"
+
+#~ msgid "Add header to force insecure requests over https"
+#~ msgstr "Header hinzufügen, um unsichere Anfragen über https zu erzwingen"
+
+#~ msgid "(date updated once a week)"
+#~ msgstr "(Datum einmal wöchentlich aktualisiert)"
+
+#~ msgid "Enable HSTS."
+#~ msgstr "HSTS aktivieren."
+
+#~ msgid "You have the mixed content fixer activated on your admin panel."
+#~ msgstr "Sie haben den Mixed-Content-Fixer in Ihrem Admin-Panel aktiviert."
+
+#~ msgid ""
+#~ "The mixed content fixer is not active on the admin panel. Enable this "
+#~ "feature only when you have mixed content on the admin panel."
+#~ msgstr ""
+#~ "Der Mixed-Content-Fixer ist im Admin-Panel nicht aktiv. Aktivieren Sie "
+#~ "diese Funktion nur, wenn Sie gemischten Inhalt im Admin-Panel haben."
+
+#~ msgid ""
+#~ "Are you sure? Your visitors will keep going to a https site for a year "
+#~ "after you turn this off."
+#~ msgstr ""
+#~ "Sind Sie sicher? Ihre Besucher werden noch ein Jahr lang auf eine https-"
+#~ "Website geleitet, nachdem Sie diese Funktion ausgeschaltet haben."
+
+#~ msgid ""
+#~ "Disable this option if you need certain requests over http, and use the "
+#~ "mixed content fixer filter to exclude certain requests from the mixed "
+#~ "content filter."
+#~ msgstr ""
+#~ "Deaktivieren Sie diese Option, wenn Sie bestimmte Anforderungen über http "
+#~ "benötigen, und verwenden Sie den Mixed-Content-Fixer-Filter, um bestimmte "
+#~ "Anforderungen vom Mixed-Content-Filter auszuschließen."
+
+#~ msgid "Did you read the information on the preload list site?"
+#~ msgstr ""
+#~ "Haben Sie die Informationen auf der Website der Preload-Liste gelesen?"
+
+#~ msgid "Go to the settings page"
+#~ msgstr "Zur Einstellungsseite gehen"
+
+#~ msgid ""
+#~ "Really Simple SSL has detected NGINX as webserver. The security headers "
+#~ "are currently set using PHP which can cause issues with caching. To "
+#~ "enable the headers directly in NGINX add the following line(s) to the "
+#~ "NGINX server block within your NGINX configuration:"
+#~ msgstr ""
+#~ "Really Simple SSL hat NGINX als Webserver erkannt. Die "
+#~ "Sicherheitskopfzeilen werden derzeit mit PHP festgelegt, was zu Problemen "
+#~ "beim Caching führen kann. Um die Header direkt in NGINX zu aktivieren, "
+#~ "fügen Sie dem NGINX-Serverblock in Ihrer NGINX-Konfiguration die "
+#~ "folgenden Zeilen hinzu:"

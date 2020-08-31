@@ -1,0 +1,772 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Really Simple SSL pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 08:39+0000\n"
+"PO-Revision-Date: 2019-06-03 08:41+0000\n"
+"Last-Translator: admin <rogier@rogierlankhorst.com>\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.2.1"
+
+#: class-multisite.php:57
+msgid "Sites overview"
+msgstr ""
+"\n"
+"نظرة عامة على المواقع"
+
+#: class-multisite.php:69
+msgid "Here you can see the current status of the sites in your network."
+msgstr ""
+"\n"
+"هنا يمكنك رؤية الحالة الحالية للمواقع في شبكتك."
+
+#: class-multisite.php:113
+msgid "deactivate"
+msgstr "ايقاف تفعيل"
+
+#: class-multisite.php:113
+msgid "activate"
+msgstr "تفعيل"
+
+#: class-multisite.php:124
+msgid "Active"
+msgstr "نشط"
+
+#: class-multisite.php:125
+msgid "Site"
+msgstr "موقع"
+
+#: class-multisite.php:149
+msgid "previous"
+msgstr "سابق"
+
+#: class-multisite.php:149
+msgid "next"
+msgstr "التالي"
+
+#: class-premium-options.php:11 csp-violation-endpoint.php:214
+#, php-format
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr "ٍٍS٪ فئة مفردة ولا يمكنك إنشاء مثيل ثانٍ."
+
+#: class-premium-options.php:71
+msgid "Security Headers"
+msgstr ""
+
+#: class-premium-options.php:154
+msgid "You have new rules that can be added to your Content Security Policy"
+msgstr ""
+
+#: class-premium-options.php:156
+msgid "No Content Security Policy violations found"
+msgstr ""
+
+#: class-premium-options.php:246
+#, php-format
+msgid ""
+"Really Simple SSL has detected a redirect to HTTP. This can result in a "
+"redirect loop when activating SSL. See %sour article on redirect loops%s for "
+"the most common causes of a redirect back to http://. We strongly recommend "
+"to locate and disable this redirect before activating SSL."
+msgstr ""
+
+#: class-premium-options.php:338
+msgid "Turn HTTP Strict Transport Security on"
+msgstr "Turn HTTP Strict Transport Security on"
+
+#: class-premium-options.php:342
+msgid "Configure your site for the HSTS preload list"
+msgstr ""
+"\n"
+"تكوين موقعك لقائمة التحميل المسبق لأجل HSTS\n"
+
+#: class-premium-options.php:346
+msgid "Receive an email when your certificate is about to expire"
+msgstr "تلقي رسالة بريد إلكتروني عندما تكون شهادتك على وشك الانتهاء"
+
+#: class-premium-options.php:347
+msgid "Enable the mixed content fixer on the WordPress back-end"
+msgstr ""
+"\n"
+"تمكين المثبت المحتوى المختلط على WordPress Back-end"
+
+#: class-premium-options.php:362
+msgid "Settings"
+msgstr ""
+
+#: class-premium-options.php:365
+msgid "Set Content-Security-Policy upgrade-insecure-request header"
+msgstr ""
+
+#: class-premium-options.php:367
+msgid "Set Cross-site scripting (X-XSS) protection header"
+msgstr ""
+
+#: class-premium-options.php:369
+msgid "Set X-Content-Type-Options nosniff header"
+msgstr ""
+
+#: class-premium-options.php:371
+msgid "Set No Referrer When Downgrade header"
+msgstr ""
+
+#: class-premium-options.php:373
+msgid "Set Expect-CT enforce header"
+msgstr ""
+
+#: class-premium-options.php:375
+msgid "Set X-Frame-Options sameorigin header"
+msgstr ""
+
+#: class-premium-options.php:381
+msgid "Enable Content Security Policy reporting"
+msgstr ""
+
+#: class-premium-options.php:385
+msgid "Enforce Content Security Policy"
+msgstr ""
+
+#: class-premium-options.php:418
+msgid ""
+"Security headers provide additional security for your website. Hover over "
+"the tooltip behind each option to see an explanation."
+msgstr ""
+
+#: class-premium-options.php:438
+msgid "Your certificate needs to be renewed soon, it is valid to: "
+msgstr ""
+"\n"
+"يجب تجديد شهادتك قريبًا ، وهي صالحة لـ:"
+
+#: class-premium-options.php:440
+msgid "Your certificate is valid to: "
+msgstr ""
+"\n"
+"شهادتك صالحة لـ :"
+
+#: class-premium-options.php:442
+msgid "(date updated once a week)"
+msgstr ""
+"\n"
+"(يتم تحديث التاريخ مرة واحدة في الأسبوع)"
+
+#: class-premium-options.php:454
+msgid "HTTP Strict Transport Security was set. "
+msgstr "HTTP Strict Transport Security was set. "
+
+#: class-premium-options.php:458
+#, php-format
+msgid ""
+"HTTP Strict Transport Security was set, but with PHP headers, %swhich might "
+"cause issues in combination in combination with caching.%s "
+msgstr ""
+"HTTP Strict Transport Security was set, but with PHP headers, %swhich might "
+"cause issues in combination in combination with caching.%s "
+
+#: class-premium-options.php:462
+#, php-format
+msgid "%sHTTP Strict Transport Security%s is not enabled "
+msgstr "%sHTTP Strict Transport Security%s is not enabled "
+
+#: class-premium-options.php:464
+msgid "Enable HSTS."
+msgstr ""
+"تمكين HSTS.\n"
+
+#: class-premium-options.php:482
+#, php-format
+msgid ""
+"Your site has been configured for the HSTS preload list. If you have "
+"submitted your site, it will be preloaded. Click %shere%s to submit."
+msgstr ""
+"\n"
+"تم تكوين موقعك لقائمة HSTS \n"
+"إذا كنت قد قدمت موقعك ، فسيتم تحميله مسبقًا.\n"
+"انقر %sهنا%s لتوافق"
+
+#: class-premium-options.php:486
+#, php-format
+msgid ""
+"Your site is not yet configured for the %sHSTS preload list.%s Read the "
+"documentation carefully before you do! "
+msgstr ""
+"موقعك لم يتم تكوينه من اجل ال%sHSTS preload list.% \n"
+"أقراء الوثائق بعناية قبل أن تفعل!"
+
+#: class-premium-options.php:526
+msgid "You have the mixed content fixer activated on your admin panel."
+msgstr ""
+"\n"
+"لديك مثبت المحتوى المختلط مفعل على لوحة الادمن."
+
+#: class-premium-options.php:528
+msgid ""
+"The mixed content fixer is not active on the admin panel. Enable this "
+"feature only when you have mixed content on the admin panel."
+msgstr ""
+"مثبت المحتوى المختلط غير نشط على لوحة المسؤول. تمكين هذه الميزة فقط عندما "
+"يكون لديك محتوى مختلط على لوحة المسؤول.\n"
+
+#: class-premium-options.php:654 class-premium-options.php:671
+#, php-format
+msgid ""
+"This is an advanced feature, only enable this when you know what you are "
+"doing. %sMore information%s"
+msgstr ""
+
+#: class-premium-options.php:694
+msgid ""
+"If your hosting company renews the certificate for you, you probably don't "
+"need to enable this setting."
+msgstr ""
+"\n"
+"إذا قامت شركة الاستضافة بتجديد الشهادة لك ، فربما لن تحتاج إلى تمكين هذا "
+"الإعداد."
+
+#: class-premium-options.php:695
+msgid ""
+"If your certificate expires, your site goes offline. Uptime robots don't "
+"alert you when this happens."
+msgstr ""
+"\n"
+"في حالة انتهاء صلاحية شهادتك ، يصبح موقعك في وضع عدم الاتصال. لا تنبهك "
+"روبوتات الجهوزية عند حدوث ذلك."
+
+#: class-premium-options.php:696
+msgid ""
+"If you enable this option you will receive an email when your certificate is "
+"about to expire within 2 weeks."
+msgstr ""
+"\n"
+"إذا قمت بتمكين هذا الخيار ، فستتلقى رسالة بريد إلكتروني عندما تكون شهادتك "
+"على وشك الانتهاء في غضون أسبوعين."
+
+#: class-premium-options.php:719
+msgid ""
+"Use this option if you do not have the green lock in the WordPress admin."
+msgstr ""
+"\n"
+"استخدم هذا الخيار إذا لم يكن لديك القفل الأخضر في Wordpress admin"
+
+#: class-premium-options.php:735
+msgid ""
+"The preload list offers even more security, as browsers already will know to "
+"load your site over SSL before a user ever visits it. This is very hard to "
+"undo!"
+msgstr ""
+"\n"
+"توفر قائمة التحميل المسبق مزيدًا من الأمان ، حيث ستعرف المتصفحات بالفعل "
+"تحميل موقعك عبر طبقة المقابس الآمنة قبل أن يقوم المستخدم بزيارتها. صعب "
+"للغاية التراجع!"
+
+#: class-premium-options.php:736
+msgid ""
+"Please note that all subdomains, and both www and non-www domain need to be "
+"https!"
+msgstr ""
+"\n"
+"يرجى ملاحظة أن جميع المجالات الفرعية ، و كلا www و non-www يجب ان يكون "
+"مجالهم https!\n"
+
+#: class-premium-options.php:737
+msgid ""
+"Before submitting, please read the information on hstspreload.appspot.com"
+msgstr ""
+"قبل التقديم ، يرجى قراءة المعلومات على hstspreload.appspot.com\n"
+
+#: class-premium-options.php:741
+#, php-format
+msgid "After enabling this option, you have to %ssubmit%s your site"
+msgstr ""
+"\n"
+"بعد تمكين هذا الخيار, عليك أن %sتأكيد%s على موقعك\n"
+
+#: class-premium-options.php:904
+msgid "You finished a scan without errors."
+msgstr ""
+"\n"
+"لقد أنهيت الفحص بدون أخطاء."
+
+#: class-premium-options.php:911
+#, php-format
+msgid ""
+"No scan completed yet. Before migrating to SSL, you should do a %sscan%s"
+msgstr ""
+"\n"
+"لم يكتمل الفحص بعد. قبل الهجرة إلى SSL  يجب عليك ان %sتفحص%s"
+
+#: class-premium-options.php:917
+msgid "Previous scan completed with issues"
+msgstr "وجد في البحث السابق اخطاء"
+
+#: class-premium-options.php:928
+#, php-format
+msgid "%sScan again%s"
+msgstr "%sافحص مجدداً%s"
+
+#: class-premium-options.php:933
+#, php-format
+msgid "%sScan for issues%s"
+msgstr "%sالفحص عن مشاكل%s"
+
+#: class-premium-options.php:1035
+msgid "Could not insert httponly secure cookie settings."
+msgstr ""
+"\n"
+"لا يمكن إدراج httponly secure cookie settings"
+
+#: class-premium-options.php:1037
+msgid ""
+"To set the httponly secure cookie settings, your wp-config.php has to be "
+"edited, but the file is not writable."
+msgstr ""
+"To set the httponly secure cookie settings, your wp-config.php has to be "
+"edited, but the file is not writable."
+
+#: class-premium-options.php:1038
+msgid "Add the following lines of code to your wp-config.php."
+msgstr ""
+"\n"
+"أضف سطور التعليمات البرمجية التالية إلى wp-config.php"
+
+#: class-premium-options.php:1048
+msgid "Or set your wp-config.php to writable and reload this page."
+msgstr ""
+"\n"
+"أو تعيين wp-config.php  للكتابة وإعادة تحميل هذه الصفحة.\n"
+
+#: class-premium-options.php:1077
+msgid "Multisite detected"
+msgstr ""
+
+#: class-premium-options.php:1078
+msgid ""
+"You seem to be using a WordPress multisite installation. Did you know Really "
+"Simple SSL has a dedicated multisite plugin?"
+msgstr ""
+
+#: class-premium-options.php:1141
+#, php-format
+msgid ""
+"For more information about NGINX and HSTS see %sHTTP Strict Transport "
+"Security and NGINX%s"
+msgstr ""
+"لمزيد من المعلومات على NGINX  و HSTS انظر الى %sHTTP Strict Transport "
+"Security and NGINX%s"
+
+#: class-support.php:34
+msgid "Support"
+msgstr ""
+
+#: class-support.php:45
+msgid "Enter your support request"
+msgstr ""
+
+#: class-support.php:50
+#, php-format
+msgid ""
+"A lot of issues are already described in the %sdocumentation.%s Please check "
+"if your issue is already in the knowledge base before submitting a ticket."
+msgstr ""
+
+#: class-support.php:53
+msgid ""
+"Please provide a short description, your e-mail address and a summary of the "
+"issue(s) you are experiencing."
+msgstr ""
+
+#: class-support.php:54
+msgid ""
+"The following information is automatically added to your ticket to provide "
+"better service:"
+msgstr ""
+
+#: class-support.php:56
+msgid "license key"
+msgstr ""
+
+#: class-support.php:57
+msgid "scan results"
+msgstr ""
+
+#: class-support.php:58
+msgid "your domain"
+msgstr ""
+
+#: class-support.php:59
+msgid ".htaccess file"
+msgstr ""
+
+#: class-support.php:60
+msgid "debug log contents"
+msgstr ""
+
+#: class-support.php:61
+msgid "list of active plugins"
+msgstr ""
+
+#: class-support.php:80
+msgid "Your name"
+msgstr ""
+
+#: class-support.php:83
+msgid "Summarize your issue in a few words"
+msgstr ""
+
+#: class-support.php:84
+msgid "Your email address"
+msgstr ""
+
+#: class-support.php:86
+msgid "Describe your issue"
+msgstr ""
+
+#: class-support.php:88
+msgid "Submit ticket"
+msgstr ""
+
+#: class-support.php:100
+msgid "Email address not valid"
+msgstr ""
+
+#: class-support.php:195
+msgid ""
+"Your support request has been received. We will reply shortly. If you "
+"haven't received a response within 24 hours, please send an e-mail to "
+"support@really-simple-ssl.com"
+msgstr ""
+
+#: class-support.php:198
+msgid ""
+"Something went wrong while submitting your support request. Please try again "
+"or contact us directly."
+msgstr ""
+
+#: class-licensing.php:64
+msgid ""
+"You haven't activated your Really Simple SSL pro license yet. To get all "
+"future updates, enter your license on the settings page. "
+msgstr ""
+
+#: class-licensing.php:67
+#, php-format
+msgid "Go to the %ssettings page%s or %spurchase a license%s."
+msgstr ""
+
+#: class-licensing.php:135
+msgid "License"
+msgstr "رخصة"
+
+#: class-licensing.php:156
+msgid "a 5 sites or unlimited sites license"
+msgstr ""
+
+#: class-licensing.php:156
+msgid "an unlimited sites license"
+msgstr ""
+
+#: class-licensing.php:159
+#, php-format
+msgid ""
+"You have %d activations left on your license. If you need more activations "
+"you can upgrade your current license to %s on your %saccount%s page."
+msgstr ""
+
+#: class-licensing.php:167
+msgid "Your license is valid, but not activated on this site"
+msgstr ""
+
+#: class-licensing.php:169
+msgid "Your license does not seem to be valid. Please check your license key"
+msgstr ""
+
+#: class-licensing.php:175
+#, php-format
+msgid "Your license is valid, and expires on: %s"
+msgstr ""
+
+#: class-licensing.php:178
+#, php-format
+msgid ""
+"Your license key has expired. Please renew your license key on %syour "
+"account page%s"
+msgstr ""
+
+#: class-licensing.php:180
+#, php-format
+msgid ""
+"Your license key cannot be activated because you have no activations left. "
+"Check on which site your license is currently activated or upgrade to a 5 "
+"site or unlimited license on your %saccount%s page."
+msgstr ""
+
+#: class-licensing.php:183
+msgid "Enter your license here so you keep receiving updates and support."
+msgstr ""
+
+#: class-licensing.php:217
+msgid "Save changes"
+msgstr ""
+
+#: class-licensing.php:529
+#, php-format
+msgid ""
+"This is not a valid license key. You can find your license key in your "
+"%saccount page%s or the purchase confirmation e-mail."
+msgstr ""
+
+#: class-licensing.php:533
+#, php-format
+msgid "Your license has been revoked. Please contact %ssupport%s"
+msgstr ""
+
+#: class-licensing.php:536
+#, php-format
+msgid ""
+"Your license could not be found in the database. Please contact %ssupport%s"
+msgstr ""
+
+#: class-licensing.php:540
+msgid "Your license has not yet been activated for this domain."
+msgstr ""
+
+#: class-licensing.php:543
+msgid "Your license key appears to be invalid."
+msgstr ""
+
+#: class-licensing.php:546
+msgid ""
+"You have no activations left on your license. Please upgrade your license at "
+"%really-simple-ssl.com%s"
+msgstr ""
+
+#: class-licensing.php:553
+msgid "Your license is valid, but has not yet been activated for this domain."
+msgstr ""
+
+#: class-licensing.php:559
+msgid "license data error"
+msgstr ""
+
+#: really-simple-ssl-pro.php:169 really-simple-ssl-pro.php:184
+msgid "Plugin dependency error"
+msgstr "Plugin dependency error"
+
+#: really-simple-ssl-pro.php:172
+msgid ""
+"Really Simple SSL pro is an add-on for Really Simple SSL, and cannot do it "
+"on its own :("
+msgstr ""
+"Really Simple SSL PRO اضافة لأجل Really Simple SSL, \n"
+"و لا يمكن أن تفعل ذلك من تلقاء نفسها :("
+
+#: really-simple-ssl-pro.php:173
+msgid ""
+"Please install and activate Really Simple SSL before activating this add-on."
+msgstr ""
+"\n"
+"يرجى تثبيت وتفعيل Really Simple SSL قبل تفعيل هذه الوظيفة الاضافية.\n"
+
+#: really-simple-ssl-pro.php:185
+msgid ""
+"Really Simple SSL or Really Simple SSL per page needs to be updated to the "
+"latest version to be compatible."
+msgstr ""
+"Really Simple SSL او Really Simple SSL \n"
+"يجب تحديث الصفحة بالنسخة الأحدث لكي تكون متوافقة."
+
+#: really-simple-ssl-pro.php:186
+msgid ""
+"Please upgrade to the latest version to be able use the full functionality "
+"of the plugin."
+msgstr ""
+"\n"
+"يرجى الترقية إلى أحدث إصدار لتتمكن من استخدام الوظائف الكاملة للبلوقين"
+
+#: class-importer.php:39
+msgid "Roll back file changes"
+msgstr ""
+"\n"
+"استرجاع ملف التغييرات"
+
+#: class-importer.php:75
+msgid ""
+"Someting went wrong. If this doesn't work, you can put the original files "
+"back by changing files named 'rsssl-bkp-filename' to filename."
+msgstr ""
+" حدث خطأ ما. إذا لم ينجح ذلك ، يمكنك إعادة الملفات الأصلية عن طريق تغيير "
+"الملفات المسماة 'rsssl-bkp-filename' إلى filename."
+
+#: class-importer.php:88
+msgid "Your files were restored."
+msgstr ""
+"\n"
+"تمت استعادة ملفاتك."
+
+#: class-importer.php:90
+msgid "Your files already were restored."
+msgstr ""
+"\n"
+"تم استعادة ملفاتك بالفعل."
+
+#: class-importer.php:109 class-importer.php:202 class-importer.php:262
+#: class-importer.php:324 class-importer.php:378
+msgid ""
+"Something went wrong. Please refresh the page and try again, or fix manually."
+msgstr ""
+"\n"
+"هناك خطأ ما. يرجى تحديث الصفحة والمحاولة مرة أخرى ، أو إصلاحها يدويًا"
+
+#: class-importer.php:137
+msgid "There was a problem editing the file. Please try manually."
+msgstr ""
+"\n"
+"حدثت مشكلة أثناء تحرير الملف. يرجى المحاولة يدويا."
+
+#: class-importer.php:236
+msgid ""
+"The file could not be downloaded. It might not exist, or downloading is "
+"blocked. Fix manually."
+msgstr ""
+"\n"
+"لا يمكن تنزيل الملف. قد لا يكون موجودًا ، أو أن التنزيل محظور. إصلاح يدويا."
+
+#: class-importer.php:298 class-importer.php:353 class-importer.php:404
+msgid ""
+"The file could not be downloaded. The file might not exist, or downloading "
+"is be blocked by the server. Fix manually."
+msgstr ""
+"\n"
+"لا يمكن تنزيل الملف. قد لا يكون الملف موجودًا ، أو أن الخادم يحظر التنزيل. "
+"إصلاح يدويا"
+
+#: class-importer.php:647
+msgid "Something went wrong."
+msgstr "هناك خطأ ما"
+
+#: class-cert-expiration.php:10
+msgid "Not detected"
+msgstr "لم يتم الكشف"
+
+#: class-cert-expiration.php:193
+msgid "SSL certificate expiration warning"
+msgstr ""
+"SSL تحذير انتهاء صلاحية الشهادة\n"
+
+#: class-cert-expiration.php:194
+msgid "According to the check that was performed just now on "
+msgstr "وفقًا للفحص الذي تم تنفيذه الآن"
+
+#: class-cert-expiration.php:195
+msgid " the SSL certificate is expiring soon. The ValidTo date is:"
+msgstr "تنتهي صلاحية شهادة SSL قريبًا. تنتهي في تاريخ :"
+
+#: class-cert-expiration.php:199
+msgid "Please renew your certificate before the expiry date."
+msgstr ""
+"\n"
+"يرجى تجديد شهادتك قبل تاريخ انتهاء الصلاحية."
+
+#: csp-violation-endpoint.php:266
+msgid "Content Security Policy"
+msgstr ""
+
+#: csp-violation-endpoint.php:294
+msgid "Found"
+msgstr ""
+
+#: csp-violation-endpoint.php:296
+msgid "On page"
+msgstr ""
+
+#: csp-violation-endpoint.php:298
+msgid "Directive"
+msgstr ""
+
+#: csp-violation-endpoint.php:300
+msgid "Domain/protocol"
+msgstr ""
+
+#: csp-violation-endpoint.php:301 csp-violation-endpoint.php:319
+msgid "Add to policy"
+msgstr ""
+
+#: csp-violation-endpoint.php:315
+msgid "ago"
+msgstr ""
+
+#: csp-violation-endpoint.php:627
+msgid "Search"
+msgstr ""
+
+#: csp-violation-endpoint.php:628
+#, php-format
+msgid "Show %s results"
+msgstr ""
+
+#: csp-violation-endpoint.php:629
+msgid "You have no suggestions for Content Security Policy rules"
+msgstr ""
+
+#: csp-violation-endpoint.php:630
+#, php-format
+msgid "%s to %s of %s results"
+msgstr ""
+
+#: csp-violation-endpoint.php:631
+msgid "No results to show"
+msgstr ""
+
+#: csp-violation-endpoint.php:632
+#, php-format
+msgid "(filtered from %s results)"
+msgstr ""
+
+#: csp-violation-endpoint.php:634
+msgid "No results found in the table"
+msgstr ""
+
+#: csp-violation-endpoint.php:637
+msgid "First"
+msgstr ""
+
+#: csp-violation-endpoint.php:638
+msgid "Previous"
+msgstr ""
+
+#: csp-violation-endpoint.php:639
+msgid "Next"
+msgstr ""
+
+#: csp-violation-endpoint.php:640
+msgid "Last"
+msgstr ""
+
+#. Name of the plugin
+msgid "Really Simple SSL pro"
+msgstr "Really Simple SSL pro"
+
+#. Description of the plugin
+msgid "Add on for Really Simple SSL"
+msgstr ""
+"\n"
+"أضافة لأجل Really Simple SSL"
+
+#. URI of the plugin
+msgid "https://www.really-simple-ssl.com/pro"
+msgstr "https://www.really-simple-ssl.com/pro"
+
+#. Author of the plugin
+msgid "Rogier Lankhorst"
+msgstr "Rogier Lankhorst"
+
+#. Author URI of the plugin
+msgid "https://www.rogierlankhorst.com"
+msgstr "https://www.rogierlankhorst.com"

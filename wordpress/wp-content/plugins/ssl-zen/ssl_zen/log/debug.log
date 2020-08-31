@@ -1,0 +1,96 @@
+[30-08-2020 06:13:10] function LEAccount __construct:
+No account found, attempting to create account.
+
+[30-08-2020 06:13:15] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:13:15] function LEOrder __construct:
+No order found for 'www.duchenne.top'. Creating new order.
+
+[30-08-2020 06:13:18] function createOrder (function LEOrder __construct):
+Created order for 'www.duchenne.top'.
+
+[30-08-2020 06:13:19] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:13:25] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:17:42] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:17:44] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:22:52] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:22:54] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:22:56] function verifyPendingOrderAuthorization:
+DNS challenge for 'duchenne.top' valid.
+
+[30-08-2020 06:22:59] function verifyPendingOrderAuthorization:
+DNS challenge for 'www.duchenne.top' valid.
+
+[30-08-2020 06:23:02] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:23:09] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:23:12] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:23:22] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:23:25] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:23:31] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:23:33] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:25:37] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:25:40] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:25:57] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:25:59] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:26:28] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:26:30] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:27:12] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:27:14] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:27:24] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:27:26] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:27:31] function finalizeOrder:
+Order for 'www.duchenne.top' finalized.
+
+[30-08-2020 06:27:32] function LEClient __construct:
+LEClient finished constructing
+
+[30-08-2020 06:27:34] function getCertificate:
+Certificate for 'www.duchenne.top' saved
+

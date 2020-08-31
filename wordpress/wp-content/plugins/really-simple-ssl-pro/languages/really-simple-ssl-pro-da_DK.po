@@ -1,0 +1,417 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Really Simple SSL pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-27 09:57+0000\n"
+"PO-Revision-Date: 2019-04-07 15:29+0000\n"
+"Last-Translator: Translator ReallySimple <aniko@creativepudding.com>\n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.0.3"
+
+#: class-multisite.php:57
+msgid "Sites overview"
+msgstr "Sideoversigt"
+
+#: class-multisite.php:65
+msgid "Here you can see the current status of the sites in your network."
+msgstr "Her kan du se den nuværende status af hjemmesiderne på dit netværk."
+
+#: class-multisite.php:109
+msgid "deactivate"
+msgstr "Deaktiver"
+
+#: class-multisite.php:109
+msgid "activate"
+msgstr "aktiver"
+
+#: class-multisite.php:120
+msgid "Active"
+msgstr "Aktiv"
+
+#: class-multisite.php:121
+msgid "Site"
+msgstr "Side"
+
+#: class-multisite.php:132
+msgid "previous"
+msgstr "tidligere"
+
+#: class-multisite.php:132
+msgid "next"
+msgstr "næste"
+
+#: class-cert-expiration.php:9
+msgid "Not detected"
+msgstr "Ikke påvist"
+
+#: class-cert-expiration.php:171
+msgid "SSL certificate expiration warning"
+msgstr "SSL certifikat udløbs advarsel"
+
+#: class-cert-expiration.php:172
+msgid "According to the check that was performed just now on "
+msgstr "Ifølge den kontrol, der lige er udført på"
+
+#: class-cert-expiration.php:173
+msgid " the SSL certificate is expiring soon. The ValidTo date is:"
+msgstr "SSL certifikatet udløber snart. Det er gyldigt indtil: "
+
+#: class-cert-expiration.php:177
+msgid "Please renew your certificate before the expiry date."
+msgstr "Forny venligst dit certifikat inden udløbsdatoen."
+
+#: really-simple-ssl-pro.php:148 really-simple-ssl-pro.php:156
+msgid "Plugin dependency error"
+msgstr "Tilføjelse afhængighedsfejl"
+
+#: really-simple-ssl-pro.php:149
+msgid ""
+"Really Simple SSL pro is an add-on for Really Simple SSL, and cannot do it "
+"on its own :("
+msgstr ""
+"Really Simple SSL pro er en tilføjelse til really simple SSL, og kan ikke "
+"gøre det på egen hånd :("
+
+#: really-simple-ssl-pro.php:150
+msgid ""
+"Please install and activate Really Simple SSL before activating this add-on."
+msgstr ""
+"Installer og aktiver venligst Really Simple SSL, før du aktiverer denne "
+"tilføjelse."
+
+#: really-simple-ssl-pro.php:157
+msgid ""
+"Really Simple SSL or Really Simple SSL per page needs to be updated to the "
+"latest version to be compatible."
+msgstr ""
+"Really Simple SSL eller Really Simple SSL per side skal opdateres til den "
+"nyeste version for at være kompatibel."
+
+#: really-simple-ssl-pro.php:158
+msgid ""
+"Please upgrade to the latest version to be able use the full functionality "
+"of the plugin."
+msgstr ""
+"Opgrader venligst til den nyeste version, for at kunne bruge tilføjelsens "
+"fulde funktionalitet."
+
+#: class-importer.php:33
+msgid "Roll back file changes"
+msgstr "Fortryd filændringer"
+
+#: class-importer.php:66
+msgid ""
+"Someting went wrong. If this doesn't work, you can put the original files "
+"back by changing files named 'rsssl-bkp-filename' to filename."
+msgstr ""
+"Noget gik galt. Hvis dette ikke virker, kan du sætte de oprindelige filer "
+"tilbage ved at ændre filer med navnet 'rsssl-bkp-filename' til filnavn.\n"
+
+#: class-importer.php:79
+msgid "Your files were restored."
+msgstr "Dine filer er gendannet."
+
+#: class-importer.php:81
+msgid "Your files already were restored."
+msgstr "Din filer er allerede gendannet."
+
+#: class-importer.php:99 class-importer.php:143 class-importer.php:198
+#: class-importer.php:259 class-importer.php:312
+msgid ""
+"Something went wrong. Please refresh the page and try again, or fix manually."
+msgstr ""
+"Noget gik galt. Genindlæs venligst siden og prøv igen, eller fiks manuelt."
+
+#: class-importer.php:124
+msgid "There was a problem editing the file. Please try manually."
+msgstr "Det var et problem med at rediger filen. Prøv venligst igen manuelt."
+
+#: class-importer.php:173
+msgid ""
+"The file could not be downloaded. It might not exist, or downloading is "
+"blocked. Fix manually."
+msgstr ""
+"Filen kunne ikke downloades. Det er muligt at den ikke eksistere, eller at "
+"downloadningen er blokeret. Løs manuelt."
+
+#: class-importer.php:234 class-importer.php:288 class-importer.php:338
+msgid ""
+"The file could not be downloaded. The file might not exist, or downloading "
+"is be blocked by the server. Fix manually."
+msgstr ""
+"Filen kunne ikke downloades. Det er muligt at den ikke eksistere, eller at "
+"downloadningen er blokeret af serveren. Løs manuelt."
+
+#: class-importer.php:574
+msgid "Something went wrong."
+msgstr "Noget gik galt."
+
+#: class-premium-options.php:10
+#, php-format
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr "%s er en singleton klasse og du kan ikke oprette en anden instans."
+
+#: class-premium-options.php:152
+#, php-format
+msgid ""
+"For more information about NGINX and HSTS see %sHTTP Strict Transport "
+"Security and NGINX%s"
+msgstr ""
+"For mere information om NGINX og HSTS, se %sHTTP Streng Transport Sikkerhed "
+"og NGINX%s"
+
+#: class-premium-options.php:198
+msgid "Turn HTTP Strict Transport Security on"
+msgstr "Tænd for HTTP Streng Transport Sikkerhed"
+
+#: class-premium-options.php:202
+msgid "Configure your site for the HSTS preload list"
+msgstr "Konfigurer dit websted til HSTS forudlæsningslisten"
+
+#: class-premium-options.php:211
+msgid "Receive an email when your certificate is about to expire"
+msgstr "Modtag en mail, når dit certifikat er ved at udløbe"
+
+#: class-premium-options.php:214
+msgid "Add header to force insecure requests over https"
+msgstr "Tilføj overskrift, for at tvinge usikre forespørgsler over https"
+
+#: class-premium-options.php:216
+msgid "Enable the mixed content fixer on the WordPress back-end"
+msgstr "Aktivér blandet-indholdsfikser på WordPress back-end"
+
+#: class-premium-options.php:238
+msgid "Your certificate needs to be renewed soon, it is valid to: "
+msgstr "Dit certifikat skal fornyes snart, det er gyldigt til:"
+
+#: class-premium-options.php:240
+msgid "Your certificate is valid to: "
+msgstr "Dit certifikat er gyldigt indtil: "
+
+#: class-premium-options.php:242
+msgid "(date updated once a week)"
+msgstr "(dato opdateret engang om ugen)"
+
+#: class-premium-options.php:254
+msgid "HTTP Strict Transport Security was set. "
+msgstr "HTTP Streng Transport Sikkerhed er indstillet."
+
+#: class-premium-options.php:258
+#, php-format
+msgid ""
+"HTTP Strict Transport Security was set, but with PHP headers, %swhich might "
+"cause issues in combination in combination with caching.%s "
+msgstr ""
+"HTTP Streng Transport Sikkerhed er indstillet, med med PHP overskrifter, "
+"%shvilket kan forårsage problemer i kombination med caching.%s"
+
+#: class-premium-options.php:262
+#, php-format
+msgid "%sHTTP Strict Transport Security%s is not enabled "
+msgstr "%sHTTP Streng Transport Sikkerhed%s er ikke aktiveret"
+
+#: class-premium-options.php:264
+msgid "Enable HSTS."
+msgstr "Aktiver HSTS."
+
+#: class-premium-options.php:282
+#, php-format
+msgid ""
+"Your site has been configured for the HSTS preload list. If you have "
+"submitted your site, it will be preloaded. Click %shere%s to submit."
+msgstr ""
+"Dit websted er konfigureret til HSTS forudlæsningslisten. Hvis du har "
+"indsendt dit websted, bliver det forudindlæst. Klik på%sher%s, for at "
+"indsende."
+
+#: class-premium-options.php:286
+#, php-format
+msgid ""
+"Your site is not yet configured for the %sHSTS preload list.%s Read the "
+"documentation carefully before you do! "
+msgstr ""
+"Dit websted er endnu ikke konfigureret til forudlæsningslisten %sHSTS.%S Læs "
+"dokumentationen omhyggeligt, før du gør det!"
+
+#: class-premium-options.php:326
+msgid "You have the mixed content fixer activated on your admin panel."
+msgstr "Du har aktiveret blandede-indholdsfikseren på dit administratorpanel."
+
+#: class-premium-options.php:328
+msgid ""
+"The mixed content fixer is not active on the admin panel. Enable this "
+"feature only when you have mixed content on the admin panel."
+msgstr ""
+"Den blandet-indholdsfikser er ikke aktiv på admin panelet. Aktivér kun denne "
+"funktion, når du har blandet indhold på administratorpanelet."
+
+#: class-premium-options.php:347
+msgid ""
+"Are you sure? Your visitors will keep going to a https site for a year after "
+"you turn this off."
+msgstr ""
+"Er du sikker? Dine besøgende vil fortsætte med at besøge en https-hjemmeside "
+"i et år efter, at du har slået det fra."
+
+#: class-premium-options.php:383
+msgid ""
+"Disable this option if you need certain requests over http, and use the "
+"mixed content fixer filter to exclude certain requests from the mixed "
+"content filter."
+msgstr ""
+"Deaktiver denne indstilling, hvis du har brug for visse henvendelser via "
+"http, og brug filteret med blandet-indholdsfikser, for at udelukke visse "
+"anmodninger fra det blandet-indholdsfilter."
+
+#: class-premium-options.php:401
+msgid ""
+"If your hosting company renews the certificate for you, you probably don't "
+"need to enable this setting."
+msgstr ""
+"Hvis dit værtsfirma fornyer certifikatet for dig, behøver du sandsynligvis "
+"ikke at aktivere denne indstilling."
+
+#: class-premium-options.php:402
+msgid ""
+"If your certificate expires, your site goes offline. Uptime robots don't "
+"alert you when this happens."
+msgstr ""
+"Hvis dit certifikat udløber, går dit websted offline. Driftidsrobotter "
+"advarer dig ikke, når dette sker."
+
+#: class-premium-options.php:403
+msgid ""
+"If you enable this option you will receive an email when your certificate is "
+"about to expire within 2 weeks."
+msgstr ""
+"Hvis du aktiverer denne indstilling, modtager du en email, når dit "
+"certifikat udløber inden for 2 uger."
+
+#: class-premium-options.php:419
+msgid ""
+"Use this option if you do not have the green lock in the WordPress admin."
+msgstr ""
+"Brug denne indstilling, hvis du ikke har den grønne lås i WordPress-"
+"administrationen."
+
+#: class-premium-options.php:427
+msgid "Did you read the information on the preload list site?"
+msgstr "Har du læst oplysningerne på forudlæsningslisten?"
+
+#: class-premium-options.php:429
+msgid ""
+"The preload list offers even more security, as browsers already will know to "
+"load your site over SSL before a user ever visits it. This is very hard to "
+"undo!"
+msgstr ""
+"Forudlæsningslisten giver endnu mere sikkerhed, da faner allerede ved at de "
+"skal indlæse dit websted via SSL, før en bruger nogensinde besøger den. "
+"Dette er meget svært at fortryde!"
+
+#: class-premium-options.php:430
+msgid ""
+"Please note that all subdomains, and both www and non-www domain need to be "
+"https!"
+msgstr ""
+"Bemærk, at alle underdomæner, og både www og ikke-www domæner skal være "
+"https!"
+
+#: class-premium-options.php:431
+msgid ""
+"Before submitting, please read the information on hstspreload.appspot.com"
+msgstr ""
+"Før du indsender, læs venligst informationen på hstspreload.appspot.com"
+
+#: class-premium-options.php:435
+#, php-format
+msgid "After enabling this option, you have to %ssubmit%s your site"
+msgstr ""
+"Efter aktivering af denne indstilling, skal du %sindsende%s din hjemmeside"
+
+#: class-premium-options.php:570
+msgid "You finished a scan without errors."
+msgstr "Du har afsluttet en scanning uden fejl."
+
+#: class-premium-options.php:577
+#, php-format
+msgid ""
+"No scan completed yet. Before migrating to SSL, you should do a %sscan%s"
+msgstr ""
+"Intet scan fuldført endnu. Før du migrerer til SSL, burde du fuldføre et "
+"%sscan%s"
+
+#: class-premium-options.php:583
+msgid "Previous scan completed with issues"
+msgstr "Tidligere scan fuldført med problemer"
+
+#: class-premium-options.php:590
+#, php-format
+msgid "%sScan again%s"
+msgstr "%sScan igen%s"
+
+#: class-premium-options.php:594
+#, php-format
+msgid "%sScan for issues%s"
+msgstr "%sScan efter problemer%s"
+
+#: class-premium-options.php:691
+msgid "Could not insert httponly secure cookie settings."
+msgstr "Kunne ikke indsætte httponly sikre cookie indstillinger."
+
+#: class-premium-options.php:693
+msgid ""
+"To set the httponly secure cookie settings, your wp-config.php has to be "
+"edited, but the file is not writable."
+msgstr ""
+"For at indstille httponly sikre cookieindstillinger, skal din wp-config.php "
+"redigeres, men filen er ikke skrivbar."
+
+#: class-premium-options.php:694
+msgid "Add the following lines of code to your wp-config.php."
+msgstr "TIlføj de følgende linjer af kode til din wp-config.php."
+
+#: class-premium-options.php:704
+msgid "Or set your wp-config.php to writable and reload this page."
+msgstr "Eller indstil din wp-config.php til skrivbar og genindlæs denne side."
+
+#: class-licensing.php:48
+msgid ""
+"You haven't activated your Really Simple SSL pro license yet. To get all "
+"future updates, enter your license on the settings page."
+msgstr ""
+"Du har endnu ikke aktiveret din Really Simple SSL pro licens. For at få alle "
+"fremtidige opdateringer, skal du indtaste din licens på indstillingssiden."
+
+#: class-licensing.php:49
+msgid "Go to the settings page"
+msgstr "Gå til indstillingssiden."
+
+#: class-licensing.php:114
+msgid "License"
+msgstr "Licens"
+
+#. Name of the plugin
+msgid "Really Simple SSL pro"
+msgstr "Really Simple SSL pro"
+
+#. Description of the plugin
+msgid "Add on for Really Simple SSL"
+msgstr "Tilføjelse for Really Simple SSL"
+
+#. URI of the plugin
+msgid "https://www.really-simple-ssl.com/pro"
+msgstr "https://www.really-simple-ssl.com/pro"
+
+#. Author of the plugin
+msgid "Rogier Lankhorst"
+msgstr "Rogier Lankhorst"
+
+#. Author URI of the plugin
+msgid "https://www.rogierlankhorst.com"
+msgstr "https://www.rogierlankhorst.com"
