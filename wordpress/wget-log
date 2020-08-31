@@ -1,0 +1,15 @@
+--2020-08-30 02:18:36--  http://www.duchenne.top/wordpress/wp-admin/admin.php?page=ssl_zen
+Resolving www.duchenne.top (www.duchenne.top)... 35.174.207.13
+Connecting to www.duchenne.top (www.duchenne.top)|35.174.207.13|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://www.duchenne.top/wordpress/wp-login.php?redirect_to=http%3A%2F%2Fwww.duchenne.top%2Fwordpress%2Fwp-admin%2Fadmin.php%3Fpage%3Dssl_zen&reauth=1 [following]
+--2020-08-30 02:18:36--  http://www.duchenne.top/wordpress/wp-login.php?redirect_to=http%3A%2F%2Fwww.duchenne.top%2Fwordpress%2Fwp-admin%2Fadmin.php%3Fpage%3Dssl_zen&reauth=1
+Reusing existing connection to www.duchenne.top:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 6914 (6.8K) [text/html]
+Saving to: ‘admin.php?page=ssl_zen’
+
+admin.php?page=ssl_   0%[                    ]       0  --.-KB/s               admin.php?page=ssl_ 100%[===================>]   6.75K  --.-KB/s    in 0s      
+
+2020-08-30 02:18:36 (436 MB/s) - ‘admin.php?page=ssl_zen’ saved [6914/6914]
+
