@@ -1,0 +1,33 @@
+import java.security.SecureRandom;
+import java.util.Random;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        StringBuilder uid = new StringBuilder();
+        Random rd = new SecureRandom();
+        // Generate a password length: 16
+        for (int i = 0; i < 16; i++) {
+            int type = rd.nextInt(3);
+            // a random number 0,1,2
+            switch (type){
+                case 0:
+                    //number 0-9
+                    uid.append(rd.nextInt(10));
+                    break;
+                case 1:
+                    //ASCII number 65-90 a-z
+                    uid.append((char)(rd.nextInt(25)+65));
+                    break;
+                case 2:
+                    //ASCII number 97-122 A-Z
+                    uid.append((char)(rd.nextInt(25)+97));
+                    break;
+                default:
+                    break;
+            }
+        }
+        System.out.println(uid.toString());
+}
+}
