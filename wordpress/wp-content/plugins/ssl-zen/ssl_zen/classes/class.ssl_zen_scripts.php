@@ -127,23 +127,6 @@ if ( !class_exists( 'ssl_zen_scripts' ) ) {
                 'copied_failure' => __( 'Failed to copy.', 'ssl-zen' ),
             ),
             ) );
-            if ( sz_fs()->can_use_premium_code__premium_only() && ssl_zen_helper::checkCPanelAvailabilityOfCurrentSite() ) {
-                ?>
-				<script type="text/javascript">!function (e, t, n) {
-                        function a() {
-                            var e = t.getElementsByTagName("script")[0], n = t.createElement("script");
-                            n.type = "text/javascript", n.async = !0, n.src = "https://beacon-v2.helpscout.net", e.parentNode.insertBefore(n, e)
-                        }
-
-                        if (e.Beacon = n = function (t, n, a) {
-                                e.Beacon.readyQueue.push({method: t, options: n, data: a})
-                            }, n.readyQueue = [], "complete" === t.readyState) return a();
-                        e.attachEvent ? e.attachEvent("onload", a) : e.addEventListener("load", a, !1)
-                    }(window, document, window.Beacon || function () {
-                    });</script>
-				<script type="text/javascript">window.Beacon('init', '2ff9dbd6-719e-416c-8f1d-2b678ea8c995')</script>
-				<?php 
-            }
         }
         
         /**

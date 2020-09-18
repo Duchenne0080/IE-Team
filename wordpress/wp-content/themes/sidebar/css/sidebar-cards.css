@@ -1,0 +1,412 @@
+/*--------------------------------------------------------------
+# Card One
+--------------------------------------------------------------*/
+.card_one {
+background-color:#fff;
+padding:0px;
+margin-bottom:25px;
+font-family: 'IBM Plex Sans', sans-serif;
+box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3);
+border-radius:3px;
+}
+.card_one img {
+border-radius:3px 3px 0px 0px;
+}
+.card_one .text_holder {
+padding:25px;
+}
+.card_one .text_holder .category {
+color:#EB4934;
+font-size:13px;
+font-weight:bold;
+text-transform:uppercase;
+margin-bottom:0px;
+padding-bottom:0px;
+}
+.card_one .text_holder .entry-title {
+color:#191919;
+font-size:18px;
+font-weight:700;
+line-height:1.4em;
+display:block;
+margin-bottom:15px;
+margin-top:0px;
+}
+.card_one .text_holder p {
+color:#666;
+font-size:16px;
+line-height:1.6em;
+}
+.card_one .read-more {
+text-align:center;
+color:#00064C;
+display:block;
+border:1px solid #e1e1e1;
+padding:10px 0px;
+font-size:18px;
+margin-top:10px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Card Two
+--------------------------------------------------------------*/
+.card_two {
+background-color:#fff;
+padding:0px;
+margin-bottom:25px;
+font-family: 'IBM Plex Sans', sans-serif;
+box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3);
+border-radius:3px;
+position:relative;
+}
+.card_two img.card_two_img {
+border-radius:3px 3px 0px 0px;
+}
+.card_two .img_holder .category {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    right: 25%;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #fff;
+    z-index: 10;
+    text-align: center;
+    background-color: #EB4934;
+    padding: 10px 30px;
+    border-radius: 80px;
+}
+.card_two .img_holder .category span {
+}
+.card_two .text_holder {
+padding:25px;
+margin-top:35px;
+}
+.card_two .text_holder .entry-title {
+color:#00064C;
+font-size:16px;
+font-weight:400;
+line-height:1.4em;
+display:block;
+margin-bottom:15px;
+margin-top:0px;
+text-align:center;
+}
+.card_two .text_holder .entry-excerpt {
+color:#8C879F;
+font-size:18px;
+}
+.card_two .read-more {
+text-align:center;
+color:#00064C;
+display:block;
+border:1px solid #e1e1e1;
+padding:10px 0px;
+font-size:18px;
+}
+
+/*--------------------------------------------------------------
+# Card Three - Author Card
+--------------------------------------------------------------*/
+.card_three {
+font-family: 'IBM Plex Sans', sans-serif;
+position: relative;
+box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3);
+border-radius:3px;
+margin-bottom:0px;
+}
+.card_three img {
+width:100%;
+}
+.card_three .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 30%,rgba(0,0,0,1) 100%);
+}
+.card_three .text-holder {
+    position: absolute;
+    bottom: 5%;
+	padding:80% 5% 5% 5%;
+    width: 80%;
+	left:10%;
+	right:10%;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	max-height:90%;
+}
+.card_three .text-holder h2 {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.6em;
+}
+.card_three .text-holder h2 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.card_three .text-holder p {
+    font-weight: 400;
+    font-size: 16px;
+	color:#fff;
+    line-height: 1.6em;
+}
+
+.card_three .text-holder hr {
+width:30px;
+height:3px;
+border:none;
+background-color:#EB4934;
+}
+
+/*--------------------------------------------------------------
+# Card Four - Video Card
+--------------------------------------------------------------*/
+.card_four {
+box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3);
+font-family: 'IBM Plex Sans', sans-serif;
+position: relative;
+border-radius:3px;
+width:100%;
+height:205px;
+background-repeat:no-repeat;
+background-position:left cener;
+background-size:cover;
+border-radius:3px;
+margin-bottom:35px;
+}
+.card_four img {
+width:100%;
+border-radius:3px;
+}
+.card_four .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+	border-radius:3px;
+}
+.card_four .text-holder {
+    position: absolute;
+    bottom: 6%;
+    width: 100%;
+	padding: 0% 5%;
+	color:#ffffff;
+}
+.card_four .text-holder .category {
+	padding-bottom:0px;
+	line-height:1em;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#ffffff;
+}
+.card_four .text-holder h2 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+	margin-top:0px;
+}
+.card_four .text-holder h2 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.card_four .text-holder .entry-excerpt p {
+color:#fff !important;
+padding-bottom:0px;
+}
+
+.card_four .text-holder ul.video-details {
+margin:0px;
+padding:0px;
+}
+.card_four .text-holder ul.video-details li {
+float:left;
+font-size:16px;
+list-style: disc;
+list-style-position:inside;
+margin:0px 20px 0px 0px;
+padding:0px;
+}
+.card_four .text-holder ul.video-details li:first-child {
+list-style:none;
+}
+
+
+/*--------------------------------------------------------------
+# Card Five - Coupon
+--------------------------------------------------------------*/
+.card_five {
+background-color:#fff;
+padding:10px 25px;
+margin-bottom:25px;
+font-family: 'IBM Plex Sans', sans-serif;
+box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3);
+border-radius:3px;
+}
+.card_five p.pecentage-off {
+padding-bottom:0px;
+font-size:20px;
+color:#EB4934;
+font-weight:bold;
+text-transform:uppercase;
+}
+.card_five img {
+}
+.card_five .text_holder {
+margin:20px 0px;
+}
+.card_five .text_holder .category {
+color:#EB4934;
+font-size:13px;
+text-transform:uppercase;
+font-weight:600;
+margin-bottom:0px;
+padding-bottom:0px;
+}
+.card_five .text_holder .entry-title {
+color:#262424;
+font-size:20px;
+text-transform:uppercase;
+font-weight:700;
+line-height:1.4em;
+display:block;
+margin-bottom:15px;
+margin-top:0px;
+}
+.card_five .text_holder .entry-excerpt {
+color:#8C879F;
+font-size:15px;
+}
+.card_five .read-more {
+text-align:center;
+background-color:#EB4934;
+color:#fff;
+display:block;
+border:1px solid #EB4934;
+text-transform:uppercase;
+padding:10px 0px;
+font-size:16px;
+font-weight:700;
+}
+
+/*--------------------------------------------------------------
+# Card Six - Blog Post
+--------------------------------------------------------------*/
+.card_six {
+    background-color:#fff;
+    padding:10px 25px;
+    margin-bottom:25px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3);
+    border-radius:3px;
+    }
+    .card_six p.category {
+    padding-bottom:0px;
+    font-size:20px;
+    color:#EB4934;
+    font-weight:bold;
+    text-transform:uppercase;
+    }
+    .card_six img {
+    }
+    .card_six .text_holder {
+    margin:20px 0px;
+    }    
+    .card_six .text_holder .entry-title {
+    color:#262424;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:700;
+    line-height:1.4em;
+    display:block;
+    margin-bottom:15px;
+    margin-top:0px;
+    }
+    .card_six .text_holder .entry-excerpt {
+    color:#8C879F;
+    font-size:18px;
+    }
+    .card_six .read-more {
+    text-align:center;
+    background-color:#EB4934;
+    color:#fff;
+    display:block;
+    border:1px solid #EB4934;
+    text-transform:uppercase;
+    padding:10px 0px;
+    font-size:16px;
+    font-weight:700;
+    }
+    
+    .card_six .text_holder .entry-meta {
+        color: #8C879F;
+        font-size: 14px !important;
+    }
+    .card_six .text_holder .entry-meta ul {
+        margin: 0px 0px 20px 0px;
+        padding: 0px;
+        clear: both;
+        overflow: hidden;
+        }
+    .card_six .text_holder .entry-meta ul li {
+        margin: 0px 20px 0px 0px;
+        padding: 0px;
+        list-style: none;
+        float: left;
+    }
+    .card_six .text_holder .entry-meta ul li .fas {
+        display: inline-block;
+        padding-right: 10px;
+    }
+
+/*--------------------------------------------------------------
+# Card Seven - Tools
+--------------------------------------------------------------*/
+.card_seven {
+    background-color:#fff;
+    padding:10px 25px;
+    margin-bottom:25px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3);
+    border-radius:3px;
+    }
+    .card_seven p.category {
+    padding-bottom:0px;
+    font-size:20px;
+    color:#191919;
+    font-weight:bold;
+    text-transform:uppercase;    
+    margin-bottom: 15px;
+    }
+    .card_seven ul {
+        margin:0px 0px;
+        padding: 0px 0px;
+    }    
+    .card_seven ul li {
+        list-style: none;
+        overflow: hidden;
+        margin:0px 0px 15px 0px;
+        padding: 0px 0px 15px 0px;
+        border-bottom: 1px solid #f0f0f0;
+    }        
+    
+    .card_seven ul li img {
+        max-width:48px;
+        height: 48px;
+        float: left;
+        margin-right: 15px;
+        margin-top: 5px;
+    }
+    .card_seven ul li a,hover {
+        color: #000;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .card_seven ul li p.entry-excerpt {
+        color:#999999;
+        font-size: 14px;
+        padding-bottom: 0px;
+    }

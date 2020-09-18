@@ -1,0 +1,426 @@
+0000.003 (0) Opened log file at time: Sat, 12 Sep 2020 10:22:47 +0000 on https://www.heartwarmer.tk
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5 PHP: 7.2.24-0ubuntu0.18.04.6 (apache2handler, Linux ip-172-31-33-17 5.3.0-1032-aws #34~18.04.2-Ubuntu SMP Fri Jul 24 10:06:28 UTC 2020 x86_64) MySQL: 5.7.31-0ubuntu0.18.04.1 WPLANG: en_US Server: Apache/2.4.29 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.2M | 2M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 3597.7 MB
+0000.012 (0) Tasks: Backup files:  (schedule: daily) Backup DB: 1 (schedule: weekly)
+0000.016 (0) Processed schedules. Combining jobs from co-inciding events. Tasks now: Backup files: 1 Backup DB: 1
+0000.019 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1599301048, seconds_ago=605119)
+0000.027 (0) Set semaphore last lock (fd) time to 2020-09-12 10:22:47
+0000.028 (0) Semaphore lock (fd) complete
+0000.035 (0) Backup run: resumption=0, nonce=2214b4a64c5e, file_nonce=2214b4a64c5e begun at=1599906167 (0s ago), job type=backup
+0000.039 (0) Scheduling a resumption (1) after 300 seconds (1599906467) in case this run gets aborted
+0000.063 (0) Checking if we have a zip executable available
+0000.068 (0) Creation of backups of directories: beginning
+0000.075 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.381 (0) Total entities for the zip file: 973 directories, 4410 files (0 skipped as non-modified), 74.7 MB
+0000.396 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.403 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.411 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.418 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.425 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.428 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11.1 MB, 4410 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.638 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 600 files added (on-disk size: 3834.6 KB)
+0001.645 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 700 files added (on-disk size: 3834.6 KB)
+0001.652 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 800 files added (on-disk size: 3834.6 KB)
+0001.659 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 900 files added (on-disk size: 3834.6 KB)
+0001.666 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 1000 files added (on-disk size: 3834.6 KB)
+0001.669 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.1 MB, 4410 files batched, 501 (1002) added so far); re-opening (prior size: 3834.6 KB)
+0003.462 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 1100 files added (on-disk size: 8705.7 KB)
+0003.470 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 1200 files added (on-disk size: 8705.7 KB)
+0003.477 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 1300 files added (on-disk size: 8705.7 KB)
+0003.484 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 1400 files added (on-disk size: 8705.7 KB)
+0003.491 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 1500 files added (on-disk size: 8705.7 KB)
+0003.494 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.7 MB, 4410 files batched, 501 (1503) added so far); re-opening (prior size: 8705.7 KB)
+0003.926 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 1600 files added (on-disk size: 9418.8 KB)
+0003.934 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 1700 files added (on-disk size: 9418.8 KB)
+0003.951 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 1800 files added (on-disk size: 9418.8 KB)
+0003.959 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 1900 files added (on-disk size: 9418.8 KB)
+0003.966 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 2000 files added (on-disk size: 9418.8 KB)
+0003.969 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.6 MB, 4410 files batched, 501 (2004) added so far); re-opening (prior size: 9418.8 KB)
+0004.837 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 2100 files added (on-disk size: 11220 KB)
+0004.844 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 2200 files added (on-disk size: 11220 KB)
+0004.851 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 2300 files added (on-disk size: 11220 KB)
+0004.858 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 2400 files added (on-disk size: 11220 KB)
+0004.864 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 2500 files added (on-disk size: 11220 KB)
+0004.867 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.8 MB, 4410 files batched, 501 (2505) added so far); re-opening (prior size: 11220 KB)
+0006.577 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 2600 files added (on-disk size: 17066.8 KB)
+0006.585 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 2700 files added (on-disk size: 17066.8 KB)
+0006.592 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 2800 files added (on-disk size: 17066.8 KB)
+0006.599 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 2900 files added (on-disk size: 17066.8 KB)
+0006.606 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 3000 files added (on-disk size: 17066.8 KB)
+0006.609 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.8 MB, 4410 files batched, 501 (3006) added so far); re-opening (prior size: 17066.8 KB)
+0007.238 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 3100 files added (on-disk size: 18334.2 KB)
+0007.245 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 3200 files added (on-disk size: 18334.2 KB)
+0007.253 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 3300 files added (on-disk size: 18334.2 KB)
+0007.260 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 3400 files added (on-disk size: 18334.2 KB)
+0007.267 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 3500 files added (on-disk size: 18334.2 KB)
+0007.270 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.8 MB, 4410 files batched, 501 (3507) added so far); re-opening (prior size: 18334.2 KB)
+0007.976 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 3600 files added (on-disk size: 20029.1 KB)
+0007.984 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 3700 files added (on-disk size: 20029.1 KB)
+0007.991 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 3800 files added (on-disk size: 20029.1 KB)
+0007.999 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 3900 files added (on-disk size: 20029.1 KB)
+0008.006 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 4000 files added (on-disk size: 20029.1 KB)
+0008.009 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.8 MB, 4410 files batched, 501 (4008) added so far); re-opening (prior size: 20029.1 KB)
+0008.723 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 4100 files added (on-disk size: 21752 KB)
+0008.730 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 4200 files added (on-disk size: 21752 KB)
+0008.737 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 4300 files added (on-disk size: 21752 KB)
+0008.744 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip.tmp: 4400 files added (on-disk size: 21752 KB)
+0009.934 (0) Created plugins zip (0) - 24375.5 KB in 9.9 s (2472.7 KB/s) (sha1: b418c1d457890cefdec65c5e3cd708da5acb89fc, sha256: 090ac25f6c9148adfb66e06160d1ca14525b62702e41cb158b05d207a32f12e7)
+0009.939 (0) Beginning creation of dump of themes (split every: 400 MB)
+0010.188 (0) Total entities for the zip file: 612 directories, 2665 files (0 skipped as non-modified), 69.7 MB
+0010.199 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.207 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0010.214 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0010.221 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0010.228 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0010.230 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.5 MB, 2665 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0011.456 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 600 files added (on-disk size: 6507.7 KB)
+0011.463 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 700 files added (on-disk size: 6507.7 KB)
+0011.470 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 800 files added (on-disk size: 6507.7 KB)
+0011.477 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 900 files added (on-disk size: 6507.7 KB)
+0011.484 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 1000 files added (on-disk size: 6507.7 KB)
+0011.487 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.9 MB, 2665 files batched, 501 (1002) added so far); re-opening (prior size: 6507.7 KB)
+0012.414 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 1100 files added (on-disk size: 10083 KB)
+0012.421 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 1200 files added (on-disk size: 10083 KB)
+0012.428 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 1300 files added (on-disk size: 10083 KB)
+0012.435 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 1400 files added (on-disk size: 10083 KB)
+0012.441 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 1500 files added (on-disk size: 10083 KB)
+0012.444 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (16 MB, 2665 files batched, 501 (1503) added so far); re-opening (prior size: 10083 KB)
+0013.899 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 1600 files added (on-disk size: 19825.9 KB)
+0013.907 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 1700 files added (on-disk size: 19825.9 KB)
+0013.914 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 1800 files added (on-disk size: 19825.9 KB)
+0013.921 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 1900 files added (on-disk size: 19825.9 KB)
+0013.928 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 2000 files added (on-disk size: 19825.9 KB)
+0013.931 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11.6 MB, 2665 files batched, 501 (2004) added so far); re-opening (prior size: 19825.9 KB)
+0014.938 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 2100 files added (on-disk size: 26310.4 KB)
+0014.945 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 2200 files added (on-disk size: 26310.4 KB)
+0014.953 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 2300 files added (on-disk size: 26310.4 KB)
+0014.960 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 2400 files added (on-disk size: 26310.4 KB)
+0014.967 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 2500 files added (on-disk size: 26310.4 KB)
+0014.970 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (14.6 MB, 2665 files batched, 501 (2505) added so far); re-opening (prior size: 26310.4 KB)
+0016.356 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip.tmp: 2600 files added (on-disk size: 32927.7 KB)
+0017.365 (0) Created themes zip (0) - 38782.6 KB in 7.4 s (5225 KB/s) (sha1: f396466e3ceee8e666ceaf052e574f718f1ece52, sha256: 48f3d0a02a8bf36d2b4ec75730a067c5e406e346017be26db2a9c07edd69d14a)
+0017.371 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0017.372 (0) Looking for candidates to backup in: /var/www/html/wp-content/uploads
+0017.375 (0) finding files: 2020: adding to list (1)
+0017.376 (0) finding files: elementor: adding to list (2)
+0017.378 (0) finding files: learn-press-logs: adding to list (3)
+0017.379 (0) finding files: themeisle-gutenberg: adding to list (4)
+0017.380 (0) finding files: h5p: adding to list (5)
+0017.383 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0017.426 (0) Total entities for the zip file: 43 directories, 1013 files (0 skipped as non-modified), 96.2 MB
+0017.434 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0017.441 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0017.447 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 1013 files batched, 274 (274) added so far); re-opening (prior size: 0 KB)
+0018.022 (0) A useful amount of data was added after this amount of zip processing: 1.5 s (normalised: 1.5 s, rate: 17507.7 KB/s)
+0018.027 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.4656510353088, normalised_time=1.4622150441467, max_time=18.02224779129, data points known=1, old_max_bytes=26214400, new_max_bytes=193860300)
+0018.033 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-uploads.zip.tmp: 300 files added (on-disk size: 25708.5 KB)
+0018.040 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-uploads.zip.tmp: 400 files added (on-disk size: 25708.5 KB)
+0018.047 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-uploads.zip.tmp: 500 files added (on-disk size: 25708.5 KB)
+0018.054 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-uploads.zip.tmp: 600 files added (on-disk size: 25708.5 KB)
+0018.061 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-uploads.zip.tmp: 700 files added (on-disk size: 25708.5 KB)
+0018.067 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (67.8 MB, 1013 files batched, 501 (775) added so far); re-opening (prior size: 25708.5 KB)
+0019.444 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-uploads.zip.tmp: 800 files added (on-disk size: 95184.6 KB)
+0019.452 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-uploads.zip.tmp: 900 files added (on-disk size: 95184.6 KB)
+0019.459 (0) Zip: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-uploads.zip.tmp: 1000 files added (on-disk size: 95184.6 KB)
+0021.606 (0) Created uploads zip (0) - 97739.1 KB in 4.2 s (23155.4 KB/s) (sha1: 0741f177e1981881422a7a2d22bbe06b56324a75, sha256: c883487955e084a2413b4508b6dd597c022257a8b7015a529b6f269981d24d1e)
+0021.612 (0) Beginning backup of other directories found in the content directory (index: 0)
+0021.614 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0021.615 (0) Looking for candidates to backup in: /var/www/html/wp-content
+0021.616 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0021.618 (0) finding files: ari-adminer-config.php: adding to list (1)
+0021.619 (0) finding files: themes: skipping: this is the themes directory
+0021.620 (0) finding files: plugins: skipping: this is the plugins directory
+0021.622 (0) finding files: uploads: skipping: this is the uploads directory
+0021.623 (0) finding files: index.php: adding to list (2)
+0021.626 (0) finding files: updraft: skipping: this is the updraft directory
+0021.627 (0) finding files: upgrade: skipping: excluded by options
+0021.633 (0) Total entities for the zip file: 0 directories, 2 files (0 skipped as non-modified), 0 MB
+0021.644 (0) Created others zip (0) - 0.4 KB in 0 s (24.9 KB/s) (sha1: 4e94f73bfb7fb58970231c9fb3e095d588dc6f41, sha256: 772aa37c3c16f6b521969fb21ecf7d56c912df1ff52462d644d3fdbf023ad927)
+0021.652 (0) Saving backup status to database (elements: 8)
+0021.656 (0) Beginning creation of database dump (WordPress DB)
+0021.659 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0021.663 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0021.739 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1242 bytes total)
+0021.743 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0021.795 (0) Table wp_options: Total expected rows (approximate): 444
+0021.853 (0) Table wp_options: Rows added in this batch (start page: 0; next: finished): 449 in 0.06 seconds
+0021.857 (0) Table wp_options: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_options.table.gz - 266.5 KB)
+0021.865 (0) Table wp_users: Total expected rows (approximate): 2
+0021.868 (0) Table wp_users: Rows added in this batch (start page: 0; next: finished): 3 in 0.00 seconds
+0021.871 (0) Table wp_users: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_users.table.gz - 0.7 KB)
+0021.876 (0) Table wp_usermeta: Total expected rows (approximate): 70
+0021.880 (0) Table wp_usermeta: Rows added in this batch (start page: 0; next: finished): 70 in 0.00 seconds
+0021.882 (0) Table wp_usermeta: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_usermeta.table.gz - 2.9 KB)
+0021.888 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0021.891 (0) Table wp_commentmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0021.892 (0) Table wp_commentmeta: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0021.899 (0) Table wp_comments: Total expected rows (approximate): 0
+0021.901 (0) Table wp_comments: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0021.904 (0) Table wp_comments: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_comments.table.gz - 0.7 KB)
+0021.912 (0) Table wp_links: Total expected rows (approximate): 0
+0021.915 (0) Table wp_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0021.916 (0) Table wp_links: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_links.table.gz - 0.4 KB)
+0021.923 (0) Table wp_postmeta: Total expected rows (approximate): 2213
+0021.966 (0) Table wp_postmeta: Rows added in this batch (start page: 0; next: finished): 1995 in 0.04 seconds
+0021.969 (0) Table wp_postmeta: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_postmeta.table.gz - 92.3 KB)
+0021.976 (0) Table wp_posts: Total expected rows (approximate): 497
+0022.011 (0) Table wp_posts: Rows added in this batch (start page: 0; next: finished): 559 in 0.03 seconds
+0022.014 (0) Table wp_posts: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_posts.table.gz - 94.4 KB)
+0022.020 (0) Table wp_term_relationships: Total expected rows (approximate): 12
+0022.024 (0) Table wp_term_relationships: Rows added in this batch (start page: 0; next: finished): 12 in 0.00 seconds
+0022.026 (0) Table wp_term_relationships: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0022.032 (0) Table wp_term_taxonomy: Total expected rows (approximate): 13
+0022.035 (0) Table wp_term_taxonomy: Rows added in this batch (start page: 0; next: finished): 13 in 0.00 seconds
+0022.038 (0) Table wp_term_taxonomy: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0022.043 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0022.046 (0) Table wp_termmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.048 (0) Table wp_termmeta: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_termmeta.table.gz - 0.4 KB)
+0022.054 (0) Table wp_terms: Total expected rows (approximate): 13
+0022.057 (0) Table wp_terms: Rows added in this batch (start page: 0; next: finished): 13 in 0.00 seconds
+0022.059 (0) Table wp_terms: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_terms.table.gz - 0.6 KB)
+0022.063 (0) Skipping table (lacks our prefix (wp_)): test
+0022.068 (0) Table wp_ariadminer_connections: Total expected rows (approximate): 1
+0022.071 (0) Table wp_ariadminer_connections: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0022.074 (0) Table wp_ariadminer_connections: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_ariadminer_connections.table.gz - 0.6 KB)
+0022.079 (0) Table wp_chained_choices: Total expected rows (approximate): 0
+0022.083 (0) Table wp_chained_choices: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.084 (0) Table wp_chained_choices: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_chained_choices.table.gz - 0.4 KB)
+0022.090 (0) Table wp_chained_completed: Total expected rows (approximate): 0
+0022.092 (0) Table wp_chained_completed: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.095 (0) Table wp_chained_completed: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_chained_completed.table.gz - 0.4 KB)
+0022.100 (0) Table wp_chained_questions: Total expected rows (approximate): 0
+0022.104 (0) Table wp_chained_questions: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.106 (0) Table wp_chained_questions: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_chained_questions.table.gz - 0.4 KB)
+0022.112 (0) Table wp_chained_quizzes: Total expected rows (approximate): 0
+0022.115 (0) Table wp_chained_quizzes: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.116 (0) Table wp_chained_quizzes: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_chained_quizzes.table.gz - 0.4 KB)
+0022.123 (0) Table wp_chained_results: Total expected rows (approximate): 0
+0022.125 (0) Table wp_chained_results: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.128 (0) Table wp_chained_results: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_chained_results.table.gz - 0.4 KB)
+0022.134 (0) Table wp_chained_user_answers: Total expected rows (approximate): 4
+0022.136 (0) Table wp_chained_user_answers: Rows added in this batch (start page: 0; next: finished): 4 in 0.00 seconds
+0022.139 (0) Table wp_chained_user_answers: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_chained_user_answers.table.gz - 0.4 KB)
+0022.144 (0) Table wp_cp_calculated_fields_form_discount_codes: Total expected rows (approximate): 0
+0022.148 (0) Table wp_cp_calculated_fields_form_discount_codes: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.150 (0) Table wp_cp_calculated_fields_form_discount_codes: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_cp_calculated_fields_form_discount_codes.table.gz - 0.4 KB)
+0022.155 (0) Table wp_cp_calculated_fields_form_posts: Total expected rows (approximate): 0
+0022.159 (0) Table wp_cp_calculated_fields_form_posts: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.160 (0) Table wp_cp_calculated_fields_form_posts: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_cp_calculated_fields_form_posts.table.gz - 0.4 KB)
+0022.167 (0) Table wp_cp_calculated_fields_form_revision: Total expected rows (approximate): 49
+0022.172 (0) Table wp_cp_calculated_fields_form_revision: Rows added in this batch (start page: 0; next: finished): 49 in 0.00 seconds
+0022.175 (0) Table wp_cp_calculated_fields_form_revision: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_cp_calculated_fields_form_revision.table.gz - 6.1 KB)
+0022.180 (0) Table wp_cp_calculated_fields_form_settings: Total expected rows (approximate): 8
+0022.185 (0) Table wp_cp_calculated_fields_form_settings: Rows added in this batch (start page: 0; next: finished): 7 in 0.00 seconds
+0022.188 (0) Table wp_cp_calculated_fields_form_settings: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_cp_calculated_fields_form_settings.table.gz - 4 KB)
+0022.194 (0) Table wp_frm_fields: Total expected rows (approximate): 11
+0022.197 (0) Table wp_frm_fields: Rows added in this batch (start page: 0; next: finished): 11 in 0.00 seconds
+0022.200 (0) Table wp_frm_fields: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_frm_fields.table.gz - 1.4 KB)
+0022.207 (0) Table wp_frm_forms: Total expected rows (approximate): 3
+0022.209 (0) Table wp_frm_forms: Rows added in this batch (start page: 0; next: finished): 3 in 0.00 seconds
+0022.211 (0) Table wp_frm_forms: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_frm_forms.table.gz - 1.1 KB)
+0022.217 (0) Table wp_frm_item_metas: Total expected rows (approximate): 0
+0022.220 (0) Table wp_frm_item_metas: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.223 (0) Table wp_frm_item_metas: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_frm_item_metas.table.gz - 0.3 KB)
+0022.228 (0) Table wp_frm_items: Total expected rows (approximate): 0
+0022.231 (0) Table wp_frm_items: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.234 (0) Table wp_frm_items: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_frm_items.table.gz - 0.5 KB)
+0022.240 (0) Table wp_h5p_contents: Total expected rows (approximate): 0
+0022.243 (0) Table wp_h5p_contents: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.246 (0) Table wp_h5p_contents: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_contents.table.gz - 0.5 KB)
+0022.251 (0) Table wp_h5p_contents_libraries: Total expected rows (approximate): 0
+0022.254 (0) Table wp_h5p_contents_libraries: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.255 (0) Table wp_h5p_contents_libraries: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_contents_libraries.table.gz - 0.4 KB)
+0022.263 (0) Table wp_h5p_contents_tags: Total expected rows (approximate): 0
+0022.264 (0) Table wp_h5p_contents_tags: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.267 (0) Table wp_h5p_contents_tags: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_contents_tags.table.gz - 0.3 KB)
+0022.272 (0) Table wp_h5p_contents_user_data: Total expected rows (approximate): 0
+0022.276 (0) Table wp_h5p_contents_user_data: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.279 (0) Table wp_h5p_contents_user_data: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_contents_user_data.table.gz - 0.4 KB)
+0022.284 (0) Table wp_h5p_counters: Total expected rows (approximate): 15
+0022.288 (0) Table wp_h5p_counters: Rows added in this batch (start page: 0; next: finished): 15 in 0.00 seconds
+0022.290 (0) Table wp_h5p_counters: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_counters.table.gz - 0.5 KB)
+0022.296 (0) Table wp_h5p_events: Total expected rows (approximate): 13
+0022.299 (0) Table wp_h5p_events: Rows added in this batch (start page: 0; next: finished): 13 in 0.00 seconds
+0022.300 (0) Table wp_h5p_events: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_events.table.gz - 0.6 KB)
+0022.308 (0) Table wp_h5p_libraries: Total expected rows (approximate): 13
+0022.312 (0) Table wp_h5p_libraries: Rows added in this batch (start page: 0; next: finished): 13 in 0.00 seconds
+0022.315 (0) Table wp_h5p_libraries: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_libraries.table.gz - 3.9 KB)
+0022.320 (0) Table wp_h5p_libraries_cachedassets: Total expected rows (approximate): 0
+0022.323 (0) Table wp_h5p_libraries_cachedassets: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.326 (0) Table wp_h5p_libraries_cachedassets: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_libraries_cachedassets.table.gz - 0.3 KB)
+0022.331 (0) Table wp_h5p_libraries_hub_cache: Total expected rows (approximate): 43
+0022.337 (0) Table wp_h5p_libraries_hub_cache: Rows added in this batch (start page: 0; next: finished): 43 in 0.00 seconds
+0022.340 (0) Table wp_h5p_libraries_hub_cache: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_libraries_hub_cache.table.gz - 13 KB)
+0022.347 (0) Table wp_h5p_libraries_languages: Total expected rows (approximate): 93
+0022.358 (0) Table wp_h5p_libraries_languages: Rows added in this batch (start page: 0; next: finished): 93 in 0.01 seconds
+0022.361 (0) Table wp_h5p_libraries_languages: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_libraries_languages.table.gz - 49.7 KB)
+0022.368 (0) Table wp_h5p_libraries_libraries: Total expected rows (approximate): 14
+0022.371 (0) Table wp_h5p_libraries_libraries: Rows added in this batch (start page: 0; next: finished): 14 in 0.00 seconds
+0022.373 (0) Table wp_h5p_libraries_libraries: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_libraries_libraries.table.gz - 0.4 KB)
+0022.379 (0) Table wp_h5p_results: Total expected rows (approximate): 0
+0022.382 (0) Table wp_h5p_results: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.384 (0) Table wp_h5p_results: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_results.table.gz - 0.3 KB)
+0022.392 (0) Table wp_h5p_tags: Total expected rows (approximate): 0
+0022.395 (0) Table wp_h5p_tags: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.396 (0) Table wp_h5p_tags: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_tags.table.gz - 0.3 KB)
+0022.403 (0) Table wp_h5p_tmpfiles: Total expected rows (approximate): 0
+0022.405 (0) Table wp_h5p_tmpfiles: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.407 (0) Table wp_h5p_tmpfiles: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_tmpfiles.table.gz - 0.3 KB)
+0022.414 (0) Table wp_learnpress_order_itemmeta: Total expected rows (approximate): 0
+0022.416 (0) Table wp_learnpress_order_itemmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.419 (0) Table wp_learnpress_order_itemmeta: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_order_itemmeta.table.gz - 0.4 KB)
+0022.425 (0) Table wp_learnpress_order_items: Total expected rows (approximate): 0
+0022.428 (0) Table wp_learnpress_order_items: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.431 (0) Table wp_learnpress_order_items: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_order_items.table.gz - 0.3 KB)
+0022.436 (0) Table wp_learnpress_question_answermeta: Total expected rows (approximate): 0
+0022.440 (0) Table wp_learnpress_question_answermeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.442 (0) Table wp_learnpress_question_answermeta: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_question_answermeta.table.gz - 0.4 KB)
+0022.448 (0) Table wp_learnpress_question_answers: Total expected rows (approximate): 0
+0022.451 (0) Table wp_learnpress_question_answers: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.454 (0) Table wp_learnpress_question_answers: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_question_answers.table.gz - 0.3 KB)
+0022.459 (0) Table wp_learnpress_quiz_questions: Total expected rows (approximate): 0
+0022.463 (0) Table wp_learnpress_quiz_questions: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.464 (0) Table wp_learnpress_quiz_questions: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_quiz_questions.table.gz - 0.3 KB)
+0022.470 (0) Table wp_learnpress_review_logs: Total expected rows (approximate): 0
+0022.472 (0) Table wp_learnpress_review_logs: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.474 (0) Table wp_learnpress_review_logs: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_review_logs.table.gz - 0.4 KB)
+0022.480 (0) Table wp_learnpress_section_items: Total expected rows (approximate): 0
+0022.483 (0) Table wp_learnpress_section_items: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.484 (0) Table wp_learnpress_section_items: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_section_items.table.gz - 0.3 KB)
+0022.490 (0) Table wp_learnpress_sections: Total expected rows (approximate): 0
+0022.492 (0) Table wp_learnpress_sections: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.495 (0) Table wp_learnpress_sections: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_sections.table.gz - 0.4 KB)
+0022.500 (0) Table wp_learnpress_sessions: Total expected rows (approximate): 0
+0022.504 (0) Table wp_learnpress_sessions: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.506 (0) Table wp_learnpress_sessions: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_sessions.table.gz - 0.3 KB)
+0022.512 (0) Table wp_learnpress_user_itemmeta: Total expected rows (approximate): 0
+0022.515 (0) Table wp_learnpress_user_itemmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.516 (0) Table wp_learnpress_user_itemmeta: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_user_itemmeta.table.gz - 0.3 KB)
+0022.523 (0) Table wp_learnpress_user_items: Total expected rows (approximate): 0
+0022.527 (0) Table wp_learnpress_user_items: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0022.528 (0) Table wp_learnpress_user_items: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_user_items.table.gz - 0.4 KB)
+0022.534 (0) Table wp_mlw_qm_audit_trail: Total expected rows (approximate): 9
+0022.536 (0) Table wp_mlw_qm_audit_trail: Rows added in this batch (start page: 0; next: finished): 9 in 0.00 seconds
+0022.539 (0) Table wp_mlw_qm_audit_trail: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_mlw_qm_audit_trail.table.gz - 0.5 KB)
+0022.544 (0) Table wp_mlw_questions: Total expected rows (approximate): 32
+0022.549 (0) Table wp_mlw_questions: Rows added in this batch (start page: 0; next: finished): 32 in 0.00 seconds
+0022.551 (0) Table wp_mlw_questions: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_mlw_questions.table.gz - 2.2 KB)
+0022.556 (0) Table wp_mlw_quizzes: Total expected rows (approximate): 6
+0022.563 (0) Table wp_mlw_quizzes: Rows added in this batch (start page: 0; next: finished): 6 in 0.00 seconds
+0022.566 (0) Table wp_mlw_quizzes: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_mlw_quizzes.table.gz - 13.1 KB)
+0022.572 (0) Table wp_mlw_results: Total expected rows (approximate): 45
+0022.578 (0) Table wp_mlw_results: Rows added in this batch (start page: 0; next: finished): 45 in 0.00 seconds
+0022.580 (0) Table wp_mlw_results: finishing file (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_mlw_results.table.gz - 5.8 KB)
+0022.585 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_options.table.gz (1/57): adding to final database dump
+0022.640 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_users.table.gz (2/57): adding to final database dump
+0022.643 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_usermeta.table.gz (3/57): adding to final database dump
+0022.644 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_commentmeta.table.gz (4/57): adding to final database dump
+0022.647 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_comments.table.gz (5/57): adding to final database dump
+0022.648 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_links.table.gz (6/57): adding to final database dump
+0022.651 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_postmeta.table.gz (7/57): adding to final database dump
+0022.681 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_posts.table.gz (8/57): adding to final database dump
+0022.707 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_term_relationships.table.gz (9/57): adding to final database dump
+0022.710 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_term_taxonomy.table.gz (10/57): adding to final database dump
+0022.712 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_termmeta.table.gz (11/57): adding to final database dump
+0022.715 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_terms.table.gz (12/57): adding to final database dump
+0022.716 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_ariadminer_connections.table.gz (13/57): adding to final database dump
+0022.718 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_chained_choices.table.gz (14/57): adding to final database dump
+0022.719 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_chained_completed.table.gz (15/57): adding to final database dump
+0022.722 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_chained_questions.table.gz (16/57): adding to final database dump
+0022.723 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_chained_quizzes.table.gz (17/57): adding to final database dump
+0022.724 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_chained_results.table.gz (18/57): adding to final database dump
+0022.726 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_chained_user_answers.table.gz (19/57): adding to final database dump
+0022.727 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_cp_calculated_fields_form_discount_codes.table.gz (20/57): adding to final database dump
+0022.730 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_cp_calculated_fields_form_posts.table.gz (21/57): adding to final database dump
+0022.731 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_cp_calculated_fields_form_revision.table.gz (22/57): adding to final database dump
+0022.735 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_cp_calculated_fields_form_settings.table.gz (23/57): adding to final database dump
+0022.738 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_frm_fields.table.gz (24/57): adding to final database dump
+0022.740 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_frm_forms.table.gz (25/57): adding to final database dump
+0022.742 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_frm_item_metas.table.gz (26/57): adding to final database dump
+0022.744 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_frm_items.table.gz (27/57): adding to final database dump
+0022.746 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_contents.table.gz (28/57): adding to final database dump
+0022.747 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_contents_libraries.table.gz (29/57): adding to final database dump
+0022.748 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_contents_tags.table.gz (30/57): adding to final database dump
+0022.751 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_contents_user_data.table.gz (31/57): adding to final database dump
+0022.752 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_counters.table.gz (32/57): adding to final database dump
+0022.754 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_events.table.gz (33/57): adding to final database dump
+0022.755 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_libraries.table.gz (34/57): adding to final database dump
+0022.757 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_libraries_cachedassets.table.gz (35/57): adding to final database dump
+0022.759 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_libraries_hub_cache.table.gz (36/57): adding to final database dump
+0022.764 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_libraries_languages.table.gz (37/57): adding to final database dump
+0022.776 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_libraries_libraries.table.gz (38/57): adding to final database dump
+0022.778 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_results.table.gz (39/57): adding to final database dump
+0022.779 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_tags.table.gz (40/57): adding to final database dump
+0022.782 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_h5p_tmpfiles.table.gz (41/57): adding to final database dump
+0022.783 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_order_itemmeta.table.gz (42/57): adding to final database dump
+0022.784 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_order_items.table.gz (43/57): adding to final database dump
+0022.787 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_question_answermeta.table.gz (44/57): adding to final database dump
+0022.788 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_question_answers.table.gz (45/57): adding to final database dump
+0022.791 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_quiz_questions.table.gz (46/57): adding to final database dump
+0022.792 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_review_logs.table.gz (47/57): adding to final database dump
+0022.795 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_section_items.table.gz (48/57): adding to final database dump
+0022.796 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_sections.table.gz (49/57): adding to final database dump
+0022.799 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_sessions.table.gz (50/57): adding to final database dump
+0022.800 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_user_itemmeta.table.gz (51/57): adding to final database dump
+0022.803 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_learnpress_user_items.table.gz (52/57): adding to final database dump
+0022.804 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_mlw_qm_audit_trail.table.gz (53/57): adding to final database dump
+0022.807 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_mlw_questions.table.gz (54/57): adding to final database dump
+0022.808 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_mlw_quizzes.table.gz (55/57): adding to final database dump
+0022.814 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db-table-wp_mlw_results.table.gz (56/57): adding to final database dump
+0022.832 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db.gz: finished writing out complete database file (536 KB)
+0022.851 (0) Total database tables backed up: 56 (backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db.gz, size: 572208, sha1: 3c4fd238647ecbb0e39d1042e648794d5006279e, sha256: ae8ef666ac4ab0b115920f7da81c4aed8c28f638c3a8426558b00172a27c5f3d)
+0022.860 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0022.863 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0022.864 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0022.866 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-others.zip: others: This file has not yet been successfully uploaded: will queue
+0022.867 (0) backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db.gz: db: This file has not yet been successfully uploaded: will queue
+0022.871 (0) Saving backup history. Total backup size: 157.7 MB
+0022.877 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0022.883 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0022.886 (0) No remote despatch: user chose no remote backup service
+0022.887 (0) Recording as successfully uploaded: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-plugins.zip
+0022.890 (0) Recording as successfully uploaded: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-themes.zip
+0022.894 (0) Recording as successfully uploaded: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-uploads.zip
+0022.901 (0) Recording as successfully uploaded: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-others.zip
+0022.904 (0) Recording as successfully uploaded: backup_2020-09-12-1022_HeartWarmer_2214b4a64c5e-db.gz
+0022.910 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0022.912 (0) Number of backup sets in history: 4; groups (db): 1
+0022.914 (0) Examining (for databases) backup set with group_id=0, nonce=2214b4a64c5e, datestamp=1599906167 (Sep 12 2020 10:22:47)
+0022.915 (0) This backup set is the backup set just made, so will not be deleted.
+0022.915 (0) Examining (for databases) backup set with group_id=0, nonce=bdc859d09160, datestamp=1599819839 (Sep 11 2020 10:23:59)
+0022.915 (0) Examining (for databases) backup set with group_id=0, nonce=f7dcc8397ce5, datestamp=1599733898 (Sep 10 2020 10:31:38)
+0022.915 (0) Examining (for databases) backup set with group_id=0, nonce=6990a85bfdd9, datestamp=1599301048 (Sep 05 2020 10:17:28)
+0022.915 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0022.916 (0) Number of backup sets in history: 4; groups (files): 1
+0022.918 (0) Examining (for files) backup set with nonce=2214b4a64c5e, datestamp=1599906167 (Sep 12 2020 10:22:47)
+0022.918 (0) This backup set is the backup set just made, so will not be deleted.
+0022.919 (0) This backup set is the backup set just made, so will not be deleted.
+0022.919 (0) This backup set is the backup set just made, so will not be deleted.
+0022.919 (0) This backup set is the backup set just made, so will not be deleted.
+0022.920 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0022.922 (0) Examining (for files) backup set with nonce=bdc859d09160, datestamp=1599819839 (Sep 11 2020 10:23:59)
+0022.922 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0022.923 (0) Examining (for files) backup set with nonce=f7dcc8397ce5, datestamp=1599733898 (Sep 10 2020 10:31:38)
+0022.923 (0) plugins: over retain limit (2); will delete this file entity
+0022.923 (0) themes: over retain limit (2); will delete this file entity
+0022.923 (0) uploads: over retain limit (2); will delete this file entity
+0022.923 (0) others: over retain limit (2); will delete this file entity
+0022.923 (0) Delete file: backup_2020-09-10-1031_HeartWarmer_f7dcc8397ce5-plugins.zip, service=none
+0022.924 (0) Deleting local copy (backup_2020-09-10-1031_HeartWarmer_f7dcc8397ce5-plugins.zip)
+0022.927 (0) Delete file: backup_2020-09-10-1031_HeartWarmer_f7dcc8397ce5-themes.zip, service=none
+0022.928 (0) Deleting local copy (backup_2020-09-10-1031_HeartWarmer_f7dcc8397ce5-themes.zip)
+0022.931 (0) Delete file: backup_2020-09-10-1031_HeartWarmer_f7dcc8397ce5-uploads.zip, service=none
+0022.932 (0) Deleting local copy (backup_2020-09-10-1031_HeartWarmer_f7dcc8397ce5-uploads.zip)
+0022.936 (0) Delete file: backup_2020-09-10-1031_HeartWarmer_f7dcc8397ce5-others.zip, service=none
+0022.939 (0) Deleting local copy (backup_2020-09-10-1031_HeartWarmer_f7dcc8397ce5-others.zip)
+0022.943 (0) This backup set is now empty; will remove from history
+0022.944 (0) Deleting log file (log.f7dcc8397ce5.txt)
+0022.946 (0) Examining (for files) backup set with nonce=6990a85bfdd9, datestamp=1599301048 (Sep 05 2020 10:17:28)
+0022.946 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0022.947 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0022.955 (0) Resume backup (2214b4a64c5e, 0): finish run
+0022.962 (0) Decremented the semaphore (fd) by 1
+0022.964 (0) Semaphore (fd) unlocked
+0022.966 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0022.972 (0) No email will/can be sent - the user has not configured an email address.
+0022.974 (0) The backup apparently succeeded and is now complete

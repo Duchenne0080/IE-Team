@@ -1,0 +1,702 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: SEOS Restaurant\n"
+"POT-Creation-Date: 2018-02-28 03:42+0200\n"
+"PO-Revision-Date: 2018-02-28 03:42+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: en\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:13
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:29
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:47
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: comments.php:27
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:47 comments.php:68
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:50 comments.php:71
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:51 comments.php:72
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:85
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:16
+msgid "All rights reserved"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#: footer.php:18
+msgid "https://seosthemes.com/"
+msgstr ""
+
+#: footer.php:18
+msgid "Theme by Seos Themes"
+msgstr ""
+
+#: header.php:28
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:34
+msgid "Menu"
+msgstr ""
+
+#: inc/custom-header.php:23
+msgctxt "header image description"
+msgid "Default Image"
+msgstr ""
+
+#: inc/custom-header.php:87
+msgid "Activate Header Image:"
+msgstr ""
+
+#: inc/custom-header.php:91 inc/custom-header.php:159
+msgid "Deactivate Header Image"
+msgstr ""
+
+#: inc/custom-header.php:92 inc/custom-header.php:160
+msgid "Default Image"
+msgstr ""
+
+#: inc/custom-header.php:93 inc/custom-header.php:161
+msgid "All Pages"
+msgstr ""
+
+#: inc/custom-header.php:94 inc/custom-header.php:162
+msgid "Home Page"
+msgstr ""
+
+#: inc/custom-header.php:114
+msgid "Hide Overlay:"
+msgstr ""
+
+#: inc/custom-header.php:118 inc/custom-header.php:174
+msgid "Show Overlay"
+msgstr ""
+
+#: inc/custom-header.php:119 inc/custom-header.php:175
+msgid "Hide Overlay"
+msgstr ""
+
+#: inc/custom-header.php:136
+msgid "Custom Height"
+msgstr ""
+
+#: inc/custom-header.php:137
+msgid "Min-height 280px. Max-height 1000px."
+msgstr ""
+
+#: inc/customizer.php:32 inc/customizer.php:425
+msgid " "
+msgstr ""
+
+#: inc/customizer.php:33 inc/customizer.php:426
+msgid "_self"
+msgstr ""
+
+#: inc/customizer.php:34 inc/customizer.php:427
+msgid "_blank"
+msgstr ""
+
+#: inc/customizer.php:55
+msgid "Theme Boxes"
+msgstr ""
+
+#: inc/customizer.php:63
+msgid "Frontpage Box 1"
+msgstr ""
+
+#: inc/customizer.php:78
+msgid "Box 1 Title"
+msgstr ""
+
+#: inc/customizer.php:95
+msgid "Box 1 FontAwesome Icon"
+msgstr ""
+
+#: inc/customizer.php:96 inc/customizer.php:207 inc/customizer.php:311
+msgid "Learn More"
+msgstr ""
+
+#: inc/customizer.php:96 inc/customizer.php:207 inc/customizer.php:311
+msgid ""
+"for all FontAwesome icon classes. For example copy and paste the text - "
+"<b>pause-circle</b>"
+msgstr ""
+
+#: inc/customizer.php:114
+msgid "Box 1 Icon Color"
+msgstr ""
+
+#: inc/customizer.php:131
+msgid "Box 1 Image"
+msgstr ""
+
+#: inc/customizer.php:132 inc/customizer.php:239 inc/customizer.php:343
+msgid "You can use image instead of FontAwesome icon, just upload it here."
+msgstr ""
+
+#: inc/customizer.php:149
+msgid "Box 1 Text"
+msgstr ""
+
+#: inc/customizer.php:166
+msgid "Feature 1 URL:"
+msgstr ""
+
+#: inc/customizer.php:167
+msgid " Feature Area 1 URL."
+msgstr ""
+
+#: inc/customizer.php:176
+msgid "Frontpage Box 2"
+msgstr ""
+
+#: inc/customizer.php:191
+msgid "Box 2 Title"
+msgstr ""
+
+#: inc/customizer.php:206
+msgid "Box 2 FontAwesome Icon"
+msgstr ""
+
+#: inc/customizer.php:223
+msgid "Box 2 Icon Color"
+msgstr ""
+
+#: inc/customizer.php:238
+msgid "Box 2 Image"
+msgstr ""
+
+#: inc/customizer.php:253
+msgid "Box 2 Text"
+msgstr ""
+
+#: inc/customizer.php:270
+msgid "Feature 2 URL:"
+msgstr ""
+
+#: inc/customizer.php:271
+msgid " Feature Area 2 URL."
+msgstr ""
+
+#: inc/customizer.php:280
+msgid "Frontpage Box 3"
+msgstr ""
+
+#: inc/customizer.php:295
+msgid "Box 3 Title"
+msgstr ""
+
+#: inc/customizer.php:310
+msgid "Box 3 FontAwesome Icon"
+msgstr ""
+
+#: inc/customizer.php:327
+msgid "Box 3 Icon Color"
+msgstr ""
+
+#: inc/customizer.php:342
+msgid "Box 3 Image"
+msgstr ""
+
+#: inc/customizer.php:358
+msgid "Box 3 Text"
+msgstr ""
+
+#: inc/customizer.php:375
+msgid "Feature 3 URL:"
+msgstr ""
+
+#: inc/customizer.php:376
+msgid " Feature Area 3 URL."
+msgstr ""
+
+#: inc/customizer.php:388
+msgid "Social Media"
+msgstr ""
+
+#: inc/customizer.php:389
+msgid "Social media buttons"
+msgstr ""
+
+#: inc/customizer.php:398
+msgid "Activate Social Icons in Header:"
+msgstr ""
+
+#: inc/customizer.php:409
+msgid "Activate Social Icons in Footer:"
+msgstr ""
+
+#: inc/customizer.php:420
+msgid "Link Type"
+msgstr ""
+
+#: inc/customizer.php:436
+msgid "Social Icons Color:"
+msgstr ""
+
+#: inc/customizer.php:446
+msgid "Social Hover Icons Color:"
+msgstr ""
+
+#: inc/customizer.php:456
+msgid "Enter Facebook url"
+msgstr ""
+
+#: inc/customizer.php:466
+msgid "Enter Twitter url"
+msgstr ""
+
+#: inc/customizer.php:476
+msgid "Enter Google+ url"
+msgstr ""
+
+#: inc/customizer.php:486
+msgid "Enter Linkedin url"
+msgstr ""
+
+#: inc/customizer.php:497
+msgid "Enter RSS url"
+msgstr ""
+
+#: inc/customizer.php:507
+msgid "Enter Pinterest url"
+msgstr ""
+
+#: inc/customizer.php:517
+msgid "Enter Youtube url"
+msgstr ""
+
+#: inc/customizer.php:527
+msgid "Enter Vimeo url"
+msgstr ""
+
+#: inc/customizer.php:538
+msgid "Enter Ynstagram url"
+msgstr ""
+
+#: inc/customizer.php:548
+msgid "Enter Stumbleupon url"
+msgstr ""
+
+#: inc/customizer.php:558
+msgid "Enter Flickr url"
+msgstr ""
+
+#: inc/customizer.php:569
+msgid "Enter Dribbble url"
+msgstr ""
+
+#: inc/customizer.php:579
+msgid "Enter Digg url"
+msgstr ""
+
+#: inc/customizer.php:589
+msgid "Enter Skype url"
+msgstr ""
+
+#: inc/customizer.php:599
+msgid "Enter Deviantart url"
+msgstr ""
+
+#: inc/customizer.php:609
+msgid "Enter Yahoo url"
+msgstr ""
+
+#: inc/customizer.php:619
+msgid "Enter Reddit Alien url"
+msgstr ""
+
+#: inc/customizer.php:630
+msgid "Enter Paypal url"
+msgstr ""
+
+#: inc/customizer.php:640
+msgid "Enter Dropbox url"
+msgstr ""
+
+#: inc/customizer.php:650
+msgid "Enter Soundcloud url"
+msgstr ""
+
+#: inc/customizer.php:661
+msgid "Enter VK url"
+msgstr ""
+
+#: inc/customizer.php:671
+msgid "Enter Envelope url"
+msgstr ""
+
+#: inc/customizer.php:681
+msgid "Enter Address Book url"
+msgstr ""
+
+#: inc/customizer.php:691
+msgid "Enter Apple url"
+msgstr ""
+
+#: inc/customizer.php:701
+msgid "Enter Amazon url"
+msgstr ""
+
+#: inc/customizer.php:711
+msgid "Enter Slack url"
+msgstr ""
+
+#: inc/customizer.php:721
+msgid "Enter Slideshare url"
+msgstr ""
+
+#: inc/customizer.php:731
+msgid "Enter Wikipedia url"
+msgstr ""
+
+#: inc/customizer.php:741
+msgid "Enter Wordpress url"
+msgstr ""
+
+#: inc/customizer.php:751
+msgid "Enter Odnoklassniki url"
+msgstr ""
+
+#: inc/customizer.php:761
+msgid "Enter Tumblr url"
+msgstr ""
+
+#: inc/customizer.php:773
+msgid "Sidebar Options"
+msgstr ""
+
+#: inc/customizer.php:782
+msgid "Sidebar Width:"
+msgstr ""
+
+#: inc/customizer.php:798
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/customizer.php:803
+msgid "Left"
+msgstr ""
+
+#: inc/customizer.php:804
+msgid "Right"
+msgstr ""
+
+#: inc/customizer.php:805
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer.php:820
+msgid "Sidebar Title Background Color"
+msgstr ""
+
+#: inc/customizer.php:835
+msgid "Sidebar Title Color"
+msgstr ""
+
+#: inc/customizer.php:850
+msgid "Sidebar Background Color"
+msgstr ""
+
+#: inc/customizer.php:865
+msgid "Sidebar Link Color"
+msgstr ""
+
+#: inc/customizer.php:880
+msgid "Sidebar Link Hover Color"
+msgstr ""
+
+#: inc/customizer.php:979 inc/customizer.php:1045
+msgid "Seos Restaurant Premium"
+msgstr ""
+
+#: inc/customizer.php:980
+msgid "Preview Premium"
+msgstr ""
+
+#: inc/customizer.php:1046 inc/customizer.php:1077 inc/customizer.php:1100
+#: inc/customizer.php:1123 inc/customizer.php:1146 inc/customizer.php:1169
+#: inc/customizer.php:1192 inc/customizer.php:1215 inc/customizer.php:1238
+#: inc/customizer.php:1261 inc/customizer.php:1285 inc/customizer.php:1308
+#: inc/customizer.php:1331 inc/customizer.php:1354 inc/customizer.php:1378
+#: inc/customizer.php:1401 inc/customizer.php:1424 inc/customizer.php:1447
+#: inc/customizer.php:1470 inc/customizer.php:1493 inc/customizer.php:1516
+#: inc/customizer.php:1539 inc/customizer.php:1562 inc/customizer.php:1585
+msgid "\tLearn more about Seos Restaurant. "
+msgstr ""
+
+#: inc/customizer.php:1053
+msgid "Preview The Theme"
+msgstr ""
+
+#: inc/customizer.php:1055
+msgid ""
+"\t<a href=\"https://seosthemes.com/seos-restaurant/\" target=\"_blank"
+"\">Learn more about Seos Restaurant.</a> "
+msgstr ""
+
+#: inc/customizer.php:1075 inc/customizer.php:1088
+msgid "Menu Slider"
+msgstr ""
+
+#: inc/customizer.php:1098 inc/customizer.php:1111
+msgid "Contacts"
+msgstr ""
+
+#: inc/customizer.php:1121 inc/customizer.php:1134
+msgid "Animations"
+msgstr ""
+
+#: inc/customizer.php:1144 inc/customizer.php:1157
+msgid "All Google Fonts"
+msgstr ""
+
+#: inc/customizer.php:1167 inc/customizer.php:1180
+msgid "Banners"
+msgstr ""
+
+#: inc/customizer.php:1190 inc/customizer.php:1203
+msgid "Shortcode Scroll Animation"
+msgstr ""
+
+#: inc/customizer.php:1213 inc/customizer.php:1226
+msgid "About US Section"
+msgstr ""
+
+#: inc/customizer.php:1236 inc/customizer.php:1249
+msgid "Disabel all Comments"
+msgstr ""
+
+#: inc/customizer.php:1259 inc/customizer.php:1272
+msgid "Entry Meta"
+msgstr ""
+
+#: inc/customizer.php:1283 inc/customizer.php:1296
+msgid "Hide All Titles"
+msgstr ""
+
+#: inc/customizer.php:1306 inc/customizer.php:1319
+msgid "Mobile Call Now"
+msgstr ""
+
+#: inc/customizer.php:1329
+msgid "Testimonials Post Type"
+msgstr ""
+
+#: inc/customizer.php:1342
+msgid "Testimonials Custom Post Type"
+msgstr ""
+
+#: inc/customizer.php:1352 inc/customizer.php:1365
+msgid "WooCommerce Colors"
+msgstr ""
+
+#: inc/customizer.php:1376 inc/customizer.php:1389
+msgid "WooCommerce Options"
+msgstr ""
+
+#: inc/customizer.php:1399 inc/customizer.php:1412
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer.php:1422 inc/customizer.php:1435
+msgid "Font Sizes"
+msgstr ""
+
+#: inc/customizer.php:1445 inc/customizer.php:1458
+msgid "Under Construction"
+msgstr ""
+
+#: inc/customizer.php:1468 inc/customizer.php:1481
+msgid "Read More Button Options"
+msgstr ""
+
+#: inc/customizer.php:1491 inc/customizer.php:1504
+msgid "Pagination Options"
+msgstr ""
+
+#: inc/customizer.php:1514 inc/customizer.php:1527
+msgid "Antispam Login Form"
+msgstr ""
+
+#: inc/customizer.php:1537 inc/customizer.php:1550
+msgid "Back To Top Button Options"
+msgstr ""
+
+#: inc/customizer.php:1560 inc/customizer.php:1573
+msgid "Copy Protection"
+msgstr ""
+
+#: inc/customizer.php:1583 inc/customizer.php:1596
+msgid "Custom JS"
+msgstr ""
+
+#: inc/template-tags.php:24
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:46 inc/template-tags.php:52
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:48
+#, php-format
+msgid " Posted in %1$s "
+msgstr ""
+
+#: inc/template-tags.php:54
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:61
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:68 template-parts/content-page.php:33
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/theme-functions.php:33
+msgid "Primary"
+msgstr ""
+
+#: inc/theme-functions.php:76
+msgid "Sidebar"
+msgstr ""
+
+#: inc/theme-functions.php:78
+msgid "Add widgets here."
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/theme-functions.php:148
+#, php-format
+msgid "Read More<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:21 template-parts/content.php:55
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:50
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "SEOS Restaurant"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://seosthemes.com/seos-restaurant"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Seos Restaurant is clear, easy to customize WP template. Seos Restaurant  is "
+"a modern multi-purpose HTML5 theme with a responsive 2 column layout. The "
+"theme is excellent for a restaurant, eatery, newspaper, images, photos, "
+"publishing, news, blog, business, portfolio or other editorial websites. To "
+"learn more about the theme please go to the theme uri and read the "
+"documentation."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Tsvetomir Tsvetanov"
+msgstr ""

@@ -1,0 +1,198 @@
+0000.000 (0) Opened log file at time: Wed, 16 Sep 2020 10:22:55 +0000 on https://www.heartwarmer.tk
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5 PHP: 7.2.24-0ubuntu0.18.04.6 (apache2handler, Linux ip-172-31-33-17 5.3.0-1032-aws #34~18.04.2-Ubuntu SMP Fri Jul 24 10:06:28 UTC 2020 x86_64) MySQL: 5.7.31-0ubuntu0.18.04.1 WPLANG: en_US Server: Apache/2.4.29 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.2M | 2M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 3368.2 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: weekly)
+0000.008 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.014 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1600165818, seconds_ago=85957)
+0000.020 (0) Set semaphore last lock (f) time to 2020-09-16 10:22:55
+0000.023 (0) Semaphore lock (f) complete
+0000.029 (0) Backup run: resumption=0, nonce=39239e644700, file_nonce=39239e644700 begun at=1600251775 (0s ago), job type=backup
+0000.032 (0) Scheduling a resumption (1) after 300 seconds (1600252075) in case this run gets aborted
+0000.057 (0) Checking if we have a zip executable available
+0000.063 (0) Creation of backups of directories: beginning
+0000.068 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.355 (0) Total entities for the zip file: 974 directories, 4412 files (0 skipped as non-modified), 74.7 MB
+0000.370 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.377 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.385 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.392 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.399 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.402 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11.1 MB, 4412 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.609 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 600 files added (on-disk size: 3834.7 KB)
+0001.616 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 700 files added (on-disk size: 3834.7 KB)
+0001.622 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 800 files added (on-disk size: 3834.7 KB)
+0001.629 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 900 files added (on-disk size: 3834.7 KB)
+0001.636 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 1000 files added (on-disk size: 3834.7 KB)
+0001.639 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.1 MB, 4412 files batched, 501 (1002) added so far); re-opening (prior size: 3834.7 KB)
+0003.445 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 1100 files added (on-disk size: 8705.8 KB)
+0003.452 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 1200 files added (on-disk size: 8705.8 KB)
+0003.459 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 1300 files added (on-disk size: 8705.8 KB)
+0003.468 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 1400 files added (on-disk size: 8705.8 KB)
+0003.475 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 1500 files added (on-disk size: 8705.8 KB)
+0003.478 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.7 MB, 4412 files batched, 501 (1503) added so far); re-opening (prior size: 8705.8 KB)
+0003.914 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 1600 files added (on-disk size: 9418.9 KB)
+0003.922 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 1700 files added (on-disk size: 9418.9 KB)
+0003.929 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 1800 files added (on-disk size: 9418.9 KB)
+0003.936 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 1900 files added (on-disk size: 9418.9 KB)
+0003.943 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 2000 files added (on-disk size: 9418.9 KB)
+0003.945 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.6 MB, 4412 files batched, 501 (2004) added so far); re-opening (prior size: 9418.9 KB)
+0004.798 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 2100 files added (on-disk size: 11220.1 KB)
+0004.805 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 2200 files added (on-disk size: 11220.1 KB)
+0004.812 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 2300 files added (on-disk size: 11220.1 KB)
+0004.819 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 2400 files added (on-disk size: 11220.1 KB)
+0004.826 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 2500 files added (on-disk size: 11220.1 KB)
+0004.828 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.9 MB, 4412 files batched, 501 (2505) added so far); re-opening (prior size: 11220.1 KB)
+0006.593 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 2600 files added (on-disk size: 17091.6 KB)
+0006.600 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 2700 files added (on-disk size: 17091.6 KB)
+0006.607 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 2800 files added (on-disk size: 17091.6 KB)
+0006.614 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 2900 files added (on-disk size: 17091.6 KB)
+0006.622 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 3000 files added (on-disk size: 17091.6 KB)
+0006.624 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.6 MB, 4412 files batched, 501 (3006) added so far); re-opening (prior size: 17091.6 KB)
+0007.218 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 3100 files added (on-disk size: 18326.8 KB)
+0007.226 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 3200 files added (on-disk size: 18326.8 KB)
+0007.233 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 3300 files added (on-disk size: 18326.8 KB)
+0007.240 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 3400 files added (on-disk size: 18326.8 KB)
+0007.248 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 3500 files added (on-disk size: 18326.8 KB)
+0007.251 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.8 MB, 4412 files batched, 501 (3507) added so far); re-opening (prior size: 18326.8 KB)
+0007.968 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 3600 files added (on-disk size: 20030.4 KB)
+0007.975 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 3700 files added (on-disk size: 20030.4 KB)
+0007.983 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 3800 files added (on-disk size: 20030.4 KB)
+0007.990 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 3900 files added (on-disk size: 20030.4 KB)
+0007.997 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 4000 files added (on-disk size: 20030.4 KB)
+0008.000 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.8 MB, 4412 files batched, 501 (4008) added so far); re-opening (prior size: 20030.4 KB)
+0008.715 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 4100 files added (on-disk size: 21752.1 KB)
+0008.722 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 4200 files added (on-disk size: 21752.1 KB)
+0008.731 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 4300 files added (on-disk size: 21752.1 KB)
+0008.738 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip.tmp: 4400 files added (on-disk size: 21752.1 KB)
+0009.927 (0) Created plugins zip (0) - 24379.5 KB in 9.9 s (2473.2 KB/s) (sha1: 838f949802ce92b5c90106d4254ffef69133518a, sha256: abe8f763a0d997a5b834a4c4a98a581a6ddf0f46fdb026bcb2eb4378a664cd0a)
+0009.932 (0) Beginning creation of dump of themes (split every: 400 MB)
+0010.211 (0) Total entities for the zip file: 612 directories, 2665 files (0 skipped as non-modified), 69.7 MB
+0010.220 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.227 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0010.234 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0010.240 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0010.247 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0010.250 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.5 MB, 2665 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0011.457 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 600 files added (on-disk size: 6507.7 KB)
+0011.464 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 700 files added (on-disk size: 6507.7 KB)
+0011.470 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 800 files added (on-disk size: 6507.7 KB)
+0011.478 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 900 files added (on-disk size: 6507.7 KB)
+0011.485 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 1000 files added (on-disk size: 6507.7 KB)
+0011.487 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.9 MB, 2665 files batched, 501 (1002) added so far); re-opening (prior size: 6507.7 KB)
+0012.387 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 1100 files added (on-disk size: 10083 KB)
+0012.394 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 1200 files added (on-disk size: 10083 KB)
+0012.401 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 1300 files added (on-disk size: 10083 KB)
+0012.408 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 1400 files added (on-disk size: 10083 KB)
+0012.415 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 1500 files added (on-disk size: 10083 KB)
+0012.417 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (16 MB, 2665 files batched, 501 (1503) added so far); re-opening (prior size: 10083 KB)
+0013.824 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 1600 files added (on-disk size: 19825.9 KB)
+0013.832 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 1700 files added (on-disk size: 19825.9 KB)
+0013.840 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 1800 files added (on-disk size: 19825.9 KB)
+0013.847 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 1900 files added (on-disk size: 19825.9 KB)
+0013.853 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 2000 files added (on-disk size: 19825.9 KB)
+0013.856 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11.6 MB, 2665 files batched, 501 (2004) added so far); re-opening (prior size: 19825.9 KB)
+0014.809 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 2100 files added (on-disk size: 26310.4 KB)
+0014.816 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 2200 files added (on-disk size: 26310.4 KB)
+0014.822 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 2300 files added (on-disk size: 26310.4 KB)
+0014.829 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 2400 files added (on-disk size: 26310.4 KB)
+0014.836 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 2500 files added (on-disk size: 26310.4 KB)
+0014.839 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (14.6 MB, 2665 files batched, 501 (2505) added so far); re-opening (prior size: 26310.4 KB)
+0016.199 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip.tmp: 2600 files added (on-disk size: 32927.7 KB)
+0017.183 (0) Created themes zip (0) - 38782.6 KB in 7.2 s (5350.5 KB/s) (sha1: 02eda40bb38d4bc74abea633644c8eb7d7193c20, sha256: 8acdf927871d4eabb0bd9b81c673da814fac232c1170fcc66b62192f50ad0175)
+0017.188 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0017.190 (0) Looking for candidates to backup in: /var/www/html/wp-content/uploads
+0017.192 (0) finding files: 2020: adding to list (1)
+0017.194 (0) finding files: elementor: adding to list (2)
+0017.195 (0) finding files: learn-press-logs: adding to list (3)
+0017.196 (0) finding files: themeisle-gutenberg: adding to list (4)
+0017.198 (0) finding files: h5p: adding to list (5)
+0017.199 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0017.242 (0) Total entities for the zip file: 43 directories, 1248 files (0 skipped as non-modified), 124.7 MB
+0017.250 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0017.257 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0017.262 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 1248 files batched, 278 (278) added so far); re-opening (prior size: 0 KB)
+0017.770 (0) A useful amount of data was added after this amount of zip processing: 0.8 s (normalised: 0.8 s, rate: 31660.5 KB/s)
+0017.774 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.80900096893311, normalised_time=0.80857873404349, max_time=17.771883964539, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0017.778 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-uploads.zip.tmp: 300 files added (on-disk size: 25663.3 KB)
+0017.785 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-uploads.zip.tmp: 400 files added (on-disk size: 25663.3 KB)
+0017.792 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-uploads.zip.tmp: 500 files added (on-disk size: 25663.3 KB)
+0017.799 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-uploads.zip.tmp: 600 files added (on-disk size: 25663.3 KB)
+0017.806 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-uploads.zip.tmp: 700 files added (on-disk size: 25663.3 KB)
+0017.811 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (65.6 MB, 1248 files batched, 501 (779) added so far); re-opening (prior size: 25663.3 KB)
+0019.021 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-uploads.zip.tmp: 800 files added (on-disk size: 92939.7 KB)
+0019.029 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-uploads.zip.tmp: 900 files added (on-disk size: 92939.7 KB)
+0019.036 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-uploads.zip.tmp: 1000 files added (on-disk size: 92939.7 KB)
+0019.042 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-uploads.zip.tmp: 1100 files added (on-disk size: 92939.7 KB)
+0019.049 (0) Zip: backup_2020-09-16-1022_HeartWarmer_39239e644700-uploads.zip.tmp: 1200 files added (on-disk size: 92939.7 KB)
+0022.239 (0) Created uploads zip (0) - 127023.5 KB in 5 s (25211.1 KB/s) (sha1: b5b91389149bb75732a28d8f52f52ae151c9be29, sha256: 3805e92b8d5078dd0f94a1d781e70159c5fbb306a7d48fe844106d194d4b5023)
+0022.245 (0) Beginning backup of other directories found in the content directory (index: 0)
+0022.247 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0022.248 (0) Looking for candidates to backup in: /var/www/html/wp-content
+0022.251 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0022.252 (0) finding files: ari-adminer-config.php: adding to list (1)
+0022.252 (0) finding files: themes: skipping: this is the themes directory
+0022.255 (0) finding files: plugins: skipping: this is the plugins directory
+0022.255 (0) finding files: uploads: skipping: this is the uploads directory
+0022.256 (0) finding files: index.php: adding to list (2)
+0022.258 (0) finding files: updraft: skipping: this is the updraft directory
+0022.259 (0) finding files: upgrade: skipping: excluded by options
+0022.267 (0) Total entities for the zip file: 0 directories, 2 files (0 skipped as non-modified), 0 MB
+0022.277 (0) Created others zip (0) - 0.4 KB in 0 s (26.3 KB/s) (sha1: 4e94f73bfb7fb58970231c9fb3e095d588dc6f41, sha256: 772aa37c3c16f6b521969fb21ecf7d56c912df1ff52462d644d3fdbf023ad927)
+0022.284 (0) Saving backup status to database (elements: 8)
+0022.305 (0) No database backup (wp) - not part of this run
+0022.309 (0) backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0022.310 (0) backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0022.311 (0) backup_2020-09-16-1022_HeartWarmer_39239e644700-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0022.312 (0) backup_2020-09-16-1022_HeartWarmer_39239e644700-others.zip: others: This file has not yet been successfully uploaded: will queue
+0022.314 (0) Saving backup history. Total backup size: 185.7 MB
+0022.318 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0022.323 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0022.324 (0) No remote despatch: user chose no remote backup service
+0022.325 (0) Recording as successfully uploaded: backup_2020-09-16-1022_HeartWarmer_39239e644700-plugins.zip
+0022.327 (0) Recording as successfully uploaded: backup_2020-09-16-1022_HeartWarmer_39239e644700-themes.zip
+0022.331 (0) Recording as successfully uploaded: backup_2020-09-16-1022_HeartWarmer_39239e644700-uploads.zip
+0022.334 (0) Recording as successfully uploaded: backup_2020-09-16-1022_HeartWarmer_39239e644700-others.zip
+0022.338 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0022.340 (0) Number of backup sets in history: 5; groups (db): 1
+0022.340 (0) Examining (for databases) backup set with group_id=0, nonce=39239e644700, datestamp=1600251775 (Sep 16 2020 10:22:55)
+0022.343 (0) Examining (for databases) backup set with group_id=0, nonce=65e18481e6b6, datestamp=1600165818 (Sep 15 2020 10:30:18)
+0022.343 (0) Examining (for databases) backup set with group_id=0, nonce=7f933da10a89, datestamp=1600078975 (Sep 14 2020 10:22:55)
+0022.343 (0) Examining (for databases) backup set with group_id=0, nonce=2214b4a64c5e, datestamp=1599906167 (Sep 12 2020 10:22:47)
+0022.343 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0022.344 (0) Examining (for databases) backup set with group_id=0, nonce=6990a85bfdd9, datestamp=1599301048 (Sep 05 2020 10:17:28)
+0022.344 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0022.344 (0) Number of backup sets in history: 5; groups (files): 1
+0022.346 (0) Examining (for files) backup set with nonce=39239e644700, datestamp=1600251775 (Sep 16 2020 10:22:55)
+0022.346 (0) This backup set is the backup set just made, so will not be deleted.
+0022.347 (0) This backup set is the backup set just made, so will not be deleted.
+0022.347 (0) This backup set is the backup set just made, so will not be deleted.
+0022.347 (0) This backup set is the backup set just made, so will not be deleted.
+0022.347 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0022.348 (0) Examining (for files) backup set with nonce=65e18481e6b6, datestamp=1600165818 (Sep 15 2020 10:30:18)
+0022.348 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0022.348 (0) Examining (for files) backup set with nonce=7f933da10a89, datestamp=1600078975 (Sep 14 2020 10:22:55)
+0022.348 (0) plugins: over retain limit (2); will delete this file entity
+0022.348 (0) themes: over retain limit (2); will delete this file entity
+0022.348 (0) uploads: over retain limit (2); will delete this file entity
+0022.348 (0) others: over retain limit (2); will delete this file entity
+0022.348 (0) Delete file: backup_2020-09-14-1022_HeartWarmer_7f933da10a89-plugins.zip, service=none
+0022.350 (0) Deleting local copy (backup_2020-09-14-1022_HeartWarmer_7f933da10a89-plugins.zip)
+0022.353 (0) Delete file: backup_2020-09-14-1022_HeartWarmer_7f933da10a89-themes.zip, service=none
+0022.355 (0) Deleting local copy (backup_2020-09-14-1022_HeartWarmer_7f933da10a89-themes.zip)
+0022.357 (0) Delete file: backup_2020-09-14-1022_HeartWarmer_7f933da10a89-uploads.zip, service=none
+0022.359 (0) Deleting local copy (backup_2020-09-14-1022_HeartWarmer_7f933da10a89-uploads.zip)
+0022.362 (0) Delete file: backup_2020-09-14-1022_HeartWarmer_7f933da10a89-others.zip, service=none
+0022.365 (0) Deleting local copy (backup_2020-09-14-1022_HeartWarmer_7f933da10a89-others.zip)
+0022.368 (0) This backup set is now empty; will remove from history
+0022.371 (0) Deleting log file (log.7f933da10a89.txt)
+0022.372 (0) Examining (for files) backup set with nonce=2214b4a64c5e, datestamp=1599906167 (Sep 12 2020 10:22:47)
+0022.372 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0022.374 (0) Examining (for files) backup set with nonce=6990a85bfdd9, datestamp=1599301048 (Sep 05 2020 10:17:28)
+0022.375 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0022.375 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0022.379 (0) Resume backup (39239e644700, 0): finish run
+0022.391 (0) Decremented the semaphore (f) by 1
+0022.395 (0) Semaphore (f) unlocked
+0022.396 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0022.402 (0) No email will/can be sent - the user has not configured an email address.
+0022.403 (0) The backup apparently succeeded and is now complete

@@ -1,10 +1,10 @@
-=== WordPress Quiz Plugin - Quiz And Survey Master ===
+=== Quiz And Survey Master - Best Quiz, Exam and Survey Plugin for WordPress ===
 Contributors: quizsurvey,expresstech
-Tags: quiz, survey, wordpress quiz plugin, exam, quiz builder
+Tags: quiz, survey, lead, test, score, exam, questionnaire, question,wordpress quiz plugin
 Requires at least: 4.9
-Tested up to: 5.5
+Tested up to: 5.5.1
 Requires PHP: 5.4
-Stable tag: 7.0.2
+Stable tag: 7.1.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,7 +27,7 @@ Quiz and Survey Master is the easiest [WordPress Quiz Plugin](https://quizandsur
 [youtube https://www.youtube.com/watch?v=DyiCCNnDpHk]
 
 = Customize Text =
-You can customized anything your users will see and engage with. Everything from the text blocks throughout the quiz or survey to the submit button. You can even "template variables" to generate personalized text for your users.
+You can customize anything your users will see and engage with. Everything from the text blocks throughout the quiz or survey to the submit button. You can even use "template variables" to generate personalized text for your users.
 
 = Question Types =
 You can have **multiple choice** (radio buttons), **true and false**, **open answer** question, **drop down**, **multiple response** (checkboxes), **fill in the blank**, **number**, **captcha**, **polar** (slider) and **accept**. We release more questions types with every major release.
@@ -68,7 +68,7 @@ You can integrate Mailchimp, Activecampaign, Zapier, Campaign Monitor, Get Respo
 * Create and display math formulas
 * And **Much** More...
 
-= Pro Addons =
+= [WordPress Quiz Plugin](https://quizandsurveymaster.com/) Addons =
 Quiz And Survey Master is fully functional and is packed with tons of features that will meet the needs of most, we do offer various extra features including:
 
 **Free Add-ons**
@@ -134,6 +134,36 @@ This is usually a theme conflict. You can [checkout out our common conflict solu
 8. Example Quiz With Styling
 
 == Changelog ==
+
+= 7.1.2 (September 04, 2020) =
+* Bug: Fixed admin results page to make it compatible with new variable %QUESTIONS_ANSWERS_DEFAULT%.
+* Bug: Fixed issues with %QUESTIONS_ANSWERS_DEFAULT% variable in quiz result while using point based quiz.
+* Bug: Fixed validation issue on front end while using Deselect Answer option.
+* Bug: Fixed issues with inline results when there is extra spacing between words.
+* Enhancement: Added feature to show the uploaded file into media library for File Upload question type.
+
+= 7.1.1 (September 02, 2020) =
+* Bug: Fixed problem with questions on front end while using random questions option.
+* Bug: Fixed submit button overlapping issue with progress bar for auto pagination.
+* Bug: Fixed the UI of meta boxes on Dashboard Page, Tools Page and Help Page.
+
+= 7.1.0 (August 31, 2020) =
+* Enhancement: Added a new variable %USER_ANSWERS_DEFAULT% to improve default result page. All new quizzes will have this variable by default.
+* Enhancement: Created new %AMOUNT_INCORRECT% and %AMOUNT_ATTEMPTED% template variable to enhance the quiz result page.
+* Enhancement: Added time( hours and minute ) support in quiz start and end date.
+* Enhancement: Added option in setting menu to delete data related to QSM on deletion of plugin.
+* Enhancement: Added option in setting menu to enable/disable the Background Quiz Email Process.
+* Enhancement: Added qsm prefixes to email classes.
+* Enhancement: Added feature to view uploaded file in admin result page for File Upload question type.
+* Enhancement: Added option to show only title in quiz result page.
+* Enhancement: Added a button to view uploaded file in quiz result page and replaced the empty spaces in the uploaded file slug with dashes.
+* Enhancement: Added a check box to select/deselect question in Question Bank Popup.
+* Bug: Fixed issues where questions were not showing up in admin when there is no pages in quiz.
+* Bug: Fixed jquery error when editor is changed to text in Quiz text tab.
+* Bug: Fixed PHP 7.4 Sentry Issues while creating new quiz.
+* Bug: Fixed issues with Allowed file types while question editing.
+* Bug: Fixed submit button position for auto pagination.
+* Bug: Fixed issues with quiz loading when pagination is enabled.
 
 = 7.0.2 (August 18, 2020) =
 * Enhancement: Checked compatibility with WordPress 5.5.

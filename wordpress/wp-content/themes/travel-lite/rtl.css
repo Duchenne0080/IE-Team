@@ -1,0 +1,349 @@
+/*
+Theme Name: Travel Lite
+Theme URI: https://d5creation.com/theme/travel/
+
+Author: D5 Creation
+Author URI: https://d5creation.com/
+
+Description: Travel is a Super Elegant and Professional Responsive Theme. This Theme is ideal for Travel Agencies, Hotels, Tour Operators, Airlines, Photographic Agencies, Environmental Organizations, Tourist Spot Presentation, Tourism Promotion, Photography and Other Purposes that may match with your thoughts.  A demo of Travel Theme can be found here: http://demo.d5creation.com/themes/?theme=Travel
+
+Version: 3.1
+
+Tags: Travel is one of the most popular Travel Themes. This Theme is Super Elegant, Professional and Responsive. It is ideal for Travel Agencies, Hotels, Tour Operators, Airlines, Photographic Agencies, Environmental Organizations, Tourist Spot Presentation, Tourism Promotion, Photography and Other Purposes that may match with your thoughts. You can find details and demo in the Theme Page: https://d5creation.com/theme/travel/
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Travel WordPress Theme, Copyright 2012-2018: D5 Creation (www.d5creation.com)
+
+Text Domain: travel-lite
+
+*/
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+caption,th,td {
+	text-align:right;
+}
+
+.alignnone,#content .alignnone,#content-full .alignnone,div .alignnone {
+	margin:5px 0 20px 20px;
+}
+
+.alignleft,#content .alignleft,#content-full .alignleft,div .alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+
+.alignright,#content .alignright,#content-full .alignright,div .alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+
+a img.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+
+a img.alignnone {
+	margin:5px 0 20px 20px;
+}
+
+a img.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+
+a img.aligncenter {
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.wp-caption.alignnone {
+	margin:5px 0 20px 20px;
+}
+
+.wp-caption.alignright {
+	margin:5px 0 20px 20px;
+}
+
+.wp-caption.alignleft {
+	margin:5px 20px 20px 0;
+}
+
+body {
+	background:url(images/background.jpg) no-repeat scroll right top #E4E8E9;
+	background:url(images/background.jpg) no-repeat scroll right top / 100% auto #E4E8E9;
+}
+
+#top-menu-container #searchform {
+	float:left;
+}
+
+#searchsubmit,.woocommerce-product-search button[type="submit"] {
+	margin:0 -5px 0 0;
+}
+
+img.site-logo,h1.site-title {
+	float:right;
+}
+
+#content {
+	float:right;
+}
+
+.conwidth a {
+	background:url(images/rarrow.png) no-repeat scroll left center transparent;
+	margin:0 0 0 10px;
+	padding:0 0 0 20px;
+}
+
+#left-sidebar {
+	float:left;
+}
+
+#social {
+	float:left;
+	margin-left:20px;
+	margin-right: auto;
+}
+
+.facebook-link,.twitter-link,.gplus-link,.con-link {
+	float:right;
+}
+
+ol,ul {
+	padding:0 10px 10px 0;
+}
+
+address {
+	text-align:left;
+}
+
+#travel-main-menu {
+	float:left;
+	margin:20px 10px 20px 0;
+}
+
+#travel-main-menu .menu {
+	float:left;
+}
+
+#travel-main-menu li {
+	float:right;
+}
+
+#travel-main-menu li ul {
+	float:right;
+}
+
+#travel-main-menu ul ul,.sub-menu,.sub-menu ul ul {
+	float:right;
+	right:0;
+	left: auto;
+}
+
+#travel-main-menu ul ul ul {
+	right:100%;
+	left: auto;
+}
+
+#travel-main-menu ul ul a {
+	text-align:right;
+}
+
+#travel-main-menu ul ul a:hover {
+	padding-right:20px;
+	padding-left: 0;
+}
+
+#travel-main-menu ul .menu-parent-item {
+	background:url(images/listiconfb.png) no-repeat scroll left 15px / 7px 9px transparent;
+}
+
+#travel-main-menu ul ul .menu-parent-item {
+	background:url(images/listiconf.png) no-repeat scroll left center/7px 9px transparent;
+}
+
+#left-sidebar .widget {
+	float:left;
+}
+
+#left-sidebar .widget li {
+	padding:5px 17px 5px 0;
+}
+
+#footer-sidebar .first-footer-widget {
+	float:right;
+}
+
+#footer-sidebar .footer-widgets {
+	margin-right:30px;
+	float:right;
+	margin-left: auto;
+}
+
+#footer-sidebar .widget li {
+	padding:3px 17px 3px 0;
+}
+
+.post.sticky,.sticky {
+	background:url(images/sticky.png) no-repeat scroll left top transparent;
+}
+
+.featured-box .read-more {
+	margin-right:5px;
+	margin-left: auto;
+}
+
+.fcontent-special {
+	float:left;
+	left:5px;
+	right: auto;
+}
+
+img.fcon-image:hover {
+	-webkit-filter:bleftness(85%) grayscale(50%);
+}
+
+.featured-contents .attachment-fpage-thumb {
+	float:right;
+	padding-left:10px;
+	padding-right: 0;
+}
+
+.featured-contents .entrytext .read-more {
+	float:left;
+}
+
+.featured-contents .post,.featured-contents .hentry,.featured-contents .no-results {
+	padding:10px 20px 10px 10px;
+}
+
+.featured-content h2,#left-sidebar .widget h3 {
+	text-align:right;
+}
+
+blockquote,q {
+	border-right:10px solid #00ADCF;
+	border-left:10px solid #00ADCF;
+}
+
+blockquote:before,q:before {
+	margin-left:.2em;
+	margin-right: auto;
+}
+
+blockquote:after,q:after {
+	margin-right:.2em;
+	margin-left: auto;
+}
+
+#container #content-full .thumb {
+	margin:5px 0 20px 10px;
+	float:right;
+}
+
+#container .attachment-post-thumbnail {
+	left: 0;
+	right: auto;
+}
+
+h1.page-title,h1.arc-post-title {
+	text-align:right;
+}
+
+h2.post-title,h2.comments,h3#reply-title,h2.post-title-color {
+	text-align:right;
+}
+
+.read-more {
+	background:-webkit-gradient(linear,right top,right bottom,color-stop(0.05,#ededed),color-stop(1,#dfdfdf));
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+}
+
+.postmetadata {
+	text-align:left;
+}
+
+.floatright {
+	float:right;
+	text-align:right;
+}
+
+.floatleft {
+	float:left;
+	text-align:left;
+}
+
+#page-nav .alignleft {
+	text-align:left;
+}
+
+#page-nav .alignright {
+	text-align:right;
+}
+
+#commentsbox .avatar {
+	float:right;
+	right:-100px;
+	left: auto;
+}
+
+.comment-body {
+	border-left:2px solid #06a8dd;
+	border-right: none;
+}
+
+#commentsbox .comment-body ol li {
+	padding:5px 20px 5px 0;
+}
+
+#commentsbox .comment-body ul li {
+	padding:5px 20px 5px 0;
+}
+
+#commentsbox .commentlist li.comment {
+	padding:5px 100px 0 0;
+}
+
+#client li,#client ul {
+	float:right;
+}
+
+.simply-scroll-btn-right {
+	background:url(images/arrow_right.png) no-repeat scroll 0 0 transparent;
+	right:-25px;
+	left: auto;
+}
+
+.simply-scroll-btn-left {
+	background:url(images/arrow_left.png) no-repeat scroll 0 0 transparent;
+	left:-25px;
+	right: auto;
+}
+
+.fpage-quote {
+	border-right:10px solid #00ADCF;
+	border-left:10px solid #00ADCF;
+}
+
+.screen-reader-text:focus {
+	right:5px;
+	left: auto;
+}
+
+@media print {
+
+}

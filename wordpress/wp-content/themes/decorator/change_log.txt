@@ -1,0 +1,12 @@
+Version 1.0
+i) Intial version Release
+
+Version 1.1
+i) Resolved layout issues.
+
+Version 1.1.1
+i) Resolved top header color and section hide issue.
+
+Version 1.1.2
+i) Resolved error from slider caption.
+

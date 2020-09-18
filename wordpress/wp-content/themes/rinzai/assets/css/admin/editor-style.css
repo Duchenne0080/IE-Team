@@ -1,0 +1,18 @@
+/* Editor content width. */
+html .mceContentBody {
+    max-width: 700px;
+    padding: 1.25rem 1.75rem !important;
+}
+
+/* Images styling. */
+html .mceContentBody img {
+    max-width: 100%;
+    height: auto;
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+
+/* Iframe styling. */
+html .mceContentBody iframe {
+    max-width: 100%;
+}

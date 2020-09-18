@@ -78,15 +78,17 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
             switch ( $_POST['_action'] ) {
                 case 'step2':
                     $apiResponse = ssl_zen_auth::call( 'verify_records' );
+                    $correct_records = ( $apiResponse ? $apiResponse['correct_records'] : array() );
                     
                     if ( !$apiResponse || intval( $apiResponse['wait'] ) === 1 ) {
                         $error = array(
-                            'notice' => '',
+                            'notice'  => sprintf( '<div class="message warning sslzen-nowrap">%s</div>', $apiResponse['wait_reason'] ),
+                            'records' => $correct_records,
                         );
-                        // this can be empty as the notice is already displayed.
                     } else {
                         $success = array(
-                            'notice' => sprintf( '<div class="message success">%s</div>', __( 'You have successfully added your website to StackPath.', 'ssl-zen' ) ),
+                            'notice'  => sprintf( '<div class="message success">%s</div>', __( 'You have successfully pointed the A and CNAME records to Stackpath.', 'ssl-zen' ) ),
+                            'records' => $correct_records,
                         );
                         update_option( 'ssl_zen_settings_stage', 'step3' );
                     }
@@ -433,10 +435,38 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
             
             if ( wp_verify_nonce( $nonce, 'ssl_zen_settings' ) ) {
                 $enableDebug = ( isset( $_GET['enable_debug'] ) ? $_GET['enable_debug'] : 0 );
-                $status = update_option( 'ssl_zen_enable_debug', $enableDebug );
-                $result = [
-                    'status' => $status,
-                ];
+                
+                if ( sz_fs()->is_plan( 'cdn', true ) ) {
+                    $success = array(
+                        'notice' => '',
+                    );
+                    
+                    if ( $enableDebug ) {
+                        $url = ssl_zen_helper::exposeLogAsFile();
+                        $success = array(
+                            'notice' => sprintf(
+                            '<div class="message success">%s <i class="copy-clipboard" title="%s" data-clipboard-text="%s"></i></div><div class="message-container"></div>',
+                            $url,
+                            __( 'Copy', 'ssl-zen' ),
+                            $url
+                        ),
+                        );
+                        update_option( 'ssl_zen_show_debug_url', $enableDebug );
+                        update_option( 'ssl_zen_debug_url', $url );
+                    } else {
+                        ssl_zen_helper::removeLogs();
+                        delete_option( 'ssl_zen_show_debug_url' );
+                        delete_option( 'ssl_zen_debug_url' );
+                    }
+                    
+                    wp_send_json_success( $success );
+                } else {
+                    $status = update_option( 'ssl_zen_enable_debug', $enableDebug );
+                    $result = [
+                        'status' => $status,
+                    ];
+                }
+            
             } else {
                 $result = [
                     'status'  => 0,
@@ -532,6 +562,7 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
 							<div class="col-lg-6 text-lg-right text-center external-actions-container">
 								<?php 
             $stage = get_option( 'ssl_zen_settings_stage', '' );
+            // show settings button only when the stage is that.
             
             if ( $stage === 'settings' && ssl_zen_helper::isTabAvailableAtThisStage( $tab, 'settings', self::$allowedTabs ) ) {
                 ?>
@@ -553,6 +584,20 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
 									   href="https://checkout.freemius.com/mode/dialog/plugin/4586/plan/7397/licenses/1/">
 										<?php 
                 _e( 'Upgrade', 'ssl-zen' );
+                ?>
+									</a>
+								<?php 
+            }
+            
+            
+            if ( $stage !== 'settings' ) {
+                ?>
+									<a class="settings"
+									   href="<?php 
+                echo  admin_url( 'admin.php?page=ssl_zen&tab=settings' ) ;
+                ?>">
+										<?php 
+                _e( 'Debug', 'ssl-zen' );
                 ?>
 									</a>
 								<?php 
@@ -978,6 +1023,25 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
             
             ?>
 						<?php 
+            
+            if ( !sz_fs()->is_plan( 'cdn', true ) ) {
+                ?>
+						<div class="col-sm-3 mt-4"></div>
+						<div class="col-sm-9 mt-4">
+							<div class="checkbox checkbox-success checkbox-circle terms-checkbox">
+								<input type="checkbox" class="styled"
+								       name="terms" id="terms" value="1"
+								       required>
+								<label for="terms">
+									<?php 
+                echo  sprintf( __( 'I agree to %sTerms and Conditions%s', 'ssl-zen' ), '<a href="https://sslzen.com/terms-of-service/" target="_blank">', '</a>' ) ;
+                ?>
+								</label>
+							</div>
+						</div>
+						<?php 
+            }
+            
             ?>
 					</div>
 				</div>
@@ -1019,7 +1083,7 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
                 
                 if ( !$apiResponse || intval( $apiResponse['wait'] ) === 1 ) {
                     // stay on the same page and show a notice.
-                    $notice['warning'] = __( 'Please wait while we verify your A and CNAME record', 'ssl-zen' );
+                    $notice['warning'] = ( empty($apiResponse['wait_reason']) ? __( 'Please wait while we verify your A and CNAME record', 'ssl-zen' ) : $apiResponse['wait_reason'] );
                     $scanDnsButtonClass = 'd-none';
                     $timerButtonClass = '';
                     $image = 'warning-circle';
@@ -1087,21 +1151,41 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
                 if ( empty($record['name']) ) {
                     continue;
                 }
+                $copy_class = '';
+                $img_class = 'd-none';
+                
+                if ( isset( $apiResponse['correct_records'] ) ) {
+                    $copy_class = ( in_array( $record['type'], $apiResponse['correct_records'], true ) ? 'd-none' : '' );
+                    $img_class = ( in_array( $record['type'], $apiResponse['correct_records'], true ) ? '' : 'd-none' );
+                }
+                
                 ?>
-								<tr>
+								<tr class="record_type_<?php 
+                echo  esc_attr( $record['type'] ) ;
+                ?>">
 									<td><?php 
                 echo  $record['type'] ;
                 ?></td>
 									<td><?php 
                 echo  $record['name'] ;
                 ?></td>
-									<td><?php 
+									<td>
+										<?php 
                 echo  $record['value'] ;
-                ?><i class="copy-clipboard title="<?php 
+                ?>
+										<i class="copy-clipboard <?php 
+                echo  $copy_class ;
+                ?>" title="<?php 
                 _e( 'Copy', 'ssl-zen' );
                 ?>" data-clipboard-text="<?php 
                 echo  esc_attr( $record['value'] ) ;
-                ?>"></i></td>
+                ?>"></i>
+										<img class="record-done <?php 
+                echo  $img_class ;
+                ?>" src="<?php 
+                echo  SSL_ZEN_URL . 'img/success.svg' ;
+                ?>" alt="">
+									</td>
 									<td><?php 
                 echo  $record['ttl'] ;
                 ?></td>
@@ -1129,7 +1213,7 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
             echo  $timerButtonClass ;
             ?>" data-button=".scan-dns-stackpath" data-time="<?php 
             echo  $diff ;
-            ?>"></span>
+            ?>" data-function="step2_mark_records_done"></span>
 						</div>
 					<form>
 
@@ -1137,15 +1221,17 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
 					<?php 
             if ( $notice ) {
                 foreach ( $notice as $type => $message ) {
-                    $extra = '';
+                    $extra = $class = '';
                     switch ( $type ) {
                         case 'warning':
                             $extra = '<span class="loader__dot">.</span><span class="loader__dot">.</span><span class="loader__dot">.</span>';
+                            $class = 'sslzen-nowrap';
                             break;
                     }
                     echo  sprintf(
-                        '<div class="message %s">%s%s</div>',
+                        '<div class="message %s %s">%s%s</div>',
                         $type,
+                        $class,
                         $message,
                         $extra
                     ) ;
@@ -1179,7 +1265,7 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
             _e( 'Find DNS Settings or just Settings.', 'ssl-zen' );
             ?></li>
 							<li><?php 
-            _e( 'Look for Records and update them so that they to point to your site\'s Edge Address as displayed on the left.', 'ssl-zen' );
+            _e( 'Look for A and CNAME records and update them with values displayed in the table on the left side.', 'ssl-zen' );
             ?> </li>
 							<li><?php 
             _e( 'If you cannot enter TTL as 300, try 600 or the lowest value allowed by your domain provider.', 'ssl-zen' );
@@ -2706,14 +2792,20 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
             $expiryDate = get_option( 'ssl_zen_certificate_90_days', '' );
             $primaryDomain = get_option( 'ssl_zen_base_domain', '' );
             $currentSettingTab = get_option( 'ssl_zen_settings_stage', '' );
-            $allowAdvancedTab = ssl_zen_helper::isTabAvailableAtThisStage( $currentSettingTab, 'settings.advanced', self::$allowedTabs );
-            $allowStatusDebugTabs = true;
+            $tabsToShow = array( 'status', 'debug' );
+            if ( ssl_zen_helper::isTabAvailableAtThisStage( $currentSettingTab, 'settings.advanced', self::$allowedTabs ) ) {
+                $tabsToShow[] = 'advanced';
+            }
             // Get server status fields
             $serverStatusFields = ssl_zen_helper::getServerStatusFields();
             $wordpressStatusFields = ssl_zen_helper::getWordPressStatusFields();
             $issuer = "Let's Encrypt Authority X3";
             $miniMessage = $renewButtonClass = '';
             $deactivateMsg = __( 'You will be unable to renew your SSL certificate if you uninstall this plugin.', 'ssl-zen' );
+            $activeTab = 'advanced';
+            if ( $currentSettingTab !== 'settings' ) {
+                $activeTab = 'debug';
+            }
             
             if ( !empty($expiryDate) ) {
                 // Calc days left
@@ -2734,8 +2826,6 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
             
             }
             
-            // Get debug file if it exists
-            $debugLog = ( file_exists( SSL_ZEN_DIR . 'log/debug.log' ) ? file_get_contents( SSL_ZEN_DIR . 'log/debug.log' ) : '' );
             //			if ( sz_fs()->can_use_premium_code__premium_only() ) {
             //				$cron_success = self::cron_ssl_renew();
             //			}
@@ -2747,9 +2837,11 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
 				<ul class="ssl-zen-settings-tab-container d-flex mb-4">
 					<?php 
             
-            if ( $allowAdvancedTab ) {
+            if ( in_array( 'advanced', $tabsToShow, true ) ) {
                 ?>
-						<li data-tab="advanced" class="advanced active">
+						<li data-tab="advanced" class="advanced <?php 
+                echo  ( $activeTab === 'advanced' ? 'active' : '' ) ;
+                ?>">
 							<?php 
                 _e( 'Advanced', 'ssl-zen' );
                 ?>
@@ -2760,16 +2852,26 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
             ?>
 					<?php 
             
-            if ( $allowStatusDebugTabs ) {
+            if ( in_array( 'status', $tabsToShow, true ) ) {
                 ?>
 						<li data-tab="status" class="status <?php 
-                echo  ( $allowAdvancedTab ? '' : 'active' ) ;
+                echo  ( $activeTab === 'status' ? 'active' : '' ) ;
                 ?>">
 							<?php 
                 _e( 'Status', 'ssl-zen' );
                 ?>
 						</li>
-						<li data-tab="debug" class="debug">
+					<?php 
+            }
+            
+            ?>
+					<?php 
+            
+            if ( in_array( 'debug', $tabsToShow, true ) ) {
+                ?>
+						<li data-tab="debug" class="debug <?php 
+                echo  ( $activeTab === 'debug' ? 'active' : '' ) ;
+                ?>">
 							<?php 
                 _e( 'Debug', 'ssl-zen' );
                 ?>
@@ -2782,7 +2884,7 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
 				<div class="ssl-zen-steps-container p-0 mb-4 border-0">
 					<?php 
             
-            if ( $allowAdvancedTab ) {
+            if ( in_array( 'advanced', $tabsToShow, true ) ) {
                 ?>
 						<div class="row ssl-zen-settings-container advanced-container">
 							<div class="col-md-4">
@@ -3016,9 +3118,14 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
             }
             
             ?>
+					<?php 
+            
+            if ( !sz_fs()->is_plan( 'cdn', true ) ) {
+                $extraClass = ( in_array( 'advanced', $tabsToShow, true ) || $activeTab !== 'status' ? 'd-none' : '' );
+                ?>
 					<div class="row ssl-zen-settings-container status-container <?php 
-            echo  ( $allowAdvancedTab ? 'd-none' : '' ) ;
-            ?>">
+                echo  $extraClass ;
+                ?>">
 						<div class="col-md-5">
 							<table class="table table-bordered">
 								<tbody>
@@ -3027,29 +3134,29 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
 									<th>Info</th>
 								</tr>
 								<?php 
-            foreach ( $serverStatusFields as $key => $field ) {
-                ?>
+                foreach ( $serverStatusFields as $key => $field ) {
+                    ?>
 									<tr>
 										<td><?php 
-                echo  $key ;
-                ?></td>
+                    echo  $key ;
+                    ?></td>
 										<td><?php 
-                echo  $field ;
-                ?></td>
+                    echo  $field ;
+                    ?></td>
 									</tr>
 								<?php 
-            }
-            ?>
+                }
+                ?>
 								</tbody>
 							</table>
 							<a href="<?php 
-            echo  admin_url( 'admin.php?page=ssl_zen&tab=settings&download=status_info' ) ;
-            ?>"
+                echo  admin_url( 'admin.php?page=ssl_zen&tab=settings&download=status_info' ) ;
+                ?>"
 							   class="d-inline-block primary mb-2 download-status">Download
 								Status Info</a>
 							<span class="d-block mini-message"><?php 
-            _e( 'When asked, please download and share this file with SSL Zen support team.', 'ssl-zen' );
-            ?></span>
+                _e( 'When asked, please download and share this file with SSL Zen support team.', 'ssl-zen' );
+                ?></span>
 						</div>
 						<div class="col-md-6">
 							<table class="table table-bordered">
@@ -3059,24 +3166,48 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
 									<th>Info</th>
 								</tr>
 								<?php 
-            foreach ( $wordpressStatusFields as $key => $field ) {
-                ?>
+                foreach ( $wordpressStatusFields as $key => $field ) {
+                    ?>
 									<tr>
 										<td><?php 
-                echo  $key ;
-                ?></td>
+                    echo  $key ;
+                    ?></td>
 										<td><?php 
-                echo  $field ;
-                ?></td>
+                    echo  $field ;
+                    ?></td>
 									</tr>
 								<?php 
-            }
-            ?>
+                }
+                ?>
 								</tbody>
 							</table>
 						</div>
 					</div>
-					<div class="row ssl-zen-settings-container debug-container d-none">
+					<?php 
+            }
+            
+            ?>
+
+					<?php 
+            self::show_debug_container( $tabsToShow, $activeTab );
+            ?>
+				</div>
+			</form>
+			<?php 
+        }
+        
+        /**
+         * Shows the container that shows the debug related markup.
+         *
+         * @since ?
+         * @static
+         */
+        private static function show_debug_container( $tabsToShow, $activeTab )
+        {
+            
+            if ( sz_fs()->is_plan( 'cdn', true ) && in_array( 'debug', $tabsToShow, true ) ) {
+                ?>
+					<div class="row ssl-zen-settings-container debug-container">
 						<div class="col-md-9">
 							<ul class="mb-4">
 								<li class="d-flex mb-4 line">
@@ -3086,45 +3217,97 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
 										       id="enable_debug"
 										       name="enable_debug"
 											<?php 
-            echo  ( get_option( 'ssl_zen_enable_debug', '' ) == '1' ? 'checked="checked"' : '' ) ;
-            ?> >
+                echo  ( get_option( 'ssl_zen_show_debug_url', '' ) == '1' ? 'checked="checked"' : '' ) ;
+                ?> >
 									</div>
 									<div>
 										<label for="enable_debug"
 										       class="d-block title"><?php 
-            _e( 'Enable Debugging', 'ssl-zen' );
-            ?></label>
+                _e( 'Show Debug URL', 'ssl-zen' );
+                ?></label>
 										<span><?php 
-            _e( 'Enables LOG_DEBUG for full debugging. Only enable when asked by the support team.', 'ssl-zen' );
-            ?></span>
+                _e( 'Generates the debug log for sharing with the support team.', 'ssl-zen' );
+                ?></span>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-12">
+							<div class="message-container-2">
+			<?php 
+                $url = get_option( 'ssl_zen_debug_url' );
+                if ( $url ) {
+                    echo  sprintf(
+                        '<div class="message success">%s <i class="copy-clipboard" title="%s" data-clipboard-text="%s"></i></div><div class="message-container"></div>',
+                        $url,
+                        __( 'Copy', 'ssl-zen' ),
+                        $url
+                    ) ;
+                }
+                ?>
+							</div>
+						</div>
+					</div>
+			<?php 
+            } else {
+                $extraClass = ( $activeTab === 'debug' ? '' : 'd-none' );
+                // Get debug file if it exists
+                $debugLog = ( file_exists( SSL_ZEN_DIR . 'log/debug.log' ) ? file_get_contents( SSL_ZEN_DIR . 'log/debug.log' ) : '' );
+                ?>
+					<div class="row ssl-zen-settings-container debug-container <?php 
+                echo  $extraClass ;
+                ?>">
+						<div class="col-md-9">
+							<ul class="mb-4">
+								<li class="d-flex mb-4 line">
+									<div>
+										<input class="toggle-event"
+										       type="checkbox"
+										       id="enable_debug"
+										       name="enable_debug"
+											<?php 
+                echo  ( get_option( 'ssl_zen_enable_debug', '' ) == '1' ? 'checked="checked"' : '' ) ;
+                ?> >
+									</div>
+									<div>
+										<label for="enable_debug"
+										       class="d-block title"><?php 
+                _e( 'Enable Debugging', 'ssl-zen' );
+                ?></label>
+										<span><?php 
+                _e( 'Enables LOG_DEBUG for full debugging. Only enable when asked by the support team.', 'ssl-zen' );
+                ?></span>
 									</div>
 								</li>
 							</ul>
 						</div>
 						<div class="col-md-12">
 							<div class="table">
-								<div class="head">Debug Log</div>
+								<div class="head"><?php 
+                _e( 'Debug Log', 'ssl-zen' );
+                ?></div>
 
 								<div class="body p-0">
-                                    <textarea
-		                                    class="border-0 w-100 p-4"><?php 
-            echo  $debugLog ;
-            ?></textarea>
+                                    <textarea class="border-0 w-100 p-4"><?php 
+                echo  $debugLog ;
+                ?></textarea>
 								</div>
+
+								<a href="<?php 
+                echo  admin_url( 'admin.php?page=ssl_zen&tab=settings&download=debug_log' ) ;
+                ?>"
+								   class="d-inline-block primary mb-2 download-debug"><?php 
+                _e( 'Download Debug Log', 'ssl-zen' );
+                ?></a>
+								<span class="d-block mini-message"><?php 
+                _e( 'When asked, please download and share this file with SSL Zen support team.', 'ssl-zen' );
+                ?></span>
 							</div>
-							<a href="<?php 
-            echo  admin_url( 'admin.php?page=ssl_zen&tab=settings&download=debug_log' ) ;
-            ?>"
-							   class="d-inline-block primary mb-2 download-debug">Download
-								Debug Log</a>
-							<span class="d-block mini-message"><?php 
-            _e( 'When asked, please download and share this file with SSL Zen support team.', 'ssl-zen' );
-            ?></span>
 						</div>
 					</div>
-				</div>
-			</form>
 			<?php 
+            }
+        
         }
         
         /**
@@ -3137,6 +3320,8 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
          */
         public static function admin_init()
         {
+            // let's avoid the header already sent error in case we want to redirect somewhere
+            ob_start();
             $systemRequirementsNonce = ( isset( $_POST['ssl_zen_system_requirements_nonce'] ) ? sanitize_text_field( $_POST['ssl_zen_system_requirements_nonce'] ) : null );
             $sslZenPricingNonce = ( isset( $_POST['ssl_zen_pricing_nonce'] ) ? sanitize_text_field( $_POST['ssl_zen_pricing_nonce'] ) : null );
             $certificateNonce = ( isset( $_POST['ssl_zen_generate_certificate_nonce'] ) ? sanitize_text_field( $_POST['ssl_zen_generate_certificate_nonce'] ) : null );
@@ -3154,6 +3339,7 @@ if ( !class_exists( 'ssl_zen_admin' ) ) {
                     update_option( 'home', $homeUrl );
                     update_option( 'ssl_zen_ssl_activated', '1' );
                     update_option( 'ssl_zen_settings_stage', 'review' );
+                    ssl_zen_helper::removeLogs();
                     update_option( 'ssl_zen_stackpath_activated', '1' );
                     self::fix_wp_config();
                     wp_redirect( admin_url( 'admin.php?page=ssl_zen&tab=review' ) );

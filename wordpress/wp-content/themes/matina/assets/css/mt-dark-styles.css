@@ -1,0 +1,346 @@
+/**
+ * Styles css for making dark mode website.
+ *
+ * @package Matina
+ */
+
+/*––––––––––––––––––––––––––––––––––––––––––––––––––
+        STICKY MENU
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body p,
+.menu-toggle a {
+  color: #cfcfcf !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #afafaf;
+}
+
+.trigger-menu-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  z-index: 2;
+  background: var(--lightpurple);
+  transition: transform 0.4s;
+}
+
+.page-header .trigger-menu {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  color: var(--white);
+  letter-spacing: .2em;
+}
+
+.page-header .trigger-menu svg {
+  fill: var(--white);
+  margin-right: 8px;
+  transition: transform 0.3s;
+}
+
+.page-header .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  text-align: center;
+  padding: 15vh 0 5vh;
+  overflow: auto;
+  z-index: 1;
+  background: var(--lightpurple);
+}
+
+.main-menu-close a {
+  color: #fff;
+}
+
+.page-header .menu a {
+  font-size: 3rem;
+}
+
+.page-header .sub-menu a {
+  font-size: 1.5rem;
+}
+
+.page-main section {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.page-main section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.is-sticky #masthead.header--layout-default, 
+#masthead.header--layout-one .is-sticky #header-sticky,
+#masthead.header--layout-one .is-sticky #header-sticky::before, 
+#masthead.header--layout-one .is-sticky #header-sticky::after{
+  background: #181818;
+}
+
+#site-navigation ul li .sub-menu, 
+#site-navigation ul li .children {
+  background: #1B1A1A;
+}
+
+/* FOOTER
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-footer {
+  font-size: 0.85rem;
+  padding: 10px;
+  text-align: right;
+  color: var(--black);
+}
+
+.page-footer span {
+  color: #e31b23;
+}
+
+/* BODY CLASSES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.menu-open {
+  overflow: hidden;
+}
+
+.menu-open .trigger-menu-wrapper {
+  background: transparent;
+}
+
+.menu-open .page-header .menu {
+  display: block;
+}
+
+.menu-open .page-header svg {
+  transform: rotate(45deg);
+}
+
+/* Dark Mode CSS */
+body{
+  background:#181818;
+  color:#aaa;
+}
+#mt-topbar{
+  background:#252525;
+}
+#site-navigation ul li a{
+  color:#fff;
+}
+#masthead .matina-social-icons-wrapper .single-icon a{
+  color:#fff;
+}
+#site-navigation #primary-menu li .sub-menu li a{
+  color:#fff;
+}
+#site-navigation #primary-menu li .sub-menu{
+  background:#1b1a1a;
+}
+.header-search-wrapper .search-icon a{
+  color:#fff;
+}
+.header-search-wrapper .search-icon:hover{
+  background:#555;
+}
+.search--drop-down .search-form-wrap{
+  background:#555;
+}
+.search--drop-down .search-form .search-submit{
+  background:#555;
+  border-color:#555;
+}
+.search--drop-down .search-form-wrap
+{
+  background:#2d2d2d;
+}
+
+.search--drop-down .search-form .search-field{
+  background:#888;
+  color:#fff;
+  border-color:#888;
+}
+
+.search--drop-down .search-form .search-field::placeholder{
+  color:#ccc;
+}
+
+/* Banner section */
+.banner-layout-default .banner-content-wrapper{
+  background:#333;
+}
+.banner-title a{
+  color:#fff;
+}
+.banner-layout-default .banner-description p{
+  color:#aaa;
+}
+.banner-layout-default .banner-button{
+  color:#aaa;
+  border-color:#aaa;
+}
+.banner-layout-default .banner-button:hover{
+  background:#aaa;
+  color:#fff;
+}
+#banner-section.banner-layout-default .lSAction>.lSNext{
+  background:#555;
+  color:#fff;
+}
+#banner-section.banner-layout-one .lSAction a{
+  background:#555;
+}
+.banner-layout-one .lSAction a i{
+  color:#fff;
+}
+
+
+/* Featured Section */
+.featured-categories--layout-default .single-featured-wrap .post-title a{
+  color:#fff;
+}
+.featured-categories--layout-one .single-featured-wrap .featured-content-wrapper .post-title a
+{
+  color:#fff;
+}
+
+.featured-categories--layout-one:before{
+  background:#4b4b4b!important;
+}
+.featured-categories--layout-one .cat-links a,
+.featured-categories--layout-one .single-featured-wrap .featured-content-wrapper .posted-on a
+{
+  color:#aaa;
+}
+
+/* Archive section */
+.archive .post .entry-title a, 
+.archive--layout-default .post .entry-title a,
+.archive--layout-one .post .entry-title a
+{
+  color:#fff;
+}
+.archive .post .entry-content,
+.archive--layout-default .post .entry-content,
+.archive--layout-one .post .entry-content,
+.cv-post-content
+{
+  color:#aaa;
+}
+.archive--layout-default .post .entry-readmore a,
+.archive--layout-one .entry-readmore .mt-button
+{
+  color:#fff;
+}
+.related-posts--layout-default .related-post .post-content-wrapper{
+  background:rgba(0, 0, 0, 0.7);
+}
+.related-posts-wrapper .related-post .post-content-wrapper .related-post-title a{
+  color:#fff;
+}
+.archive--layout-one .posted-on .day{
+  color:#333;
+}
+.posts-navigation .nav-links .nav-previous a, .posts-navigation .nav-links .nav-next a{
+  color:#aaa;
+  border-color:#aaa;
+}
+
+
+/* Single Page */
+.single--layout-one .entry-tags .tags-links a
+{
+  color:#aaa;
+}
+.single--layout-default .entry-tags .tags-links a{
+  color:#aaa;
+  background:#555;
+}
+.single--layout-one .single-entry-meta .posted-by-wrap .byline a{
+  color:#aaa;
+}
+.entry-author-box .post-author-info .author-name a,
+.entry-author-box .author-meta-wrap .author-website a
+{
+  color:#fff;
+}
+.entry-author-box .author-meta-wrap .author-website{
+  color:#aaa;
+}
+.entry-author-box.author-box--layout-one{
+  background:#333;
+}
+.single-post-navigation .nav-links a span,
+.single-post-navigation.post-navigation--layout-one .nav-links a span.post-title
+{
+  color:#fff;
+}
+.widget-area ul li a{
+  color:#aaa;
+}
+
+/* Footer */
+#colophon{
+  background:#121212;
+}
+
+/* Widget */
+.widget-area .widget-title{
+  color:#fff;
+}
+.matina_author_info .author-content-wrap .author-title{
+  color:#fff;
+}
+.matina_author_info .author-content-wrap .author-bio-info, 
+.matina_author_info .matina-social-icons-wrapper .single-icon a
+{
+  color:#aaa;
+}
+.cv-post-title a{
+  color:#fff;
+}
+.home .navigation .nav-links a.page-numbers,
+.archive .navigation .nav-links a.page-numbers{
+  color:#aaa;
+}
+.widget.matina_latest_posts .posts-wrapper .single-post-wrap .post-content-wrap .post-title a{
+  color:#aaa;
+}
+.widget-area .tagcloud a{
+  color:#aaa;
+}
+
+/* 404 Page */
+.error--layout-one .error-404{
+  background:#212121;
+}
+.error--layout-one .error-404 .page-header{
+  background:transparent;
+}
+.error--layout-one .error-404 .page-header .page-title{
+  display:inline-block;
+  background:#212121;
+}
+
+/* Responsive menu */
+@media(max-width:991px){
+  #masthead .primary-menu-wrap {
+   background:#1b1a1a;
+  }
+  #site-navigation #primary-menu li .sub-menu li a.sub-toggle{
+    color:#555;
+  }
+}

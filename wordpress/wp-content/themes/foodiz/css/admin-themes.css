@@ -1,0 +1,146 @@
+.about-wrap h2 {
+    font-weight: 400;
+    text-align: left;
+}
+.about-wrap img {
+    margin-top: 25px;
+    box-shadow: 0px 0px 32px 14px #ccccccbf;
+}
+p.pro-feature {
+    font-size: 15px !important;
+}
+.row.foodiz-pro {
+    background: #ffb606;
+}
+p.desc {
+    padding-top: 35px;
+    color: #000;
+    text-align: right;
+    margin-right: 20px;
+    font-size: 18px;
+}
+section#tabs {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.about-wrap h2 {
+    margin: 21px 0;
+}
+.mywebapp-info h3 {
+    color: #000;
+}
+.info-box {
+    padding: 100px;
+}
+.info-box p {
+    color: #000;
+    font-size: 16px;
+}
+.info-box {
+    background-color: #ffb606;
+    border: 1px solid #ccc9;
+    padding: 12px;
+}
+.row.intro-section {
+    margin-top: 30px;
+}
+a.customize-btn {
+	border-radius: 4px;
+    display: table;
+    margin: 0 auto;
+}
+a.customize-btn {
+    color: #fff;
+    background: #0e6ec4;
+    padding: 10px;
+    text-decoration: none;
+}
+a.support-btn {
+    display: initial;
+    margin: 0 auto;
+    color: #000;
+    font-size: 16px;
+    background: #ffb606;
+    padding: 12px;
+    text-decoration: none;
+}
+.info-box1 {
+    /*background: rgba(221, 240, 249, 0.8);
+    border: 1px solid #ccc9;*/
+    padding: 0px 0px 57px;
+}
+div#nav-tabContent {
+    border: 1px solid #cccccc7d;
+}
+h3.support {
+    padding: 10px;
+    margin-top: 0;
+    color: #fff;
+    background: #153e4d;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+p.support-text {
+    padding:  25px 0 0px;
+}
+.mywebapp-info {
+    /* margin-top: 35px; */
+    text-align: center;
+    padding: 0px 45px 35px;
+}
+a.mywebapp-btn {
+    display: initial;
+    margin: 0 auto;
+    font-weight: 600;
+    color: #fff;
+    background: #000;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.mywebapp-info p {
+    margin-bottom: 34px;
+}
+a.add_page {
+    padding-left: 14px;
+}
+
+button#astral-demo-content-inst {
+    background: #ffc107;
+    border-color: #ffc107;
+    border-radius: 0;
+    padding: 6px;
+    font-size: 14px;
+    font-weight: 600;
+}
+a.demo_btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    background: #ffb606;
+    border-color: #ffb606;
+}
+.Customize a.demo_btn {
+    margin-left: 0;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #495057;
+    background-color: #e7e7e7;
+    border-radius: 0;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    color: #495057;
+}
+a.nav-link:focus {
+    color: #124964;
+    box-shadow: none !important;
+    outline: 1px solid transparent;
+}

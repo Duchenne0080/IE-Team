@@ -1,0 +1,346 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Travel Lite\n"
+"POT-Creation-Date: 2019-09-24 23:46+0600\n"
+"PO-Revision-Date: 2015-10-03 04:37+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.13\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:13
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:14
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help"
+msgstr ""
+
+#: 404.php:17 archive.php:43 index.php:35 search.php:43
+msgid "Or Return to the Home Page"
+msgstr ""
+
+#: 404.php:18 archive.php:44 search.php:44
+msgid "You can also Visit the Following. These are the Featured Contents"
+msgstr ""
+
+#: archive.php:23 index.php:15 search.php:26
+msgid "By"
+msgstr ""
+
+#: archive.php:23 index.php:15 search.php:26
+msgid "No Comments Yet&#187;"
+msgstr ""
+
+#: archive.php:23 index.php:15 search.php:26
+msgid "1 Comment &#187;"
+msgstr ""
+
+#: archive.php:23 index.php:15 search.php:26
+msgid "% Comments &#187;"
+msgstr ""
+
+#: archive.php:23 index.php:15 search.php:26
+msgid "Posted in"
+msgstr ""
+
+#: archive.php:23 index.php:15 search.php:26
+msgid "<br />Tags: "
+msgstr ""
+
+#: archive.php:23 fullwidth.php:19 index.php:15 search.php:26
+msgid "Edit This Post"
+msgstr ""
+
+#: archive.php:33 fcontent.php:26 index.php:25
+msgid "&laquo; Previous Entries"
+msgstr ""
+
+#: archive.php:34 fcontent.php:27 index.php:26
+msgid "Next Entries &raquo;"
+msgstr ""
+
+#: archive.php:39 index.php:32 search.php:39
+msgid "Sorry, we could not find anything that matched..."
+msgstr ""
+
+#: archive.php:41 index.php:33 search.php:41
+msgid "You Can Try the Search..."
+msgstr ""
+
+#: archive.php:43 index.php:35 search.php:43
+msgid "Browse the Home Page"
+msgstr ""
+
+#: comments.php:12
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:12
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:12
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:12
+msgid " to "
+msgstr ""
+
+#: comments.php:26
+msgid "Comments are Closed"
+msgstr ""
+
+#: fcontent.php:20 index.php:20 page.php:19
+msgid "Pages:"
+msgstr ""
+
+#: functions.php:24
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:116 functions.php:121
+msgid "Read More ..."
+msgstr ""
+
+#: functions.php:136
+msgid "Front Page Right Sidebar"
+msgstr ""
+
+#: functions.php:145
+msgid "Other Pages Right Sidebar"
+msgstr ""
+
+#: functions.php:154
+msgid "Footer Area One"
+msgstr ""
+
+#: functions.php:163
+msgid "Footer Area Two"
+msgstr ""
+
+#: functions.php:172
+msgid "Footer Area Three"
+msgstr ""
+
+#: functions.php:181
+msgid "Footer Area Four"
+msgstr ""
+
+#: functions.php:194
+msgid "(Untitled)"
+msgstr ""
+
+#: inc/customize.php:9
+msgid "TRAVEL OPTIONS"
+msgstr ""
+
+#: inc/customize.php:33
+msgid "Use Responsive Layout"
+msgstr ""
+
+#: inc/customize.php:36
+msgid "Check the Box if you want the Responsive Layout of your Website"
+msgstr ""
+
+#: inc/customize.php:41
+msgid "Do not Show any Post or Page in the Front Page"
+msgstr ""
+
+#: inc/customize.php:41
+msgid "Show Posts or Page in the Front Page as Per WordPress Reading Settings"
+msgstr ""
+
+#: inc/customize.php:53
+msgid "Front Page Post/Page Visibility"
+msgstr ""
+
+#: inc/customize.php:56
+msgid ""
+"Select Option how you want to show or do not show Posts/Pages in the Front "
+"Page"
+msgstr ""
+
+#: inc/customize.php:72
+msgid "Post Featured Image Background"
+msgstr ""
+
+#: inc/customize.php:75
+msgid ""
+"Upload an image for the Common Background of Featured/ Thumbnail Image on "
+"every Post. 600px X 200px image is recommended"
+msgstr ""
+
+#: inc/customize.php:84
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Front Page Heading"
+msgstr ""
+
+#: inc/customize.php:99
+msgid "Front Page Heading"
+msgstr ""
+
+#: inc/customize.php:110
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Social Links"
+msgstr ""
+
+#: inc/customize.php:124
+msgid "Facebook Link"
+msgstr ""
+
+#: inc/customize.php:139
+msgid "Twitter Link"
+msgstr ""
+
+#: inc/customize.php:154
+msgid "Google Plus Link"
+msgstr ""
+
+#: inc/customize.php:169
+msgid "My Contact Link"
+msgstr ""
+
+#: inc/customize.php:180
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Featured Boxes"
+msgstr ""
+
+#: inc/customize.php:197
+msgid "Featured Image"
+msgstr ""
+
+#: inc/customize.php:200 inc/customize.php:292
+msgid ""
+"Upload an image for the Featured Box. 400px X 300px image is recommended"
+msgstr ""
+
+#: inc/customize.php:208 inc/customize.php:300
+msgid ""
+"Input the First Part of Featured Title here. Please limit it within 10 "
+"Letters"
+msgstr ""
+
+#: inc/customize.php:214 inc/customize.php:306
+msgid "Featured Title First Part"
+msgstr ""
+
+#: inc/customize.php:223 inc/customize.php:315
+msgid ""
+"Input the Second Part of Featured Title here. Please limit it within 10 "
+"Letters"
+msgstr ""
+
+#: inc/customize.php:229 inc/customize.php:321
+msgid "Featured Title Second Part"
+msgstr ""
+
+#: inc/customize.php:238 inc/customize.php:330
+msgid "Input the description"
+msgstr ""
+
+#: inc/customize.php:244 inc/customize.php:336
+msgid "Description"
+msgstr ""
+
+#: inc/customize.php:254 inc/customize.php:346
+msgid "Input the Link URL"
+msgstr ""
+
+#: inc/customize.php:260 inc/customize.php:352
+msgid "Link URL"
+msgstr ""
+
+#: inc/customize.php:273
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Featured Contents"
+msgstr ""
+
+#: inc/customize.php:289
+msgid "Featured Content Image"
+msgstr ""
+
+#: page.php:17
+msgid "<span class=\"read-more\">Read the rest of this page &raquo;</span>"
+msgstr ""
+
+#: page.php:24
+msgid "Edit This Entry"
+msgstr ""
+
+#: page.php:27
+msgid "Sorry, no pages matched your criteria"
+msgstr ""
+
+#: search.php:13
+msgid "Search Results"
+msgstr ""
+
+#: search.php:20
+msgid "Search Term: "
+msgstr ""
+
+#: search.php:21
+msgid "Number of Results: "
+msgstr ""
+
+#: sidebar-others.php:12 sidebar.php:12
+msgid "Archives"
+msgstr ""
+
+#: sidebar-others.php:19 sidebar.php:19
+msgid "Meta"
+msgstr ""
+
+#: single.php:27
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:28
+msgid "Next Post"
+msgstr ""
+
+#: single.php:30
+msgid "&laquo; Previous Image"
+msgstr ""
+
+#: single.php:31
+msgid "Next Image &raquo;"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Travel Lite"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://d5creation.com/theme/travel/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Travel is one of the most popular Travel Themes. This Theme is Super "
+"Elegant, Professional and Responsive. It is ideal for Travel Agencies, "
+"Hotels, Tour Operators, Airlines, Photographic Agencies, Environmental "
+"Organizations, Tourist Spot Presentation, Tourism Promotion, Photography "
+"and Other Purposes that may match with your thoughts. You can find details "
+"and demo in the Theme Page: https://d5creation.com/theme/travel/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "D5 Creation"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://d5creation.com/"
+msgstr ""

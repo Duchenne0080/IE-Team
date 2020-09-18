@@ -1,0 +1,1080 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VW Restaurant Lite\n"
+"Last-Translator: \n"
+"Language-Team: VW Themes <support@vwthemes.com>\n"
+"Language: English\n"
+"MIME-Version: 1.3\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 0.2\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: 404.php:13
+#: inc/customizer.php:389
+#: inc/customizer.php:396
+msgid '404 Not Found'
+msgstr ""
+
+#: 404.php:14
+#: inc/customizer.php:403
+#: inc/customizer.php:410
+msgid 'Looks like you have taken a wrong turn, Dont worry, it happens to the best of us.'
+msgstr ""
+ 
+#: no-results.php:21
+msgid 'Dont worry&hellip it happens to the best of us.'
+msgstr ""
+
+#: 404.php:16
+#: inc/customizer.php:417
+#: inc/customizer.php:423
+msgid 'Return to Home Page'
+msgstr ""
+
+#: archive.php:43 
+#: archive.php:78
+#: archive.php:113 
+#: archive.php:148
+#: archive.php:185
+#: archive.php:225 
+#: archive.php:262
+#: index.php:42 
+#: index.php:73
+#: index.php:104
+#: index.php:135 
+#: index.php:168 
+#: index.php:204 
+#: index.php:237
+#: search.php:39
+#: search.php:69
+#: search.php:103
+#: search.php:135
+#: search.php:169
+#: search.php:206
+#: search.php:240
+#: template-parts/content-single:56
+msgid 'Previous page'
+msgstr ""
+
+#: archive.php:44
+#: archive.php:79
+#: archive.php:114
+#: archive.php:149
+#: archive.php:186
+#: archive.php:222
+#: archive.php:263
+#: index.php:43 
+#: index.php:74 
+#: index.php:105 
+#: index.php:136 
+#: index.php:169 
+#: index.php:205
+#: index.php:238
+#: search.php:40
+#: search.php:70 
+#: search.php:104
+#: search.php:135 
+#: search.php:169 
+#: search.php:202
+#: search.php:233
+#: template-parts/content-single:53 
+msgid 'Next page'
+msgstr ""
+
+#: archive.php:45
+#: archive.php:80
+#: archive.php:115
+#: archive.php:140
+#: archive.php:187
+#: archive.php:2223
+#: archive.php:264
+#: index.php:44
+#: index.php:75
+#: index.php:106 
+#: index.php:137 
+#: index.php:170 
+#: index.php:206
+#: index.php:239 
+#: search.php:71
+#: search.php:105
+#: search.php:136
+#: search.php:170 
+#: search.php:203 
+#: search.php:234
+msgid 'Page'
+msgstr ""
+
+#: comments.php:30
+msgid 'One thought on &ldquo;%s&rdquo;'
+msgstr ""
+
+#: comments.php:38
+msgid 'comments title'
+msgstr ""
+
+#: comments.php:69
+msgid 'Comments are closed'
+msgstr ""
+
+#: footer.php:58
+msgid 'By VWThemes'
+msgstr ""
+
+#: functions.php:31
+msgid 'Primary Menu'
+msgstr ""
+
+#: functions.php:67
+msgid 'Warm Greetings to you!!'
+msgstr ""
+
+#: functions.php:68
+msgid 'Thank you for choosing VW Restaurant theme. Would like to have you on our Welcome page so that you can reap all the benefits of our VW Restaurant theme.'
+msgstr ""
+
+#: functions.php:69
+msgid 'GET STARTED'
+msgstr ""
+
+#: functions.php:76
+msgid 'Blog Sidebar'
+msgstr ""
+
+#: functions.php:77
+msgid 'Appears on blog page sidebar'
+msgstr ""
+
+#: functions.php:86
+msgid 'page sidebar'
+msgstr ""
+
+#: functions.php:87
+msgid 'Appears on pages'
+msgstr ""
+
+#: functions.php:96
+msgid 'Thrid Column Sidebar'
+msgstr ""
+
+#: functions.php:97
+msgid 'Appears on posts and pages'
+msgstr ""
+
+#: functions.php:106
+msgid 'Footer 1'
+msgstr ""
+
+#: functions.php:107
+#: functions.php:117
+#: functions.php:127
+#: functions.php:137
+msgid 'Appears on footer'
+msgstr ""
+
+#: functions.php:116
+msgid 'Footer 2'
+msgstr ""
+
+#: functions.php:126
+msgid 'Footer 3'
+msgstr ""
+
+#: functions.php:136
+msgid 'Footer 4'
+msgstr ""
+
+#: functions.php:146
+msgid 'Social Icon'
+msgstr ""
+
+#: functions.php:147
+msgid 'Appears on top bar'
+msgstr ""
+
+#: functions.php:156
+msgid "Shop Page Sidebar"
+msgstr ""
+
+#: functions.php:157
+msgid "Appears on shop page"
+msgstr ""
+
+#: functions.php:166
+msgid "Single Product Sidebar"
+msgstr ""
+
+#: functions.php:167
+msgid "Appears on single product page"
+msgstr ""
+
+#: functions.php:316
+msgid "Restaurant WordPress Theme"
+msgstr ""
+
+#: image.php:40
+#: image.php:76
+#: image.php:112
+#: image.php:148
+#: image.php:219
+#: image.php:256
+msgid 'Edit'
+msgstr ""
+
+#: image.php:35
+#: image.php:71
+#: image.php:107
+#: image.php:143
+#: image.php:224
+#: image.php:261
+msgid 'Pages:'
+msgstr ""
+
+#: no-results.php:12
+msgid 'Nothing Found'
+msgstr ""
+
+#: no-results.php:16
+msgid 'Ready to publish your first post? Get started here'
+msgstr ""
+
+#: no-results.php:18
+msgid 'Sorry, but nothing matched your search terms. Please try again with some different keywords'
+msgstr ""
+
+#: no-results.php:23
+msgid 'Back to Home Page'
+msgstr ""
+
+#: search.php:18
+#: search.php:50
+#: search.php:82
+#: search.php:114
+#: search.php:148
+#: search.php:181
+#: search.php:212
+msgid 'Results For: %s'
+msgstr ""
+
+#: searchform.php:10
+#: searchform.php:12
+msgid 'Search'
+msgstr ""
+
+#: searchform.php:10
+msgid 'placeholder'
+msgstr ""
+
+#: searchform.php:12
+msgid 'submit button'
+msgstr ""
+
+#: sidebar.php:11
+msgid 'Archives'
+msgstr ""
+
+#: sidebar.php:17
+msgid 'Meta'
+msgstr ""
+
+#:inc/themes-widgets/social-icon.php:11
+msgid "VW Social Icon"
+msgstr ""
+
+#:inc/themes-widgets/social-icon.php:12
+msgid "Widget for Social icons section"
+msgstr ""
+
+#: inc/themes-widgets/social-icon.php:64
+msgid "Title"
+msgstr ""
+
+#: inc/themes-widgets/social-icon.php:69
+msgid "Facebook"
+msgstr ""
+
+#: inc/themes-widgets/social-icon.php:72
+msgid "Twitter"
+msgstr ""
+
+#: inc/themes-widgets/social-icon.php:76
+msgid "Google+"
+msgstr ""
+
+#: inc/themes-widgets/social-icon.php:80
+msgid "Linkedin"
+msgstr ""
+
+#: inc/themes-widgets/social-icon.php:84
+msgid "Instagram"
+msgstr ""
+
+#: inc/themes-widgets/social-icon.php:88
+msgid "Pinterest"
+msgstr ""
+
+#: inc/themes-widgets/social-icon.php:92
+msgid "Tumblr"
+msgstr ""
+
+#: inc/themes-widgets/social-icon.php:96
+msgid "Youtube"
+msgstr ""
+
+#: inc/themes-widgets/about-us-widget.php:10
+msgid "VW About us"
+msgstr ""
+
+#: inc/themes-widgets/about-us-widget.php:11
+msgid "Widget for about us section in sidebar"
+msgstr ""
+
+#: inc/themes-widgets/about-us-widget.php:56
+#: inc/themes-widgets/contact-us-widget.php:58
+msgid "Title:"
+msgstr ""
+
+#: inc/themes-widgets/about-us-widget.php:60
+msgid "Author Name:"
+msgstr ""
+
+#: inc/themes-widgets/about-us-widget.php:64
+msgid "Designation:"
+msgstr ""
+
+#: inc/themes-widgets/about-us-widget.php:68
+msgid "Description:"
+msgstr ""
+
+#: inc/themes-widgets/about-us-widget.php:72
+msgid "Button Text:"
+msgstr ""
+
+#: inc/themes-widgets/about-us-widget.php:76
+msgid "Button Url:"
+msgstr ""
+
+#: inc/themes-widgets/about-us-widget.php:80
+msgid "Image Url:"
+msgstr ""
+
+#: inc/themes-widgets/contact-us-widget.php:10
+msgid "VW Contact us"
+msgstr ""
+
+#: inc/themes-widgets/contact-us-widget.php:11
+msgid "Widget for contact us section in sidebar"
+msgstr ""
+
+#: inc/themes-widgets/contact-us-widget.php:62
+msgid "Phone Number:"
+msgstr ""
+
+#: inc/themes-widgets/contact-us-widget.php:66
+msgid "Email id:"
+msgstr ""
+
+#: inc/themes-widgets/contact-us-widget.php:70
+msgid "Address:"
+msgstr ""
+
+#: inc/themes-widgets/contact-us-widget.php:74
+msgid "Opening Time:"
+msgstr ""
+
+#: inc/themes-widgets/contact-us-widget.php:78
+msgid "Longitude:"
+msgstr ""
+
+#: inc/themes-widgets/contact-us-widget.php:82
+msgid "Latitude:"
+msgstr ""
+
+#: inc/themes-widgets/contact-us-widget.php:86
+msgid "Contact Form Shortcode:"
+msgstr ""
+
+#:inc/typoghraphy/customize/control-typography.php:48
+msgid 'Font Color'
+msgstr ""
+
+#:inc/typoghraphy/customize/control-typography.php:49
+msgid 'Font Family'
+msgstr ""
+
+#:inc/typoghraphy/customize/control-typography.php:50
+msgid 'Font Size'
+msgstr ""
+
+#:inc/typoghraphy/customize/control-typography.php:51
+msgid 'Font Weight'
+msgstr ""
+
+#:inc/typoghraphy/customize/control-typography.php:52
+msgid 'Font Style'
+msgstr ""
+
+#:inc/typoghraphy/customize/control-typography.php:53
+msgid 'Line Height'
+msgstr ""
+
+#:inc/typoghraphy/customize/control-typography.php:54
+msgid 'Letter Spacing'
+msgstr ""
+
+#:inc/typoghraphy/customize/control-typography.php:347
+msgid 'No Fonts weight'
+msgstr ""
+
+#:inc/typoghraphy/customize/control-typography.php:348
+msgid 'Thin'
+msgstr ""
+
+#:inc/typoghraphy/customize/control-typography.php:349
+msgid 'Light'
+msgstr ""
+
+#:inc/typoghraphy/customize/control-typography.php:350
+msgid 'Normal'
+msgstr ""
+
+#:inc/typoghraphy/customize/control-typography.php:351
+msgid 'Medium'
+msgstr ""
+
+#:inc/typoghraphy/customize/control-typography.php:352
+msgid 'Bold'
+msgstr ""
+
+#:inc/typoghraphy/customize/control-typography.php:353
+msgid 'Ultra Bold'
+msgstr ""
+
+#:inc/typoghraphy/customize/control-typography.php:367
+msgid 'Normal'
+msgstr ""
+
+#:inc/typoghraphy/customize/control-typography.php:368
+msgid 'Italic'
+msgstr ""
+
+#:inc/typoghraphy/customize/control-typography.php:369
+msgid 'Oblique'
+msgstr ""
+
+#: inc/typography/ctypo.php:27
+msgid 'Typography'
+msgstr ""
+
+#: inc/typography/ctypo.php:31
+msgid 'Content Typography'
+msgstr ""
+
+#: inc/typography/ctypo.php:36
+msgid 'Headings Typography'
+msgstr ""
+
+#: inc/typography/ctypo.php:41
+msgid 'Global Typography'
+msgstr ""
+
+#: inc/typography/ctypo.php:49
+msgid 'First Highlight Color'
+msgstr ""
+
+#: inc/typography/ctypo.php:50
+msgid 'It will change the highlight color in one click'
+msgstr ""
+
+#: inc/typography/ctypo.php:138
+msgid 'Paragraph Color'
+msgstr ""
+
+#: inc/typography/ctypo.php:139
+#: inc/typography/ctypo.php:145
+msgid 'Select how you want your paragraphs to appear.'
+msgstr ""
+
+#: inc/typography/ctypo.php:144
+msgid 'Paragraph Typography'
+msgstr ""
+
+#: inc/typography/ctypo.php:165
+msgid 'Anchor Tag Color'
+msgstr ""
+
+#: inc/typography/ctypo.php:166
+#: inc/typography/ctypo.php:172
+msgid 'Select how you want your a tag to appear.'
+msgstr ""
+
+#: inc/typography/ctypo.php:171
+msgid 'Anchor Tag Typography'
+msgstr ""
+
+#: inc/typography/ctypo.php:192
+msgid 'Heading 1 Color'
+msgstr ""
+
+#: inc/typography/ctypo.php:193
+#: inc/typography/ctypo.php:199
+msgid 'Select how heading 1 should appear'
+msgstr ""
+
+#: inc/typography/ctypo.php:198
+msgid 'Heading 1'
+msgstr ""
+
+#: inc/typography/ctypo.php:219
+msgid 'Heading 2 Color'
+msgstr ""
+
+#: inc/typography/ctypo.php:220
+#: inc/typography/ctypo.php:226
+msgid 'Select how heading 2 should appear'
+msgstr ""
+
+#: inc/typography/ctypo.php:225
+msgid 'Heading 2'
+msgstr ""
+
+#: inc/typography/ctypo.php:246
+msgid 'Heading 3 Color'
+msgstr ""
+
+#: inc/typography/ctypo.php:247
+#: inc/typography/ctypo.php:253
+msgid 'Select how heading 4 should appear'
+msgstr ""
+
+#: inc/typography/ctypo.php:252
+msgid 'Heading 3'
+msgstr ""
+
+#: inc/typography/ctypo.php:273
+msgid 'Heading 4 Color'
+msgstr ""
+
+#: inc/typography/ctypo.php:274
+#: inc/typography/ctypo.php:280
+msgid 'Select how heading 4 should appear'
+msgstr ""
+
+#: inc/typography/ctypo.php:279
+msgid 'Heading 4'
+msgstr ""
+
+#: inc/typography/ctypo.php:300
+msgid 'Heading 5 Color'
+msgstr ""
+
+#: inc/typography/ctypo.php:301
+#: inc/typography/ctypo.php:307
+msgid 'Select how heading 5 should appear'
+msgstr ""
+
+#: inc/typography/ctypo.php:306
+msgid 'Heading 5'
+msgstr ""
+
+#: inc/typography/ctypo.php:327
+msgid 'Heading 6 Color'
+msgstr ""
+
+#: inc/typography/ctypo.php:328
+#: inc/typography/ctypo.php:334
+msgid 'Select how heading 6 should appear'
+msgstr ""
+
+#: inc/typography/ctypo.php:333
+msgid 'Heading 6'
+msgstr ""
+
+#: inc/customizer.php:43
+msgid 'VW Settings'
+msgstr ""
+
+#: inc/customizer.php:48
+msgid 'Theme Layout Settings'
+msgstr ""
+
+#: inc/customizer.php:59
+msgid 'Width Layouts'
+msgstr ""
+
+#: inc/customizer.php:60
+msgid 'Here you can change the width layout of Website.'
+msgstr ""
+
+#: inc/customizer.php:75
+msgid 'Post Sidebar Layout'
+msgstr ""
+
+#: inc/customizer.php:76
+msgid 'Here you can change the sidebar layout for posts.'
+msgstr ""
+
+#: inc/customizer.php:79
+#: inc/customizer.php:98
+msgid 'Left Sidebar'
+msgstr ""
+
+#: inc/customizer.php:80
+#: inc/customizer.php:99
+msgid 'Right Sidebar'
+msgstr ""
+
+#: inc/customizer.php:81
+#: inc/customizer.php:100
+msgid 'One Column'
+msgstr ""
+
+#: inc/customizer.php:82
+msgid 'Three Columns'
+msgstr ""
+
+#: inc/customizer.php:83
+msgid 'Four Columns'
+msgstr ""
+
+#: inc/customizer.php:84
+msgid 'Grid Layout'
+msgstr ""
+
+#: inc/customizer.php:94
+msgid 'Page Sidebar Layout'
+msgstr ""
+
+#: inc/customizer.php:95
+msgid 'Here you can change the sidebar layout for pages.'
+msgstr ""
+
+#: inc/customizer.php:133
+msgid 'Pre-Loader'
+msgstr ""
+
+#: inc/customizer.php:143
+msgid 'Pre-Loader Type'
+msgstr ""
+
+#: inc/customizer.php:146
+msgid 'Two Way'
+msgstr ""
+
+#: inc/customizer.php:147
+msgid 'Dots'
+msgstr ""
+
+#: inc/customizer.php:148
+msgid 'Rotate'
+msgstr ""
+
+#: inc/customizer.php:154
+msgid 'Topbar Section'
+msgstr ""
+
+#: inc/customizer.php:155
+msgid 'Add Top Header Content here'
+msgstr ""
+
+#: inc/customizer.php:166
+#: inc/customizer.php:618
+msgid 'Show / Hide Topbar'
+msgstr ""
+
+#: inc/customizer.php:175
+msgid 'Topbar Padding Top Bottom'
+msgstr ""
+
+#: inc/customizer.php:176
+#: inc/customizer.php:753
+msgid 'Enter a value in pixels. Example:20px'
+msgstr ""
+
+#: inc/customizer.php:191
+#: inc/customizer.php:628
+msgid 'Sticky Header'
+msgstr ""
+
+#: inc/customizer.php:198
+msgid "Sticky Header Padding"
+msgstr ""
+
+#: inc/customizer.php:206
+msgid 'Add Phone Number Icon'
+msgstr ""
+
+#: inc/customizer.php:219
+msgid 'Add Phone Number'
+msgstr ""
+
+#: inc/customizer.php:230
+msgid 'Add Email Icon'
+msgstr ""
+
+#: inc/customizer.php:243
+msgid 'Add Email'
+msgstr ""
+
+#: inc/customizer.php:251
+msgid 'Slider Settings'
+msgstr ""
+
+#: inc/customizer.php:262
+#: inc/customizer.php:638
+msgid 'Show / Hide slider'
+msgstr ""
+
+#: inc/customizer.php:279
+msgid 'Select Slider Image Page'
+msgstr ""
+
+#: inc/customizer.php:280
+msgid 'Slider image size (1500 x 765)'
+msgstr ""
+
+#: inc/customizer.php:301
+msgid 'Add Slider Button Text'
+msgstr ""
+
+#: inc/customizer.php:293
+msgid 'Slider Content Layouts'
+msgstr ""
+
+#: inc/customizer.php:310
+msgid 'Slider Excerpt length'
+msgstr ""
+
+#: inc/customizer.php:328
+msgid 'Slider Image Opacity'
+msgstr ""
+
+#: inc/customizer.php:412
+msgid 'Slider Height'
+msgstr ""
+
+#: inc/customizer.php:413
+msgid 'Specify the slider height (px).'
+msgstr ""
+
+#: inc/customizer.php:412
+msgid "Slider Transition Speed"
+msgstr ""
+
+#: inc/customizer.php:348
+msgid 'We Believe Section'
+msgstr ""
+
+#: inc/customizer.php:349
+msgid 'Add We Believe sections below.'
+msgstr ""
+
+#: inc/customizer.php:372
+msgid 'Select post'
+msgstr ""
+
+#: inc/customizer.php:301
+msgid 'Add About Button Text'
+msgstr ""
+
+#: inc/customizer.php:380
+msgid 'Blog Post Settings'
+msgstr ""
+
+#: inc/customizer.php:388
+msgid 'Post Settings'
+msgstr ""
+
+#: inc/customizer.php:404
+msgid 'Post Date'
+msgstr ""
+
+#: inc/customizer.php:414
+msgid 'Author'
+msgstr ""
+
+#: inc/customizer.php:424
+msgid 'Comments'
+msgstr ""
+
+#: inc/customizer.php:434
+msgid 'Category'
+msgstr ""
+
+#: inc/customizer.php:444
+msgid 'Tags'
+msgstr ""
+
+#: inc/customizer.php:546
+msgid 'Excerpt length'
+msgstr ""
+
+#: inc/customizer.php:574
+msgid 'Blog Layouts'
+msgstr ""
+
+#: inc/customizer.php:489
+msgid 'Post Content'
+msgstr ""
+
+#: inc/customizer.php:492
+msgid 'Content'
+msgstr ""
+
+#: inc/customizer.php:493
+msgid 'Excerpt'
+msgstr ""
+
+#: inc/customizer.php:494
+msgid 'No Content'
+msgstr ""
+
+#: inc/customizer.php:503
+msgid 'Add Excerpt Suffix'
+msgstr ""
+
+#: inc/customizer.php:656
+msgid "Show / Hide Blog Pagination"
+msgstr ""
+
+#: inc/customizer.php:656
+msgid "Blog Pagination"
+msgstr ""
+
+#: inc/customizer.php:656
+msgid "Numeric"
+msgstr ""
+
+#: inc/customizer.php:656
+msgid "Older Posts/Newer Posts"
+msgstr ""
+
+#: inc/customizer.php:513
+msgid 'Related Posts Settings'
+msgstr ""
+
+#: inc/customizer.php:529
+msgid 'Related Post'
+msgstr ""
+
+#: inc/customizer.php:538
+msgid 'Add Related Post Title'
+msgstr ""
+
+#: inc/customizer.php:551
+msgid 'Add Related Post Count'
+msgstr ""
+
+#: inc/customizer.php:675
+msgid 'Single Post Settings'
+msgstr ""
+
+#: inc/customizer.php:675
+msgid 'Post Navigation'
+msgstr ""
+
+#: inc/customizer.php:675
+msgid 'Post Navigation Text'
+msgstr ""
+
+#: inc/customizer.php:675
+msgid 'PREVIOUS PAGE'
+msgstr ""
+
+#: inc/customizer.php:675
+msgid 'NEXT PAGE'
+msgstr ""
+
+#: inc/customizer.php:561
+msgid '404 Page Settings'
+msgstr ""
+
+#: inc/customizer.php:571
+msgid 'Add Title'
+msgstr ""
+
+#: inc/customizer.php:585
+msgid 'Add Text'
+msgstr ""
+
+#: inc/customizer.php:598
+msgid 'Add Button Text'
+msgstr ""
+
+#: inc/customizer.php:788
+msgid "Social Icons Settings"
+msgstr ""
+
+#: inc/customizer.php:608
+msgid 'Responsive Media'
+msgstr ""
+
+#: inc/customizer.php:648
+msgid 'Show / Hide Metabox'
+msgstr ""
+
+#: inc/customizer.php:658
+msgid 'Show / Hide Sidebar'
+msgstr ""
+
+#: inc/customizer.php:667
+msgid 'Add Open Menu Icon'
+msgstr ""
+
+#: inc/customizer.php:679
+msgid 'Add Close Menu Icon'
+msgstr ""
+
+#: inc/customizer.php:688
+msgid 'Customize Home Page Settings'
+msgstr ""
+
+#: inc/customizer.php:701
+msgid 'First select static page in homepage setting for front page.Below given edit button is to customize Home Page. Just click on the edit option, add whatever elements you want to include in the homepage, save the changes and you are good to go.'
+msgstr ""
+
+#: inc/customizer.php:710
+msgid 'Footer Text
+msgstr ""
+
+#: inc/customizer.php:711
+msgid 'Add some text for footer like copyright etc'
+msgstr ""
+
+#: inc/customizer.php:727
+msgid 'Copyright Text'
+msgstr ""
+
+#: inc/customizer.php:738
+msgid 'Copyright Alignment'
+msgstr ""
+
+#: inc/customizer.php:752
+msgid 'Copyright Padding Top Bottom'
+msgstr ""
+
+#: inc/customizer.php:767
+msgid 'Show / Hide Scroll To Top'
+msgstr ""
+
+#: inc/customizer.php:782
+msgid 'Add Scroll to Top Icon'
+msgstr ""
+
+#: inc/customizer.php:973
+msgid 'Icon Font Size'
+msgstr ""
+
+#: inc/customizer.php:987
+msgid 'Icon Top Bottom Padding'
+msgstr ""
+
+#: inc/customizer.php:1001
+msgid 'Icon Width'
+msgstr ""
+
+#: inc/customizer.php:1015
+msgid 'Icon Height'
+msgstr ""
+
+#: inc/customizer.php:1032
+msgid 'Icon Border Radius'
+msgstr ""
+
+#: inc/customizer.php:795
+msgid 'Scroll To Top'
+msgstr ""
+
+#: inc/customizer.php:1028
+msgid "Woocommerce Layout"
+msgstr ""
+
+#: inc/customizer.php:1040
+msgid 'Shop Page Sidebar'
+msgstr ""
+
+#: inc/customizer.php:1051
+msgid 'Single Product Sidebar'
+msgstr ""
+
+#: inc/customizer.php:1061
+msgid "Products Per Page"
+msgstr ""
+
+#: inc/customizer.php:1078
+msgid "Products Per Row"
+msgstr ""
+
+#: inc/customizer.php:1079
+msgid "Display on shop page"
+msgstr ""
+
+#: inc/customizer.php:1188
+msgid "Products Padding Top Bottom"
+msgstr ""
+
+#: inc/customizer.php:1192
+msgid "Products Padding Left Right"
+msgstr ""
+
+#: inc/customizer.php:1196
+msgid "Products Box Shadow"
+msgstr ""
+
+#: inc/customizer.php:1199
+msgid "Products Border Radius"
+msgstr ""
+
+#: inc/customizer.php:928
+msgid 'VW Restaurant Pro'
+msgstr ""
+
+#: inc/customizer.php:929
+msgid 'UPGRADE PRO'
+msgstr ""
+
+#: inc/customizer.php:936
+msgid 'DOCUMENATATION'
+msgstr ""
+
+#: inc/customizer.php:937
+msgid 'DOCS'
+msgstr ""
+
+#: inc/logo-resizer.php:19
+msgid 'Logo Size'
+msgstr ""
+
+#: page-template/custom-home-page.php:39
+msgid 'Read More'
+msgstr ""
+
+#: template-parts/content-single.php:23
+msgid '0 Comments'
+msgstr ""
+
+#: template-parts/content-single.php:23
+msgid '% Comments'
+msgstr ""
+
+#: template-parts/content-single.php:48
+msgid 'Parent post link'
+msgstr ""
+
+#: template-parts/content-single.php:54
+msgid 'Next post'
+msgstr ""
+
+#: template-parts/content-single.php:57
+msgid 'Previous post'
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid 'You must be logged in to checkout.'
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:52
+msgid 'Your order'
+msgstr ""

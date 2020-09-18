@@ -251,12 +251,70 @@ if ( ! class_exists( 'ssl_zen_helper' ) ) {
 		 * Log message.
 		 *
 		 * @param $msg
+		 * @param $type
+		 * @param $write_to_db
 		 *
 		 */
-		public static function log( $msg ) {
-			if ( SSL_ZEN_PLUGIN_ALLOW_DEBUG ) {
+		public static function log( $msg, $type = 'debug', $write_to_db = true ) {
+			// always write to default error log if switch is on or type is error or warning.
+			if ( SSL_ZEN_PLUGIN_ALLOW_DEBUG || in_array( $type, array( 'error', 'warn' ), true ) ) {
 				error_log( $msg );
 			}
+
+			if ( SSL_ZEN_PLUGIN_ALLOW_DEV ) {
+				return;
+			}
+
+			if ( $write_to_db ) {
+				$format = date_i18n( get_option( 'date_format' ) . ' ' . get_option( 'time_format' ) );
+				$log = get_transient( 'sslzen-debug' );
+				if ( false === $log ) {
+					$log = array();
+				}
+				$log[] = sprintf( '%s (%s): %s', $format, $type, $msg );
+				set_transient( 'sslzen-debug', $log );
+			}
+		}
+
+		/**
+		 * Remove logs from db and file.
+		 *
+		 */
+		public static function removeLogs(){
+			$dirs = wp_get_upload_dir();
+			$file = trailingslashit( $dirs['basedir'] ) . 'ssl-zen/debug.log';
+
+			delete_transient( 'sslzen-debug' );
+			wp_delete_file( $file );
+		}
+
+		/**
+		 * Export logs from db as file.
+		 *
+		 */
+		public static function exposeLogAsFile() {
+			$dirs = wp_get_upload_dir();
+
+			$dir = trailingslashit( $dirs['basedir'] ) . 'ssl-zen';
+			wp_mkdir_p( $dir );
+			$file = $dir . '/debug.log';
+			
+			$log = get_transient( 'sslzen-debug' );
+			if ( false !== $log ) {
+				$contents = '';
+				foreach ( $log as $line ) {
+					$contents .= $line . PHP_EOL;
+				}
+				$bytes = file_put_contents( $file, $contents );
+				if ( empty( $bytes ) ) {
+					self::log( sprintf( 'Unable to write to file %s', $file ), 'error', false );
+					return false;
+				}
+			} else {
+				file_put_contents( $file, __( 'No logs in the database', 'ssl-zen' ) );
+			}
+
+			return trailingslashit( $dirs['baseurl'] ) . 'ssl-zen/debug.log';
 		}
 
 	}

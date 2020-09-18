@@ -432,7 +432,10 @@
                         'enable_debug': $this.prop("checked") ? 1 : 0,
                         'nonce': $('input[name=ssl_zen_settings_nonce]').val()
                     },
-                    success: function (dataJson) {
+                    success: function (data) {
+                        if(data.data){
+                            $('.message-container-2').html(data.data.notice);
+                        }
                         hideLoading($body);
                     },
                     error: function (errorThrown) {
@@ -550,6 +553,9 @@
         var clipboard1 = new ClipboardJS('.copy-clipboard');
         clipboard1.on('success', function(e) {
             $('.message-container').html('<div class="message success">' + params.l10n.copied_success + '</div>');
+            setTimeout(function(){
+                $('.message-container').html('');
+            }, 2000 );
         });
     }
 
@@ -569,6 +575,10 @@
     function initializeTimer(){
         if ( $('.timer-automatic').length > 0 && $('.timer-automatic.d-none').length === 0 ){
             var timer = $('.timer-automatic');
+
+            // need to call a custom JS function when ajax returns?
+            var jsFunction = window[timer.attr('data-function')];
+
             sslCheckTimeLeft = timer.attr('data-time');
             var button = $(timer.attr('data-button'));
             sslCheckerInterval = setInterval(function(){
@@ -584,10 +594,16 @@
                             type: 'POST',
                             data: JSON.parse( button.attr('data-ajax-data') ),
                             success: function(data){
+                                if(typeof jsFunction === 'function'){
+                                    jsFunction(data);
+                                }
                                 if(data.success){
                                     $('.message-container-2').html(data.data.notice);
                                     location.reload();
                                 }else{
+                                    if('' !== data.data.notice){
+                                        $('.message-container-2').html(data.data.notice);
+                                    }
                                     timer.removeClass('d-none');
                                     initializeTimer();
                                 }
@@ -604,6 +620,15 @@
             // Show timer container
             timer.removeClass('d-none');
         }
+    }
+
+    window.step2_mark_records_done = function(data) {
+        // iterate through all the records that are correct and mark them as done.
+        $.each(data.data.records, function(index, record){
+            $('tr.record_type_' + record + ' i.copy-clipboard').addClass('d-none');
+            $('tr.record_type_' + record + ' img.record-done').removeClass('d-none');
+        });
+         
     }
 
     /**

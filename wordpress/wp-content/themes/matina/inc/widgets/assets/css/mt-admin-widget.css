@@ -1,0 +1,74 @@
+/*=================================================
+            Active Callback at widget
+=================================================*/
+.mt-widget-field-wrapper.mt-hidden-field {
+    display: none;
+}
+
+.widget-content .field-info-wrapper span {
+    display: block;
+    margin-top: 1.5%;
+}
+
+.widget-content .field-info-wrapper span.info-description {
+    font-style: italic;
+}
+
+.widget-content span.field-description {
+    display: block;
+    margin: 0.4%;
+}
+
+.field-heading {
+    background: #e6e6e6;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/*=================================================
+            Multicheckboxes field on widget
+=================================================*/
+.mt-single-checkbox p {
+    margin: 4px 0;
+}
+
+.multicheckbox-label {
+    display: block;
+}
+
+.mt-multiple-checkbox {
+    max-height: 150px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 5px;
+    list-style: none;
+}
+
+/*=================================================
+            Upload image field on widget
+=================================================*/
+.widget-content .attachment-media-view {
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 1em 0;
+}
+
+.widget-content .placeholder {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    border: 1px dashed #b4b9be;
+    box-sizing: border-box;
+    padding: 9px 0;
+    line-height: 20px;
+}
+
+.widget-content .actions {
+    margin-top: 8px;
+}

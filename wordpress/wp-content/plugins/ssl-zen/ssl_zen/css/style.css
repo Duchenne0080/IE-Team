@@ -1100,6 +1100,10 @@ a.d-inline-block.primary.stackpath-purge.sslzen-form-button {
     width: 91%;
 }
 
+.ssl-zen-settings-container.debug-container {
+	background-color: #FBFBFD;
+}
+
 .ssl-zen-settings-container.debug-container textarea {
     min-height: 300px;
     font-size: 14px;
@@ -1577,6 +1581,10 @@ label.error {
 .loader__dot { animation: 1s blink infinite }
 .loader__dot:nth-child(2) { animation-delay: 250ms }
 .loader__dot:nth-child(3) { animation-delay: 500ms }
+
+.sslzen-nowrap {
+	white-space: pre-wrap !important;
+}
 
 /*=========== responsive styles ========*/
 @media screen and (max-width: 1200px) {

@@ -1,0 +1,58 @@
+/* 	Innovation Theme's Admin Style
+	Copyright: 2012-2017, D5 Creation, www.d5creation.com
+	Based on the Simplest D5 Framework for WordPress
+	Since Innovation 3.0
+*/
+
+#about-page { width:90%; min-width: 950px; display: block; margin: 10px 0; border-radius: 5px; background: #DDDDDD; border: 1px solid #cccccc; border-bottom: 15px solid #555555; padding: 10px 15px; line-height: 1.7; overflow: hidden; }
+.about-title { background: #555555 url("images/d5logo.png") no-repeat scroll 10px center / auto 70%; text-align: right; font-size: 35px; padding: 10px; margin: -10px -15px 10px; color: #06add7; font-weight: 100; }
+.about-title span { font-size: 45px; font-weight: 400; }
+#about-page a, .infohead a { color: #ff3a05; text-decoration: none; }
+.impspe { color: #06add7; }
+.specialmsg { background: #ffffff; border-left: 5px solid #ff3a05; display: block; margin: 20px auto; overflow: hidden; padding: 15px 10px; font-size: 15px; }
+.specialmsg h2 { line-height: 0; }
+.specialtext { font-size: 25px; max-width: 70%; padding: 5px 0; }
+.floatlt { float: left; }
+.floatrt { float: right; }
+.floatcntr { text-align: center; }
+#about-page .specialbutton { background: #00aeef; border: none; box-shadow: 0 2px 0 0 #0089bc, 0 1px 0 0 rgba(225, 225, 225, 0.2) inset; color: #ffffff; text-shadow: 0 1px rgba(0, 0, 0, 0.1); border-radius: 3px; cursor: pointer; display: block; font-size: 15px; font-weight: bold; height: auto; margin: 5px; padding: 13px; text-align: center; text-decoration: none; text-transform: uppercase; width: auto;}
+#about-page .inblk { display: inline-block; vertical-align: top; margin: 5px 10px; }
+#about-page .specialbutton:hover { background: #0098d0 ; box-shadow: none; }
+#about-page .specialbutton:active { position: relative; top: 1px; }
+.heading-des { font-size: 17px; }
+.infohead { background:#ffffff; border: 5px solid #14AAFD;  color: #555555; padding: 10px; transition:all .75s; -moz-transition:all .75s; -o-transition:all .75s; -webkit-transition:all .75s; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size: 15px;}
+.infohead:hover { transform: scale(1.01)}
+a.extendlink { float: right; height: 50px; width: 290px; margin-top: -15px; background: url("images/extendlogo.png") no-repeat scroll 0 0 / 100% auto transparent; }
+.spetitle { font-size: 35px; text-align: center; color: #06add7; text-shadow: 1px 1px 0 #eeeeee; }
+
+.tftable {font-size:12px;color:#333333;width:auto; margin:0 auto; border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
+.tftable th {font-size:17px;background-color:#16b1ef;border-width: 1px;padding: 8px;border-style: solid;border-color: #026a93; color:#ffffff; text-align: center;}
+#about-page .tftable th a { color:#ffffff; }
+.tftable th.topth { font-size:19px;background-color:#0b83b3; }
+.tftable tr {background-color:#ffffff;}
+.tftable tr:nth-child(even) {background: #d3effb;}
+.tftable tr:nth-child(odd) {background: #ffffff;}
+.tftable td {font-size:15px;border-width: 1px;padding: 8px;border-style: solid;border-color: #dcf5ff; text-align:  center;}
+.tftable td:first-child {text-align:  left;}
+.tftable tr:hover {background-color:#f7f7f7;}
+.alncenter { text-align: center; display: block; }
+#about-page .bottom img { max-width: 100%; margin: 30px auto 0;  }
+
+#about-page .featured-boxs { padding: 20px 0 40px; text-align: center; }
+#about-page .width85 { display: block; margin: 0 auto; width: 100%; }
+#about-page .view { width: 22.9%; height: auto; margin: 5px; float: left; border: 5px solid #ffffff; overflow: hidden; position: relative; text-align: center; box-shadow: 1px 1px 2px #e6e6e6; cursor: pointer; }
+#about-page .view .mask, #about-page .view .content { width: 100%; height: 100%; position: absolute; overflow: hidden; top: 0; left: 0; }
+#about-page .view img { display: block; position: relative; width: 100%; }
+#about-page .view p { font-family: Georgia, serif; font-style: italic; font-size: 14px; position: relative; color: #ffffff; padding: 10px 20px 20px; text-align: center; }
+#about-page .view span.info { display: inline-block; text-decoration: none; padding: 7px 14px; background: #000; color: #ffffff; text-transform: uppercase;  box-shadow: 0 0 1px #000; }
+#about-page .view span.info: hover { box-shadow: 0 0 5px #000; }
+#about-page .view-sixth img { transition: all 0.4s ease-in-out 0.5s; }
+#about-page .view-sixth .mask { background-color: rgba(25,25,25,0.7); opacity: 0; transition: all 0.3s ease-in 0.4s; }
+#about-page .view-sixth h2 { color: #ffffff; text-align: center; position: relative; font-size: 17px; padding: 10px; text-shadow: none;   opacity: 0; border-bottom: 3px solid  rgba(255, 255, 255, 0.3); background: transparent; transform: scale(10); transition: all 0.3s ease-in-out 0.1s; }
+#about-page .view-sixth p { opacity: 0; transform: scale(10); transition: all 0.3s ease-in-out 0.2s; }
+#about-page .view-sixth span.info { opacity: 0;  transform: translateY(100px); transition: all 0.3s ease-in-out 0.1s; }
+#about-page .view-sixth:hover .mask { opacity: 1; transition-delay: 0s; }
+#about-page .view-sixth:hover img { transition-delay: 0s; }
+#about-page .view-sixth:hover h2 { opacity: 1; transform: scale(1); transition-delay: 0.1s; }
+#about-page .view-sixth:hover p { opacity: 1; transform: scale(1); transition-delay: 0.2s; }
+#about-page .view-sixth:hover span.info { opacity: 1; transform: translateY(0px); transition-delay: 0.3s; }

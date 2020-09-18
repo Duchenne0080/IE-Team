@@ -1,0 +1,686 @@
+/*
+Theme Name: VW Food Corner
+Theme URI: https://www.vwthemes.com/themes/food-wordpress-theme/
+Author: VWthemes
+Author URI: https://www.vwthemes.com
+Description: VW Food is a child theme of VW Restaurant, It is stylish and eye-catching WordPress theme for all the food lovers out there. You can find its application if you run a restaurant, cafe, coffee house, hotel, motel, bakery shop, eatery, food joint, lodge, barbeque, grill house, pizza parlour or a fast food centre or serves multiple cuisine like Italian, Chinese, Thai food etc. You can use it for a hospitality business or if you are a food blogger or food critic. This theme has powerful customizer to change its colour, background, images etc. The elegant design of the theme will surely attract people to explore the site. You can personalize this multipurpose theme to use as a blog, professional website or portfolio of food photography. It is fully responsive, cross-browser compatible and translation ready theme which has various slides for different look on every page. It is SEO-friendly and enhances page loading speed. The theme comes with banner, call to action (CTA) button and social media icons integration. The clean and secure code makes it more reliable. The VW Food theme implements short codes which makes it lighter to load and highly customizable.
+Template:  vw-restaurant-lite
+Tested up to: 5.4.2
+Requires PHP: 7.2.14
+Version: 0.1.4
+License: GNU General Public License
+License URI: license.txt
+Text Domain: vw-food-corner
+Tags: custom-background, custom-menu, custom-colors, custom-logo, editor-style, featured-images, full-width-template, footer-widgets, one-column, sticky-post, two-columns, theme-options, threaded-comments, right-sidebar, left-sidebar, grid-layout, three-columns, blog, e-commerce, food-and-drink
+*/
+
+/* Default CSS */
+
+html {
+  overflow-x: hidden;
+}
+body{
+  overflow-x: hidden;
+  font-family: Montserrat ;
+}
+a{
+  color: #fa5853;
+}
+a:hover{ 
+  text-decoration:none !important;
+  color: #000;
+}
+a:focus{
+  outline: 1px dotted #000;
+  border-bottom: 1px solid #000;
+}
+/*----------------- Topbar ---------------------*/
+.topheader {
+  background: #fa5853;
+  padding: 8px 0;
+}
+span.call, span.email {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+}
+hr {
+  margin-top: 20px ;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+hr.top-hr {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+/*-------------------Menus----------------------*/
+.main-navigation ul{
+  float: left;
+}
+.main-navigation li{
+  display: inline-block;
+  position: relative;
+}
+.main-navigation a:hover{
+  color: #000;
+}
+.main-navigation ul ul ul {
+    left: 100%;
+    top: 0%;
+}
+.main-navigation ul ul {
+    top: 100%;
+    border-top-style: solid;
+    border-top-color: #fa5853;
+    border-bottom-style: solid;
+    border-bottom-color: #fa5853;
+    box-shadow: none;
+}
+.main-navigation ul.sub-menu a:hover{
+  color: #fa5853;
+  padding-left: 50px !important;
+}
+.header .logo {
+  margin: 0;
+  padding: 10px 10px;
+}
+.header .logo a {
+  font-family: Montserrat;
+}
+p.site-title {
+  margin-bottom: 5px;
+}
+/*---------------slider section----------------*/
+.slider .carousel-control-prev-icon i, .slider .carousel-control-next-icon i {
+    padding: 18px;
+    background-color: #fa5853;
+    color: #fff;
+}
+.slider .more-btn a.button {
+    background: transparent;
+    padding: 8px 20px;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #fa5853;
+    border: 3px solid #fa5853;
+}
+.slider .more-btn a.button:hover{
+  color: #fff;
+}
+.slider img {
+    opacity: 0.5;
+}
+/*----------- Services Section-------------- */
+#our-services {
+    text-align: center;
+    background: #f7f7f7;
+}
+#our-services h3 {
+    font-size: 35px;
+    padding: 0;
+    color: #fa5853;
+}
+#our-services img {
+    width: 50%;
+    padding: 18px 0;
+}
+.image-div {
+    width: 194px;
+    height: 110px;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border: 5px solid #000;
+    border-bottom: 0;
+    margin: 0 auto;
+}
+.image-div:hover {
+    background: #fa5853;
+}
+#our-services h4 {
+    font-size: 20px;
+    background:url('images/servicetitlebg.png') no-repeat;
+    margin: 0 auto;
+    color: #fff;
+    background-size: 100% 100%;    
+    padding: 8px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#our-services p {
+    color: #727272;
+    font-size: 15px;
+}
+.page-box {
+    margin-top: 25px;
+}
+.page-content .read-moresec {
+    margin: 1%;
+}
+/* ----------------We Believe --------------------*/
+a.button {
+    border: 2px solid #000;
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    margin: 0;
+    padding: 7px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.we_belive h3 q{
+    color: #000;
+    font-family: Aron Pro Bold Italic;
+} 
+/*----------------- Blog Post--------------- */
+.inner-service{
+    background: #fa58534d;
+}
+.services .section-title a,
+#sidebar th,
+#sidebar td,
+#sidebar caption,
+#sidebar td#prev a, #sidebar td a,
+#sidebar ul li a:hover,
+.nav-previous a:hover, .nav-next a:hover{
+    color: #fa5853;
+}
+.pagination .current,
+.pagination a:hover,
+#sidebar input[type="submit"],
+#sidebar .tagcloud a:hover,
+input[type='submit'],
+.copyright,
+.hvr-sweep-to-right:before,
+#comments input[type="submit"].submit{
+    background: #fa5853;
+}
+.comments input[type="submit"].submit {
+    background: #fa5853;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #fff;
+}
+.comments input[type="submit"].submit:hover {
+    background: #000;
+    color: #fa5853;
+}
+.comments h2.comments-title {
+    padding: 10px 0 0 0;
+}
+.content-vw .comments ol li{
+  width:100%;
+  list-style:none;
+  margin: 0 0 20px;
+  padding: 20px;
+  background:#f8f8f8;
+  display:inline-block;
+  border: 1px solid #d6d6d6;
+}  
+.reply {
+  margin-bottom: 15px;
+  width: 100%;
+  float: left;
+}
+.comments a.comment-reply-link {
+    color: #fff;
+    background:#fa5853;
+    padding: 5px 15px;
+}
+.comments a.comment-reply-link:hover {
+    color: #000;
+}
+.entry-content a, .sidebar .textwidget p a, .textwidget p a, #comments p a, .slider .inner_carousel p a{
+  color: #fa5853;
+  text-decoration: underline;
+}
+.post-navigation span.meta-nav {
+    margin: 0; 
+}
+.comments h2.comments-title {
+    padding: 10px 0 0 0;
+}
+.content-vw .comments ol li{
+  width:100%;
+  list-style:none;
+  margin: 0 0 20px;
+  padding: 20px;
+  background:#f8f8f8;
+  display:inline-block;
+  border: 1px solid #d6d6d6;
+}  
+.reply {
+  margin-bottom: 15px;
+  width: 100%;
+  float: left;
+}
+.comments a.comment-reply-link {
+    color: #fff;
+    background:#fa5853;
+    padding: 5px 15px;
+}
+.content-vw h2 {
+    margin: 0 0 0px;
+}
+.date-box, .cat-box {
+    color: #212529;
+}
+.date-box a {
+    color: #212529;
+}
+.date-box a:hover {
+    color: #fa5853;
+}
+.inner-service {
+    padding: 10px 20px;
+}
+.single-post hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/*----------------footer------------------*/
+.footer {
+    background: #000;
+    padding: 2%;
+}
+.footer .widget {
+    padding-top: 2%;
+}
+.footer aside.widget ul {
+    margin-left: 0px;
+}
+.footer h3{
+    color: #fa5853;
+    border-bottom: 2px solid #fa5853;
+    text-align: left;
+}
+.footer h3.widget-title a.rsswidget{
+    color: #fa5853;
+}
+.copyright a, .copyright p{
+    color: #fff;
+}
+.footer input[type="search"] {
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
+    border: solid 1px #4d4d4d;
+}
+.footer label {
+    width: 95%;
+}
+.footer input[type="submit"] {
+    width: 95%;
+    float: none;
+    font-size: 15px;
+    padding: 10px 8px;
+    font-weight: bold;
+    color: #fff;
+    margin: 1px 0 0 0;
+}
+.footer input[type="submit"]:hover{
+    background: #fa5853;
+}
+.footer table, .footer th, .footer td {
+    border: 1px solid #d1d1d1;
+    text-align: center;
+}
+.footer th {
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+.footer td {
+    padding: 0px;
+    color: #fff;
+}
+.footer caption {
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+}
+table#wp-calendar {
+    width: 100%;
+}
+.footer .tagcloud a, .sidebar .tagcloud a {
+    background: #eeeeee;
+    color: #000;
+    font-size: 15px !important;
+    padding: 5px 18px;
+    margin: 0 0 5px;
+    display: inline-block;
+}
+.sidebar .tagcloud a:hover, .footer .tagcloud a:hover {
+    background: #fa5853;
+}
+.footer ul li {
+    list-style: none;
+    padding: 5px 0;
+    color: #fff;
+}
+.footer ul li a{
+    color: #fff;
+    font-size: 15px;
+}
+.footer .rssSummary {
+    color: #fff;
+}
+.footer td a{
+    color: #fa5853;
+}
+/* Footer Section */
+.scrollup i {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 20px;
+  display: none;
+  color: #fff !important;
+  padding: 10px;
+  background: #fa5853;
+}
+.scrollup.left i{
+  left: 20px;
+}
+.scrollup.center i{
+  left: 50%;
+  right: 50%;
+}
+.copyright a:hover {
+    color: #000;
+}
+/*----------------sidebar--------------------*/
+.sidebar h3 {
+    background: url(images/sidebar-heading-bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+.sidebar h3.widget-title a.rsswidget{
+    color: #fff;
+}
+.sidebar ul li a:hover {
+    color: #fa5853;
+}
+.sidebar input[type="search"] {
+    padding: 5px 15px;
+}
+.sidebar input[type="submit"] {
+    background: #fa5853;
+    border: none;
+    color: #000;
+    padding: 10px 0;
+    width: 30%;
+    font-size: 14px;
+    float: left;
+    margin: 0;
+    font-weight: bold;
+}
+.sidebar ul li a{
+    color: #000;
+}
+.sidebar ul li {
+    padding: 0 0 0 23px !important;
+}
+.content-vw ul li ul li {
+    list-style-type: none;
+}
+/*----------------Social icons-------------------*/
+.footer .custom-social-icons {
+  margin: 0;
+  font-size: 15px;
+  text-align: left;
+}
+.footer .custom-social-icons i {
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+}
+.footer .custom-social-icons i,
+.sidebar .custom-social-icons i {
+  border: 1px solid #fa5853;
+  color: #fa5853;
+  background-color: transparent;
+}
+.sidebar .custom-social-icons i {
+  background-color: #fff;
+}
+.footer .custom-social-icons i:hover,
+.sidebar .custom-social-icons i:hover{
+  background: #fa5853;
+  color: #fff;
+  border-color: #fa5853;
+}
+/* ----------------Header--------------- */
+.header{
+    border-bottom:none;
+    background: #fa5853;
+}
+.social-media i:hover,
+.header .logo a{
+    color: #000;
+}
+.header .logo a{
+    color: #fff;
+}
+.custom-social-icons {
+    margin: 20px 0;
+}
+/*------------- About us widgets --------------*/
+.sidebar a.custom_read_more {
+  background: #fa5853;
+}
+.sidebar a.custom_read_more:hover{
+  color: #fa5853;
+  background: #000;
+}
+.custom-about-us p{
+  margin-bottom: 5px;
+}
+.footer a.custom_read_more {
+  background: #fa5853;
+  color: #000;
+  padding: 10px 15px;
+}
+.footer a.custom_read_more:hover{
+  color: #000;
+  background: #fff;
+}
+.footer .more-button{
+  margin: 20px 0px 20px 0px;
+}
+/*------------- Contact us widgets --------------*/
+.custom-contact-us p {
+  padding-bottom: 0px;
+}
+.wpcf7 form input[type="submit"]{
+  padding: 10px 20px;
+  background-color: #fa5853;
+  border-radius: 0px;
+}
+/*--------------Woocommerce-----------------*/
+nav.woocommerce-MyAccount-navigation ul li {
+    background: #fa5853;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+    background: #fa5853;
+}
+.woocommerce-message::before {
+    color: #fa5853;
+}
+.woocommerce-message {
+    border-color: #fa5853;
+}
+.woocommerce span.onsale {
+    background: #fa5853;
+}
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+    background: #000;
+    color: #fa5853;
+}
+.widget .woocommerce-product-search button[type="submit"]{
+  background: #fa5853;
+}
+.woocommerce.widget_shopping_cart .cart_list li a.remove{
+  display: none;
+}
+.widget.woocommerce .cart_list li {
+  padding-bottom: 10px !important;
+}
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+/*--------------Media-----------------*/
+@media screen and (max-width: 1000px){
+  .toggle-nav {
+    display: none;
+    position: relative;
+    width: 30px;
+    cursor: pointer;
+    margin: 0 auto;
+    top:10px;
+  }
+  .toggle-nav i {
+    font-size: 25px;
+    color: #fff;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #000;
+  }
+  .toggle-nav{
+    display: block;
+  }
+  .main-navigation ul{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center; 
+    margin-top: 0px;
+    float: none;
+  }
+  .main-navigation ul ul li{
+    display: block;
+  }
+  .menubar .nav ul li{
+    border-top:1px #f1f1f1 solid; 
+    display:block;
+  }
+  .main-navigation ul li a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    display: block; 
+    transition: 0.3s;
+    float: none;
+    margin: 5px 0;
+    border-right: none;
+    border-top: 1px solid #f1f1f1;
+  }
+  .main-navigation ul li ul li a:before{
+    content:"\00BB \00a0";
+  }
+  .main-navigation ul.sub-menu a:hover{
+    padding-left:20px !important;
+    background: #fff !important;
+  }
+  .main-navigation ul ul{
+    position: static;
+    width: 100%;
+    background: transparent;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    box-shadow: none;
+  }
+  .main-navigation ul ul a{
+    border-bottom: none;
+    text-align: center;
+    padding-left: 40px;
+  }
+  .main-navigation ul ul ul.sub-menu a{
+    padding-left: 40px;
+  }
+  .main-navigation li{
+    padding: 0;
+    display: block;
+    text-align: center;
+  } 
+  .main-menu {
+    padding: 0em;
+    padding-top: 50px;
+    }
+}
+@media screen and (max-width: 720px){
+  .slider .carousel-control-prev-icon i, .slider .carousel-control-next-icon i {
+      display: none;
+  }
+  .header .logo p {
+      margin-bottom: 0;
+  }
+  .slider .carousel-caption {
+      top: 30%;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 576px){
+    .image-div {
+        width: 100px;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 767px){
+    .image-div {
+        width: 150px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 720px){
+    .slider .carousel-caption {
+        top: 45%;
+    }
+}
+@media screen and (max-width: 999px) and (min-width: 768px){
+    .slider .inner_carousel p {
+        display: block;
+    }
+    .header .logo a{
+        font-size: 20px;
+    }
+    .custom-social-icons {
+        margin: 10px 0;
+    }
+    .toggle-nav {
+        width: auto;
+        text-align: right;
+    }
+}
