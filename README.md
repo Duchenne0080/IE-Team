@@ -15,3 +15,16 @@
 ## Iteration 1(8.31)
 - Add diet check quiz function, using "Quiz and Survey Master" plugin
 - Homepage and information page added
+
+## Iteration 2(9.18)
+- Recipe collection
+
+## Iteration 3(10.18)
+- Meal Planner
+- New diet quiz pages
+- Re-classified recipe collection sub-page
+
+## Final version(10.30)
+- UI changes on homepage
+- Notification based on interface test result
+- UI chages on diet quiz pages
